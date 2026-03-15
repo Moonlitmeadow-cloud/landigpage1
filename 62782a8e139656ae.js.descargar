@@ -1,0 +1,420 @@
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="4d2f8033-78a8-c2d9-241d-717721a0ce90")}catch(e){}}();
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,535731,e=>{e.v({card:"MetricCard-module__GGIAAq__card","move-gradient":"MetricCard-module__GGIAAq__move-gradient",skeletonText:"MetricCard-module__GGIAAq__skeletonText",skeletonValue:"MetricCard-module__GGIAAq__skeletonValue"})},891868,e=>{"use strict";var t=e.i(276385),r=e.i(416746),n=e.i(480028),a=e.i(173703),i=e.i(960178),s=e.i(751273),l=e.i(625484),o=e.i(535731);function c({align:e="start"}){return(0,t.jsxs)(l.View,{gap:8,align:e,children:[(0,t.jsx)(l.View,{row:!0,align:"end",style:{minHeight:40},children:(0,t.jsx)(l.View,{className:o.default.skeletonValue})}),(0,t.jsx)(l.View,{className:o.default.skeletonText})]})}function d({value:e,total:r,totalLabel:n,bottomText:a,align:s="start",variant:o,color:c="default",rowAlign:d="end"}){return(0,t.jsxs)(l.View,{gap:8,align:s,children:[(0,t.jsxs)(l.View,{row:!0,align:d,style:{minHeight:40},gap:8,children:[(0,t.jsx)(i.Text,{variant:o,color:c,children:e}),r?(0,t.jsxs)(i.Text,{children:["/ ",r," ",n]}):null]}),a?(0,t.jsx)(i.Text,{variant:"small",color:"dimmer",children:a}):null]})}function u({title:e,value:u,total:g,totalLabel:p,bottomText:y,secondaryValue:m,secondaryBottomText:x,tertiaryValue:v,tertiaryBottomText:h,tooltip:f,loading:_=!1,comingSoon:j=!1}){let S="number"==typeof u?u.toLocaleString():u,C="number"==typeof g?g.toLocaleString():g,k="number"==typeof m?m.toLocaleString():m,w="number"==typeof v?v.toLocaleString():v;return(0,t.jsx)(a.ShadesSurface,{p:24,className:o.default.card,children:(0,t.jsxs)(l.View,{gap:8,children:[(0,t.jsxs)(l.View,{row:!0,justify:"space-between",align:"center",children:[(0,t.jsx)(i.Text,{variant:"subheadDefault",color:"default",children:e}),f?(0,t.jsx)(s.Tooltip,{tooltip:f,children:(0,t.jsx)(r.default,{size:16,color:n.tokens.foregroundDimmest})}):null]}),(0,t.jsxs)(l.View,{row:!0,justify:"space-between",align:"start",gap:16,children:[_&&!j?(0,t.jsx)(c,{}):(0,t.jsx)(d,{value:S,total:C,totalLabel:p,bottomText:y,variant:j?void 0:"headerBig",color:j?"dimmest":"default",rowAlign:j?"center":"end"}),void 0!==k&&(_?(0,t.jsx)(c,{align:"center"}):(0,t.jsx)(d,{value:k??"",bottomText:x,align:"center",variant:"headerBig"})),void 0!==w&&(_?(0,t.jsx)(c,{align:"end"}):(0,t.jsx)(d,{value:w??"",bottomText:h,align:"end",variant:"headerBig"}))]})]})})}e.s(["MetricCard",()=>u])},596716,e=>{e.v({cardsGrid:"SecurityMetrics-module__G_DHDG__cardsGrid",severityCard:"SecurityMetrics-module__G_DHDG__severityCard",severityCardsGrid:"SecurityMetrics-module__G_DHDG__severityCardsGrid",severityCritical:"SecurityMetrics-module__G_DHDG__severityCritical",severityHigh:"SecurityMetrics-module__G_DHDG__severityHigh",severityLow:"SecurityMetrics-module__G_DHDG__severityLow",severityMedium:"SecurityMetrics-module__G_DHDG__severityMedium"})},304024,e=>{e.v({content:"SecurityScansSection-module__2zPS6W__content",surface:"SecurityScansSection-module__2zPS6W__surface"})},453850,e=>{e.v({cveIdBadge:"VulnerabilityDetailsModal-module__QLlPZG__cveIdBadge"})},242519,e=>{e.v({cveRow:"VulnerabilitiesTab-module__XCHMkG__cveRow",nestedReplRow:"VulnerabilitiesTab-module__XCHMkG__nestedReplRow"})},113755,e=>{"use strict";var t=e.i(276385),r=e.i(389959),n=e.i(442121),a=e.i(269848),i=e.i(820228),s=e.i(695784),l=e.i(973245),o=e.i(304277),c=e.i(566901);let d={},u=l.gql`
+    fragment ScanHistoryItemFields on BackgroundScan {
+  id
+  isOnDemand
+  timeCreated
+  startedAt
+  completedAt
+  errorMessage
+  sbomId
+  repl {
+    id
+    title
+    slug
+    owner {
+      __typename
+      ... on User {
+        id
+        username
+      }
+      ... on Team {
+        id
+        username
+      }
+    }
+  }
+  cveFindings {
+    id
+    cveId
+    severity
+  }
+}
+    `,g=l.gql`
+    query PersonalSecurityScanHistory($count: Int, $after: String, $isOnDemand: Boolean) {
+  currentUser {
+    id
+    security {
+      __typename
+      ... on Security {
+        backgroundScans(count: $count, after: $after, isOnDemand: $isOnDemand) {
+          __typename
+          ... on BackgroundScansConnection {
+            items {
+              ...ScanHistoryItemFields
+            }
+            pageInfo {
+              hasNextPage
+              nextCursor
+            }
+          }
+          ... on Error {
+            message
+          }
+        }
+      }
+      ... on Error {
+        message
+      }
+    }
+  }
+}
+    ${u}`,p=l.gql`
+    query OrgSecurityScanHistory($orgId: String!, $count: Int, $after: String, $isOnDemand: Boolean) {
+  currentUser {
+    id
+    org(orgId: $orgId) {
+      __typename
+      ... on Org {
+        id
+        security {
+          __typename
+          ... on Security {
+            backgroundScans(count: $count, after: $after, isOnDemand: $isOnDemand) {
+              __typename
+              ... on BackgroundScansConnection {
+                items {
+                  ...ScanHistoryItemFields
+                }
+                pageInfo {
+                  hasNextPage
+                  nextCursor
+                }
+              }
+              ... on Error {
+                message
+              }
+            }
+          }
+          ... on Error {
+            message
+          }
+        }
+      }
+      ... on Error {
+        message
+      }
+    }
+  }
+}
+    ${u}`;var y=e.i(357253),m=e.i(480028),x=e.i(91720),v=e.i(249373),h=e.i(734582),f=e.i(272119),_=e.i(423828),j=e.i(960178),S=e.i(625484);let C=[{key:"replName",label:"Repl name",isRowHeader:!0},{key:"owner",label:"Owner"},{key:"startedAt",label:"Started at"},{key:"status",label:"Status"},{key:"vulnerabilities",label:"Vulnerabilities"}],k={key:"sbom",label:"SBOM"};function w({scope:e,allowDownloadSbom:n}){var a,i;let l,c,u="personal"===e.type,w=(a={skip:!u,ssr:!1,fetchPolicy:"cache-and-network",nextFetchPolicy:"cache-first",variables:{count:20,isOnDemand:!0},notifyOnNetworkStatusChange:!0},l={...d,...a},o.useQuery(g,l)),b=(i={skip:u,ssr:!1,fetchPolicy:"cache-and-network",nextFetchPolicy:"cache-first",variables:{orgId:u?"":e.orgId,count:20,isOnDemand:!0},notifyOnNetworkStatusChange:!0},c={...d,...i},o.useQuery(p,c)),I=u?w.loading:b.loading,T=u?w.error:b.error,V=u?w.networkStatus:b.networkStatus,$=function(e,t,r){if(r){let t=e?.currentUser?.security,r=t?.__typename==="Security"?t.backgroundScans:void 0;return r?.__typename==="BackgroundScansConnection"?r:null}let n=t?.currentUser?.org,a=n?.__typename==="Org"?n.security:void 0,i=a?.__typename==="Security"?a.backgroundScans:void 0;return i?.__typename==="BackgroundScansConnection"?i:null}(w.data,b.data,u),F=$?.items??[],N=$?.pageInfo.hasNextPage??!1,B=$?.pageInfo.nextCursor,D=V===s.NetworkStatus.fetchMore,M=w.fetchMore,P=b.fetchMore,E=(0,r.useCallback)(()=>{if(!B||D)return;let t={count:20,after:B,isOnDemand:!0};u?M({variables:t}):"org"===e.type&&P({variables:{...t,orgId:e.orgId}})},[B,D,u,M,P,e]),O=(0,r.useCallback)(t=>"org"===e.type?`/t/${e.orgSlug}/security/scans/${t}/sbom`:void 0,[e]),L=(0,r.useMemo)(()=>n?[...C,k]:C,[n]);return T?(0,t.jsx)(S.View,{pt:16,children:(0,t.jsx)(j.Text,{color:"dimmer",children:"Failed to load scan history"})}):(0,t.jsx)(S.View,{pt:16,gap:16,children:(0,t.jsx)(h.IndexTable,{title:"Scan History",columns:L,items:F,loading:I&&0===F.length,loadingPlaceholder:{numRows:5,height:48},selectionMode:"none",canLoadMore:N,onLoadMore:E,isLoadingMore:D,autoLayout:!0,emptyState:(0,t.jsx)(v.default,{title:"No scans have been run yet",description:"Run a security scan to see results here.",illustration:(0,t.jsx)(y.default,{size:24})}),children:e=>{let r=function(e){switch(e){case"scanning":return{text:"Scanning",color:m.tokens.accentPrimaryDefault};case"completed":return{text:"Completed",color:m.tokens.accentPositiveDefault};case"failed":return{text:"Failed",color:m.tokens.accentNegativeDefault}}}(e.errorMessage?"failed":e.completedAt?"completed":"scanning"),a=e.startedAt?new Date(e.startedAt).toLocaleString():"-",i=O(e.id);return(0,t.jsxs)(_.TableRow,{id:e.id,children:[(0,t.jsx)(f.TableCell,{children:(0,t.jsx)(j.Text,{children:e.repl.title})},"replName"),(0,t.jsx)(f.TableCell,{children:(0,t.jsx)(j.Text,{children:e.repl.owner?.username??"-"})},"owner"),(0,t.jsx)(f.TableCell,{children:(0,t.jsx)(j.Text,{children:a})},"startedAt"),(0,t.jsx)(f.TableCell,{children:(0,t.jsx)(j.Text,{style:{color:r.color},children:r.text})},"status"),(0,t.jsx)(f.TableCell,{children:(0,t.jsx)(j.Text,{children:e.completedAt?e.cveFindings.length:"-"})},"vulnerabilities"),n?(0,t.jsx)(f.TableCell,{children:e.completedAt&&e.sbomId&&i?(0,t.jsx)(x.ButtonLink,{text:"Download",variant:"outlined",size:"small",href:i,noNextLink:!0,target:"_blank",rel:"noopener noreferrer"}):(0,t.jsx)(j.Text,{color:"dimmer",children:"—"})},"sbom"):null]},e.id)}})})}let b={},I=l.gql`
+    fragment SecurityMetricsFields on Security {
+  totalBackgroundScans {
+    __typename
+    ... on TotalBackgroundScans {
+      total
+    }
+    ... on Error {
+      message
+    }
+  }
+  totalCvesFindings {
+    __typename
+    ... on TotalCvesFindings {
+      totalIssues
+    }
+    ... on Error {
+      message
+    }
+  }
+  cvesSeverityBreakdown {
+    __typename
+    ... on CveSeverityBreakdownList {
+      breakdown {
+        severity
+        count
+      }
+    }
+    ... on Error {
+      message
+    }
+  }
+}
+    `,T=l.gql`
+    query PersonalSecurityMetrics {
+  currentUser {
+    id
+    security {
+      __typename
+      ... on Security {
+        ...SecurityMetricsFields
+      }
+      ... on Error {
+        message
+      }
+    }
+  }
+}
+    ${I}`,V=l.gql`
+    query OrgSecurityMetrics($orgId: String!) {
+  currentUser {
+    id
+    org(orgId: $orgId) {
+      __typename
+      ... on Org {
+        id
+        security {
+          __typename
+          ... on Security {
+            ...SecurityMetricsFields
+          }
+          ... on Error {
+            message
+          }
+        }
+      }
+      ... on Error {
+        message
+      }
+    }
+  }
+}
+    ${I}`;var $=e.i(416298),F=e.i(891868),N=e.i(396776),B=e.i(596716);let D={CRITICAL:{label:"Critical",className:B.default.severityCritical},HIGH:{label:"High",className:B.default.severityHigh},MEDIUM:{label:"Medium",className:B.default.severityMedium},LOW:{label:"Low",className:B.default.severityLow}},M=["CRITICAL","HIGH","MEDIUM","LOW"];function P({scope:e}){var r,n,a;let i,s,l,c="personal"===e.type,d=(r={skip:!c},i={...b,...r},o.useQuery(T,i)),u=(n={skip:c,variables:{orgId:c?"":e.orgId}},s={...b,...n},o.useQuery(V,s)),g=c?d.loading:u.loading,p=c?d.error:u.error,y=u.data?.currentUser?.org,m=y?.__typename==="Org"?y.security:void 0,x=c?d.data?.currentUser?.security:m,{totalScans:v,totalVulnerabilities:h,severityBreakdown:f}=(a=x?.__typename==="Security"?x:null,l=a?.totalBackgroundScans.__typename==="TotalBackgroundScans"?a.totalBackgroundScans.total:0,{totalScans:l,totalVulnerabilities:a?.totalCvesFindings.__typename==="TotalCvesFindings"?a.totalCvesFindings.totalIssues:0,severityBreakdown:a?.cvesSeverityBreakdown.__typename==="CveSeverityBreakdownList"?a.cvesSeverityBreakdown.breakdown:[]});if(p)return(0,t.jsx)(N.StatusBanner,{colorway:"warning",icon:(0,t.jsx)($.default,{}),text:"Security metrics are temporarily unavailable"});let _=new Map(f.map(e=>[e.severity,e.count]));return(0,t.jsxs)(S.View,{gap:16,children:[(0,t.jsxs)(S.View,{className:B.default.cardsGrid,children:[(0,t.jsx)(F.MetricCard,{title:"Total Scans",value:v,bottomText:"Total background scans run",loading:g}),(0,t.jsx)(F.MetricCard,{title:"Total Vulnerabilities",value:h,bottomText:"Total vulnerabilities found",loading:g})]}),(0,t.jsxs)(S.View,{gap:16,children:[(0,t.jsx)(j.Header,{level:3,variant:"subheadDefault",children:"CVEs by Severity"}),(0,t.jsx)(S.View,{clsx:B.default.severityCardsGrid,children:M.map(e=>{let r=_.get(e)||0,n=D[e];return(0,t.jsx)(S.View,{clsx:`${B.default.severityCard} ${n.className}`,children:(0,t.jsx)(F.MetricCard,{title:n.label,value:r,bottomText:`${n.label.toLowerCase()} severity`,loading:g})},e)})})]})]})}var E=e.i(951262);let O={},L=l.gql`
+    query PersonalActiveScansCount {
+  currentUser {
+    id
+    security {
+      __typename
+      ... on Security {
+        activeBackgroundScansCount {
+          __typename
+          ... on ActiveBackgroundScansCount {
+            count
+          }
+          ... on Error {
+            message
+          }
+        }
+      }
+      ... on Error {
+        message
+      }
+    }
+  }
+}
+    `,R=l.gql`
+    query OrgActiveScansCount($orgId: String!) {
+  currentUser {
+    id
+    org(orgId: $orgId) {
+      __typename
+      ... on Org {
+        id
+        security {
+          __typename
+          ... on Security {
+            activeBackgroundScansCount {
+              __typename
+              ... on ActiveBackgroundScansCount {
+                count
+              }
+              ... on Error {
+                message
+              }
+            }
+          }
+          ... on Error {
+            message
+          }
+        }
+      }
+      ... on Error {
+        message
+      }
+    }
+  }
+}
+    `,A=l.gql`
+    mutation StartBackgroundSecurityScan($input: StartBackgroundSecurityScanInput!) {
+  startBackgroundSecurityScan(input: $input) {
+    __typename
+    ... on StartBackgroundSecurityScanOutput {
+      success
+    }
+    ... on Error {
+      message
+    }
+  }
+}
+    `;var H=e.i(222342),U=e.i(173703),G=e.i(140487),q=e.i(304024);function Q({scope:e}){var a,i;let s,l,c,{showConfirm:d,showError:u}=(0,H.default)(),g=(0,n.useApolloClient)(),p="personal"===e.type,y=(a={ssr:!1,skip:!p},s={...O,...a},o.useQuery(L,s)),m=(i={ssr:!1,skip:p,variables:{orgId:p?"":e.orgId}},l={...O,...i},o.useQuery(R,l)),x=p?y.startPolling:m.startPolling,v=p?y.stopPolling:m.stopPolling,h=y.data?.currentUser?.security,f=m.data?.currentUser?.org?.__typename==="Org"?m.data.currentUser.org.security:void 0,_=p?h:f,C=0;_?.__typename==="Security"&&"ActiveBackgroundScansCount"===_.activeBackgroundScansCount.__typename&&(C=_.activeBackgroundScansCount.count);let[k]=(c={...O,...void 0},E.useMutation(A,c)),[w,b]=(0,r.useState)(!1),[I,T]=(0,r.useState)(!1),V=(0,r.useRef)(0),$=(0,r.useCallback)(async()=>{try{b(!0);let t=await k({variables:{input:{orgId:p?void 0:e.orgId}}}),r=t.data?.startBackgroundSecurityScan;if(r?.__typename==="StartBackgroundSecurityScanOutput")d("Security scan requested",3e3),x(5e3),T(!0);else{let e=r&&"message"in r?r.message:"Failed to start scan";u(e,3e3)}}finally{b(!1)}},[k,p,e,d,u,x]);(0,r.useEffect)(()=>{let e=V.current>0,t=C>0;t&&!I?(x(5e3),T(!0)):!t&&I&&e&&(v(),T(!1),g.refetchQueries({include:"active"})),V.current=C},[C,x,v,I,g]);let F=C>0,N="org"===e.type?"Run security scans on all projects in this workspace":"Run security scans on all your projects";return(0,t.jsx)(S.View,{pt:16,children:(0,t.jsx)(U.ShadesSurface,{clsx:q.default.surface,children:(0,t.jsxs)(S.View,{p:20,gap:16,children:[(0,t.jsxs)(S.View,{clsx:q.default.content,children:[(0,t.jsxs)(S.View,{gap:4,children:[(0,t.jsx)(j.Text,{variant:"subheadDefault",children:"Security scans"}),(0,t.jsx)(j.Text,{color:"dimmer",children:N})]}),(0,t.jsx)(G.Button,{disabled:w||F,text:w?"Starting":F?"Scan in progress":"Run security scan",variant:"default",colorway:"primary",onClick:$})]}),F?(0,t.jsxs)(j.Text,{variant:"small",color:"dimmer",children:[C," ",1===C?"scan":"scans"," in progress"]}):null]})})})}var z=e.i(662041);let W={},K=l.gql`
+    fragment CveItemFields on CvesFindingData {
+  cveId
+  packageName
+  packageVersion
+  severity
+}
+    `,X=l.gql`
+    fragment ReplForCveItemFields on Repl {
+  id
+  title
+  slug
+  hostingDeployment {
+    __typename
+    ... on HostingDeployment {
+      id
+      latestBuildStatus
+      ...BuildStatusBadgeHostingDeployment
+    }
+  }
+  owner {
+    __typename
+    ... on User {
+      id
+      username
+    }
+    ... on Team {
+      id
+      username
+    }
+  }
+}
+    ${z.BuildStatusBadgeHostingDeploymentFragmentDoc}`,Z=l.gql`
+    query PersonalSecurityCves($count: Int, $after: String, $severityFilter: String) {
+  currentUser {
+    id
+    security {
+      __typename
+      ... on Security {
+        cves(count: $count, after: $after, severityFilter: $severityFilter) {
+          __typename
+          ... on CveFindingConnection {
+            items {
+              ...CveItemFields
+            }
+            pageInfo {
+              hasNextPage
+              nextCursor
+            }
+          }
+          ... on Error {
+            message
+          }
+        }
+      }
+      ... on Error {
+        message
+      }
+    }
+  }
+}
+    ${K}`,J=l.gql`
+    query OrgSecurityCves($orgId: String!, $count: Int, $after: String, $severityFilter: String) {
+  currentUser {
+    id
+    org(orgId: $orgId) {
+      __typename
+      ... on Org {
+        id
+        security {
+          __typename
+          ... on Security {
+            cves(count: $count, after: $after, severityFilter: $severityFilter) {
+              __typename
+              ... on CveFindingConnection {
+                items {
+                  ...CveItemFields
+                }
+                pageInfo {
+                  hasNextPage
+                  nextCursor
+                }
+              }
+              ... on Error {
+                message
+              }
+            }
+          }
+          ... on Error {
+            message
+          }
+        }
+      }
+      ... on Error {
+        message
+      }
+    }
+  }
+}
+    ${K}`,Y=l.gql`
+    query PersonalSecurityReplsForCve($cveId: String!, $packageName: String!, $packageVersion: String!, $count: Int, $after: String) {
+  currentUser {
+    id
+    security {
+      __typename
+      ... on Security {
+        replsForCveFinding(
+          cveId: $cveId
+          packageName: $packageName
+          packageVersion: $packageVersion
+          count: $count
+          after: $after
+        ) {
+          __typename
+          ... on ReplForCveFindingConnection {
+            items {
+              ...ReplForCveItemFields
+            }
+            pageInfo {
+              hasNextPage
+              nextCursor
+            }
+          }
+          ... on Error {
+            message
+          }
+        }
+      }
+      ... on Error {
+        message
+      }
+    }
+  }
+}
+    ${X}`,ee=l.gql`
+    query OrgSecurityReplsForCve($orgId: String!, $cveId: String!, $packageName: String!, $packageVersion: String!, $count: Int, $after: String) {
+  currentUser {
+    id
+    org(orgId: $orgId) {
+      __typename
+      ... on Org {
+        id
+        security {
+          __typename
+          ... on Security {
+            replsForCveFinding(
+              cveId: $cveId
+              packageName: $packageName
+              packageVersion: $packageVersion
+              count: $count
+              after: $after
+            ) {
+              __typename
+              ... on ReplForCveFindingConnection {
+                items {
+                  ...ReplForCveItemFields
+                }
+                pageInfo {
+                  hasNextPage
+                  nextCursor
+                }
+              }
+              ... on Error {
+                message
+              }
+            }
+          }
+          ... on Error {
+            message
+          }
+        }
+      }
+      ... on Error {
+        message
+      }
+    }
+  }
+}
+    ${X}`;var et=e.i(167392),er=e.i(927600),en=e.i(481700),ea=e.i(830675),ei=e.i(739521),es=e.i(624782),el=e.i(916271),eo=e.i(453850);let ec={critical:"negative",high:"orange",medium:"yellow"};function ed({cveId:e}){let{status:n,details:i}=function(e){let[t,n]=(0,r.useState)("fetching"),[a,i]=(0,r.useState)(null),s=(0,r.useCallback)(async({signal:t})=>{n("fetching"),i(null);try{let r=await fetch(`https://api.osv.dev/v1/vulns/${e}`,{signal:t});if(!r.ok){ea.captureException(Error("Failed to fetch the cve detail"),{extra:{cveId:e,statusCode:r.status}}),n("failed");return}let a=await r.json();if(n("fetched"),!a.details)return void i(null);i(a.details)}catch(t){if(t instanceof DOMException&&"AbortError"===t.name)return;ea.captureException(t,{extra:{cveId:e}}),n("failed")}},[e]);return(0,r.useEffect)(()=>{let e=new AbortController;return s({signal:e.signal}),()=>e.abort()},[s]),{status:t,details:a}}(e);return"failed"===n?(0,t.jsx)(S.View,{children:(0,t.jsx)(j.Text,{children:"Failed to fetch CVE details"})}):"fetching"===n?(0,t.jsx)(S.View,{children:(0,t.jsx)(a.default,{})}):(0,t.jsx)(S.View,{children:i?(0,t.jsx)(el.default,{children:i}):"No CVE details"})}function eu({cve:e,repl:r,onClose:n}){let a=e.cveId.split("@")[0],i=ec[e.severity.toLowerCase()]??"primary";return(0,t.jsx)(ei.Modal,{isOpen:!0,onRequestClose:n,maxWidth:700,children:(0,t.jsxs)(S.View,{gap:20,children:[(0,t.jsxs)(S.View,{row:!0,gap:8,align:"center",children:[(0,t.jsx)(S.View,{clsx:eo.default.cveIdBadge,children:(0,t.jsx)(j.Text,{variant:"code",children:e.cveId})}),(0,t.jsx)(es.Pill,{text:e.severity.toUpperCase(),colorway:i,variant:"filled",compact:!0})]}),(0,t.jsx)(S.View,{children:(0,t.jsx)(j.Text,{variant:"headerBig",children:e.cveId})}),(0,t.jsx)(S.View,{children:(0,t.jsxs)(j.Text,{color:"dimmer",children:["Detected in"," ",(0,t.jsx)(j.Text,{style:{color:m.tokens.accentPrimaryDefault},children:r.title})]})}),(0,t.jsxs)(S.View,{gap:16,children:[(0,t.jsxs)(S.View,{row:!0,gap:32,children:[(0,t.jsxs)(S.View,{gap:8,style:{flex:1},children:[(0,t.jsx)(j.Text,{color:"dimmer",variant:"small",children:"Affected Package"}),(0,t.jsx)(j.Text,{variant:"code",children:e.packageName})]}),(0,t.jsxs)(S.View,{gap:8,style:{flex:1},children:[(0,t.jsx)(j.Text,{color:"dimmer",variant:"small",children:"Version"}),(0,t.jsx)(j.Text,{variant:"code",children:e.packageVersion})]})]}),(0,t.jsxs)(S.View,{row:!0,gap:32,children:[(0,t.jsxs)(S.View,{gap:8,style:{flex:1},children:[(0,t.jsx)(j.Text,{color:"dimmer",variant:"small",children:"CVE ID"}),(0,t.jsx)(j.Text,{variant:"code",children:a})]}),(0,t.jsxs)(S.View,{gap:8,style:{flex:1},children:[(0,t.jsx)(j.Text,{color:"dimmer",variant:"small",children:"App Owner"}),(0,t.jsxs)(j.Text,{variant:"code",children:["@",r.ownerUsername??"unknown"]})]})]}),(0,t.jsxs)(S.View,{children:[(0,t.jsx)(j.Text,{color:"dimmer",variant:"small",children:"CVE Details"}),(0,t.jsx)(ed,{cveId:a})]})]}),(0,t.jsx)(S.View,{pt:8,style:{borderTop:`1px solid ${m.tokens.outlineDimmest}`},children:(0,t.jsx)(j.Text,{color:"dimmer",variant:"small",style:{fontStyle:"italic"},children:"Fix Agent availability coming soon"})}),(0,t.jsxs)(S.View,{row:!0,gap:8,justify:"end",children:[(0,t.jsx)(G.Button,{text:"Close",variant:"outlined",onClick:n}),(0,t.jsx)(x.ButtonLink,{text:"Open Repl",variant:"default",colorway:"primary",href:`/@${r.ownerUsername}/${r.slug}`,target:"_blank",rel:"noopener noreferrer"})]})]})})}var eg=e.i(85742),ep=e.i(12034),ey=e.i(242519);let em=[{key:"expand",label:null,width:40},{key:"cveId",label:"CVE ID",isRowHeader:!0},{key:"severity",label:"Severity"},{key:"package",label:"Package"},{key:"version",label:"Version"}];function ex(e){return`${e.cveId}:${e.packageName}:${e.packageVersion}`}function ev(e,t,r){if(r){let t=e?.currentUser?.security,r=t?.__typename==="Security"?t.replsForCveFinding:void 0;return r?.__typename==="ReplForCveFindingConnection"?r:null}let n=t?.currentUser?.org,a=n?.__typename==="Org"?n.security:void 0,i=a?.__typename==="Security"?a.replsForCveFinding:void 0;return i?.__typename==="ReplForCveFindingConnection"?i:null}function eh(e){return e.map(e=>({id:e.id,title:e.title,slug:e.slug,ownerUsername:e.owner?.username??null,hostingDeployment:e.hostingDeployment}))}function ef({scope:e}){var n,i,l,d;let u,g,p,x,C="personal"===e.type,[k,w]=(0,r.useState)("all"),b="all"===k?void 0:k,I=(n={skip:!C,ssr:!1,fetchPolicy:"cache-and-network",nextFetchPolicy:"cache-first",variables:{count:20,severityFilter:b},notifyOnNetworkStatusChange:!0},u={...W,...n},o.useQuery(Z,u)),T=(i={skip:C,ssr:!1,fetchPolicy:"cache-and-network",nextFetchPolicy:"cache-first",variables:{orgId:C?"":e.orgId,count:20,severityFilter:b},notifyOnNetworkStatusChange:!0},g={...W,...i},o.useQuery(J,g)),V=C?I.loading:T.loading,$=C?I.networkStatus:T.networkStatus,F=function(e,t,r){if(r){let t=e?.currentUser?.security,r=t?.__typename==="Security"?t.cves:void 0;return r?.__typename==="CveFindingConnection"?r:null}let n=t?.currentUser?.org,a=n?.__typename==="Org"?n.security:void 0,i=a?.__typename==="Security"?a.cves:void 0;return i?.__typename==="CveFindingConnection"?i:null}(I.data,T.data,C),N=F?.items??[],B=F?.pageInfo.hasNextPage??!1,D=F?.pageInfo.nextCursor,M=$===s.NetworkStatus.fetchMore,P=I.fetchMore,E=T.fetchMore,O=(0,r.useCallback)(()=>{if(!D||M)return;let t={count:20,after:D,severityFilter:b};C?P({variables:t}):"org"===e.type&&E({variables:{...t,orgId:e.orgId}})},[D,M,C,P,E,e,b]),[L]=(l={},p={...W,...l},c.useLazyQuery(Y,p)),[R]=(d={},x={...W,...d},c.useLazyQuery(ee,x)),A=(0,r.useCallback)(async t=>{if(C){let{data:e}=await L({variables:{cveId:t.cveId,packageName:t.packageName,packageVersion:t.packageVersion,count:t.count,after:t.after??void 0}}),r=ev(e,void 0,!0);return{items:eh(r?.items??[]),hasNextPage:r?.pageInfo.hasNextPage??!1,nextCursor:r?.pageInfo.nextCursor??null}}let{data:r}=await R({variables:{orgId:"org"===e.type?e.orgId:"",cveId:t.cveId,packageName:t.packageName,packageVersion:t.packageVersion,count:t.count,after:t.after??void 0}}),n=ev(void 0,r,!1);return{items:eh(n?.items??[]),hasNextPage:n?.pageInfo.hasNextPage??!1,nextCursor:n?.pageInfo.nextCursor??null}},[C,L,R,e]),[H,U]=(0,r.useState)({}),q=(0,r.useRef)(k);(0,r.useEffect)(()=>{q.current!==k&&(U({}),q.current=k)},[k]);let Q=(0,r.useCallback)(async e=>{let t=ex(e);if(H[t])U(e=>{let r={...e};return delete r[t],r});else{U(e=>({...e,[t]:{repls:[],hasNextPage:!1,nextCursor:null,loading:!0}}));let r=await A({cveId:e.cveId,packageName:e.packageName,packageVersion:e.packageVersion,count:10});U(e=>({...e,[t]:{repls:r.items,hasNextPage:r.hasNextPage,nextCursor:r.nextCursor,loading:!1}}))}},[H,A]),z=(0,r.useCallback)(async e=>{let t=ex(e),r=H[t];if(!r||r.loading||!r.hasNextPage||!r.nextCursor)return;U(e=>e[t]?{...e,[t]:{...e[t],loading:!0}}:e);let n=await A({cveId:e.cveId,packageName:e.packageName,packageVersion:e.packageVersion,count:10,after:r.nextCursor});U(e=>e[t]?{...e,[t]:{repls:[...e[t].repls,...n.items],hasNextPage:n.hasNextPage,nextCursor:n.nextCursor,loading:!1}}:e)},[H,A]),[K,X]=(0,r.useState)(null),ea=(0,r.useCallback)((e,t)=>{X({cve:{cveId:e.cveId,packageName:e.packageName,packageVersion:e.packageVersion,severity:e.severity},repl:{id:t.id,title:t.title,slug:t.slug,ownerUsername:t.ownerUsername}})},[]),ei=[];for(let e of N){let t=ex(e),r=!!H[t],n=H[t];if(ei.push({id:`cve-${t}`,type:"cve",cve:e,isExpanded:r}),r&&n)if(n.loading&&0===n.repls.length)ei.push({id:`loading-${t}`,type:"repl-loading",parentCveKey:t});else if(0===n.repls.length)ei.push({id:`empty-${t}`,type:"repl-empty",parentCveKey:t});else{for(let r of n.repls)ei.push({id:`repl-${t}-${r.id}`,type:"repl",repl:r,parentCve:e});n.hasNextPage&&ei.push({id:`more-${t}`,type:"repl-load-more",parentCve:e,loading:n.loading})}}return(0,t.jsxs)(S.View,{pt:16,gap:16,children:[(0,t.jsx)(S.View,{row:!0,justify:"space-between",align:"center",children:(0,t.jsx)(S.View,{style:{width:"180px"},children:(0,t.jsxs)(ep.Select,{"aria-label":"Filter by severity",selectedKey:k,onSelectionChange:e=>w(e),children:[(0,t.jsx)(eg.ListBoxItem,{id:"all",label:"All severities"}),(0,t.jsx)(eg.ListBoxItem,{id:"CRITICAL",label:"Critical"}),(0,t.jsx)(eg.ListBoxItem,{id:"HIGH",label:"High"}),(0,t.jsx)(eg.ListBoxItem,{id:"MEDIUM",label:"Medium"}),(0,t.jsx)(eg.ListBoxItem,{id:"LOW",label:"Low"})]})})}),(0,t.jsx)(h.IndexTable,{title:"Vulnerabilities",columns:em,items:ei,loading:V&&0===N.length,loadingPlaceholder:{numRows:5,height:48},selectionMode:"none",canLoadMore:B,onLoadMore:O,isLoadingMore:M,emptyState:(0,t.jsx)(v.default,{title:"No vulnerabilities found",description:"all"!==k?"Try changing your filter to find vulnerabilities.":void 0,illustration:(0,t.jsx)(y.default,{size:24})}),dependencies:[H,ea],children:e=>(0,t.jsx)(_.TableRow,{id:e.id,clsx:"cve"===e.type?ey.default.cveRow:"repl"===e.type?ey.default.nestedReplRow:void 0,onAction:()=>{"cve"===e.type?Q(e.cve):"repl"===e.type&&ea(e.parentCve,e.repl)},children:function(e,r){switch(e.type){case"cve":return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(f.TableCell,{children:e.isExpanded?(0,t.jsx)(et.default,{size:16}):(0,t.jsx)(er.default,{size:16})},"expand"),(0,t.jsx)(f.TableCell,{children:(0,t.jsx)(j.Text,{style:{fontFamily:"var(--font-family-monospace)",fontWeight:m.tokens.fontWeightMedium},children:e.cve.cveId})},"cveId"),(0,t.jsx)(f.TableCell,{children:(0,t.jsx)(es.Pill,{text:e.cve.severity,colorway:function(e){switch(e){case"CRITICAL":return"negative";case"HIGH":return"orange";case"MEDIUM":return"yellow";default:return"primary"}}(e.cve.severity),variant:"filled",compact:!0})},"severity"),(0,t.jsx)(f.TableCell,{children:(0,t.jsx)(j.Text,{children:e.cve.packageName})},"package"),(0,t.jsx)(f.TableCell,{children:(0,t.jsx)(j.Text,{children:e.cve.packageVersion})},"version")]});case"repl-loading":return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(f.TableCell,{},"expand"),(0,t.jsx)(f.TableCell,{colSpan:4,children:(0,t.jsx)(S.View,{pl:16,py:8,children:(0,t.jsx)(a.default,{})})},"content")]});case"repl-empty":return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(f.TableCell,{},"expand"),(0,t.jsx)(f.TableCell,{colSpan:4,children:(0,t.jsx)(S.View,{pl:16,py:8,children:(0,t.jsx)(j.Text,{color:"dimmer",children:"No affected repls found"})})},"content")]});case"repl":var n;return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(f.TableCell,{},"expand"),(0,t.jsx)(f.TableCell,{colSpan:4,children:(0,t.jsxs)(S.View,{pl:16,row:!0,gap:8,align:"center",children:[(0,t.jsx)(j.Text,{style:{color:m.tokens.accentPrimaryDefault},children:e.repl.title}),null!=(n=e.repl.hostingDeployment)&&"HostingDeployment"===n.__typename&&"currentBuild"in n?(0,t.jsx)(en.BuildStatusesBadge,{deployment:e.repl.hostingDeployment}):null,e.repl.ownerUsername?(0,t.jsxs)(j.Text,{color:"dimmer",variant:"small",children:["@",e.repl.ownerUsername]}):null]})},"content")]});case"repl-load-more":return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(f.TableCell,{},"expand"),(0,t.jsx)(f.TableCell,{colSpan:4,children:(0,t.jsx)(S.View,{pl:16,py:8,children:(0,t.jsx)(G.Button,{size:"small",variant:"nofill",text:"Show more repls",loading:e.loading,onClick:()=>r(e.parentCve)})})},"content")]})}}(e,z)},e.id)}),K?(0,t.jsx)(eu,{cve:K.cve,repl:K.repl,onClose:()=>X(null)}):null]})}var e_=e.i(136540),ej=e.i(628796);function eS({scope:e,allowTriggerSecurityScan:s,allowDownloadSbom:l}){let o=(0,n.useApolloClient)(),[c,d]=(0,r.useState)("vulnerabilities"),[u,g]=(0,r.useState)(!1),p=(0,r.useCallback)(async()=>{g(!0);try{await o.refetchQueries({include:"active"})}finally{g(!1)}},[o]);return(0,t.jsxs)(S.View,{gap:24,children:[(0,t.jsxs)(S.View,{row:!0,justify:"space-between",align:"center",children:[(0,t.jsx)(j.Header,{level:3,variant:"subheadDefault",children:"Security overview"}),(0,t.jsx)(e_.IconButton,{alt:"Refresh security data",onClick:p,disabled:u,children:u?(0,t.jsx)(a.default,{}):(0,t.jsx)(i.default,{})})]}),(0,t.jsx)(P,{scope:e}),s?(0,t.jsx)(Q,{scope:e}):null,(0,t.jsxs)(ej.Tabs,{selectedKey:c,onSelectionChange:e=>d(e),children:[(0,t.jsxs)(ej.TabList,{children:[(0,t.jsx)(ej.Tab,{id:"vulnerabilities",children:"Dependency vulnerabilities"}),(0,t.jsx)(ej.Tab,{id:"scans",children:"Scan history"})]}),(0,t.jsxs)(ej.TabPanels,{children:[(0,t.jsx)(ej.TabPanel,{id:"scans",children:(0,t.jsx)(w,{scope:e,allowDownloadSbom:l})}),(0,t.jsx)(ej.TabPanel,{id:"vulnerabilities",children:(0,t.jsx)(ef,{scope:e})})]})]})]})}e.s(["SecurityCenter",()=>eS],113755)}]);
+
+//# debugId=4d2f8033-78a8-c2d9-241d-717721a0ce90
+//# sourceMappingURL=b0a66f07c862d1db.js.map

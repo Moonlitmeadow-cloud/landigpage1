@@ -1,0 +1,119 @@
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="ff710de1-09cf-b5ee-b95e-54d4b8954260")}catch(e){}}();
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,51054,e=>{"use strict";var t=e.i(276385),s=e.i(602686),r=e.i(269848),a=e.i(346781),i=e.i(967629),n=e.i(480028),o=e.i(446530),l=e.i(613355),c=e.i(136540),u=e.i(607278),d=e.i(625484);let m=(0,i.css)([l.rcss.position.absolute,l.rcss.center,{top:0,right:0,height:"100%"}]),p=(0,o.cssRecord)({root:[l.rcss.position.relative,l.rcss.flex.shrink(1)],input:[l.rcss.pr(32)],displayIcon:[m,l.rcss.p(8),{pointerEvents:"none"}],closeIconWrapper:[m,l.rcss.p(4)],closeIcon:{"&:hover":{backgroundColor:`${n.tokens.backgroundHighest} !important`}}});function f(e){let i=e.isEmpty??!e.value;return(0,t.jsxs)(d.View,{css:p.root,style:e.style,children:[(0,t.jsx)(u.Input,{id:e.id,className:e.className,css:p.input,value:e.value,onChange:e.onChange,placeholder:e.placeholder||"Search",name:e.name,onFocus:e.onFocus,onBlur:e.onBlur,onKeyDown:e.onKeyDown,disabled:e.disabled,ref:e.inputRef,"aria-busy":e["aria-busy"]??e.loading,autoFocus:e.autoFocus,"data-1p-ignore":!0,"data-lpignore":!0}),e.loading?(0,t.jsx)(d.View,{css:p.displayIcon,children:(0,t.jsx)(r.default,{})}):null,!e.loading&&i?(0,t.jsx)(d.View,{css:p.displayIcon,children:(0,t.jsx)(a.default,{})}):null,e.loading||i?null:(0,t.jsx)(d.View,{css:p.closeIconWrapper,children:(0,t.jsx)(c.IconButton,{alt:"Clear",tooltipBehavior:"hidden",disabled:e.disabled,css:p.closeIcon,onClick:e.onClear,children:(0,t.jsx)(s.default,{})})})]})}e.s(["SearchBar",()=>f])},670413,e=>{"use strict";var t,s=e.i(569910),r=((t={}).ALT_KEY="ALT_KEY",t.SHIFT_KEY="SHIFT_KEY",t.CMD_OR_CTRL_KEY="CMD_OR_CTRL_KEY",t.RETURN_OR_ENTER_KEY="RETURN_OR_ENTER_KEY",t);function a(e,t){switch(e){case"ALT_KEY":return t?"⌥":"Alt";case"SHIFT_KEY":return t?"⇧":"Shift";case"CMD_OR_CTRL_KEY":return t?"⌘":"Ctrl";case"RETURN_OR_ENTER_KEY":return t?"Return":"Enter";default:(0,s.default)(e)}}e.s(["KeyChar",()=>r,"getCmdOrCtrl",0,e=>window.navigator.userAgent.includes("Macintosh")?e.metaKey||e?.key==="Meta":e.ctrlKey||e?.key==="Control","getKeyCharTextForPlatform",()=>a])},354429,e=>{"use strict";e.s(["POSIX_ENV_VAR_ERROR",0,"Use only letters, numbers, and underscores (must start with a letter or underscore)","POSIX_ENV_VAR_PATTERN",0,/^[a-zA-Z_][a-zA-Z0-9_]*$/])},466640,e=>{"use strict";var t=e.i(276385),s=e.i(612866),r=e.i(389959),a=e.i(830675),i=e.i(417751),n=e.i(15053),o=e.i(973245),l=e.i(304277);e.i(566901);var c=e.i(951262);let u={},d=o.gql`
+    fragment SharedSecret on SharedSecret {
+  id
+  name
+  description
+  version
+  value
+  timeCreated
+  timeUpdated
+  links {
+    items {
+      id
+      resource {
+        __typename
+        ... on Repl {
+          id
+          url
+          title
+          iconUrl
+        }
+      }
+    }
+    pageInfo {
+      hasNextPage
+      hasPreviousPage
+      nextCursor
+      previousCursor
+    }
+    totalCount
+  }
+  owner {
+    __typename
+    ... on User {
+      id
+    }
+  }
+}
+    `,m=o.gql`
+    query AccountSecrets($secretsInput: SecretsInput) {
+  currentUser {
+    id
+    secrets(input: $secretsInput) {
+      ... on SharedSecretConnection {
+        items {
+          ...SharedSecret
+        }
+        pageInfo {
+          hasNextPage
+          hasPreviousPage
+          nextCursor
+          previousCursor
+        }
+      }
+    }
+  }
+}
+    ${d}`,p=o.gql`
+    mutation CreateSharedSecrets($input: CreateSharedSecretsInput!) {
+  createSharedSecrets(input: $input) {
+    __typename
+    ... on CreateSharedSecretsResult {
+      createdSecrets {
+        ...SharedSecret
+      }
+    }
+    ... on UnauthorizedError {
+      message
+    }
+    ... on UserError {
+      message
+    }
+  }
+}
+    ${d}`,f=o.gql`
+    mutation UpdateSharedSecrets($input: UpdateSharedSecretsInput!) {
+  updateSharedSecrets(input: $input) {
+    __typename
+    ... on UpdateSharedSecretsResult {
+      updatedSecrets {
+        ...SharedSecret
+      }
+    }
+    ... on NotFoundError {
+      message
+    }
+    ... on UnauthorizedError {
+      message
+    }
+    ... on UserError {
+      message
+    }
+  }
+}
+    ${d}`,g=o.gql`
+    mutation DeleteSharedSecret($id: ID!) {
+  deleteSharedSecret(id: $id) {
+    __typename
+    ... on DeleteSharedSecretResult {
+      __typename
+    }
+    ... on NotFoundError {
+      message
+    }
+    ... on UnauthorizedError {
+      message
+    }
+    ... on Error {
+      message
+    }
+  }
+}
+    `;var h=e.i(368964),S=e.i(204977),x=e.i(712771),y=e.i(979530),w=e.i(995691),v=e.i(40916),j=e.i(491194),C=e.i(709485),R=e.i(47503),b=e.i(222342),_=e.i(858248),E=e.i(354429),T=e.i(967629),D=e.i(480028),B=e.i(877249),k=e.i(446530),M=e.i(173703),I=e.i(613355),A=e.i(140487),U=e.i(258941),V=e.i(88619),H=e.i(939562),P=e.i(887877),F=e.i(136540),O=e.i(607278),N=e.i(818503),K=e.i(739521),$=e.i(604963),Y=e.i(960178),L=e.i(795581),W=e.i(625484),X=e.i(418944);let z=(0,k.cssRecord)({root:[I.rcss.gap(16)]}),q=(0,k.cssRecord)({root:[I.rcss.flex.column,I.rcss.p(8),I.rcss.colWithGap(8)],clickableText:[I.rcss.color.accentPrimaryStronger,I.rcss.display.flex,I.rcss.cursor.pointer],disclaimer:[I.rcss.gap(4)],list:[{li:[I.rcss.flex.row,I.rcss.align.center,I.rcss.gap(4)]}]}),G=({name:e,links:s,isOpen:a,onClose:i,onDelete:n,isLoading:o})=>{let[l,c]=(0,r.useState)(!1);return(0,t.jsx)(K.Modal,{isOpen:a,onRequestClose:()=>i(),css:z.root,children:(0,t.jsx)(U.default,{prompt:`Delete ${e}?`,desc:(0,t.jsxs)(t.Fragment,{children:[s&&s.totalCount>0?(0,t.jsxs)($.PopoverTrigger,{label:"affected-repls",isOpen:l,onOpenChange:c,children:[(0,t.jsxs)("div",{children:[s.totalCount," Repl",1===s.totalCount?"":"s"," ","will immediately lose access to this secret"]}),(0,t.jsx)(et,{links:s})]}):"No Apps are currently using this secret",(0,t.jsx)("br",{}),"This action cannot be undone."]}),onConfirm:n,onCancel:i,confirmText:"Yes, delete this secret",icon:(0,t.jsx)(j.default,{}),danger:!0,loading:o})})},Z=(0,T.css)([I.rcss.border({color:D.tokens.outlineDimmer,width:1,direction:"bottom"}),{"&:last-child":{borderBottom:"none"}}]),Q=(0,k.cssRecord)({titleWrapper:[I.rcss.align.baseline],section:[I.rcss.borderRadius(12),I.rcss.p(16),I.rcss.flex.column,I.rcss.gap(12),{'*[data-sensitive="true"]':{fontFamily:"text-security-disc"}}],secretList:[I.rcss.borderRadius(),I.rcss.overflow("hidden")],secretItem:[Z,I.rcss.align.center,I.rcss.p(8),I.rcss.display.grid,{gridTemplateColumns:"1fr 1fr 140px 50px",minWidth:0,overflow:"hidden",[`@media (max-width: ${B.BREAKPOINTS.mobileMax}px)`]:{gridTemplateColumns:"1fr 2fr auto",gridTemplateRows:"auto auto",gridTemplateAreas:`
+          "name name edit"
+          "value value timestamp"
+        `,gap:"8px"}}],secretValue:[I.rcss.display.grid,I.rcss.gap(4),I.rcss.overflow("hidden"),{gridTemplateColumns:"min-content minmax(50px, 1fr) min-content",minWidth:0,width:"100%","& > span":{whiteSpace:"nowrap",textOverflow:"ellipsis",overflow:"hidden",minWidth:0,display:"block",width:"100%"},[`@media (max-width: ${B.BREAKPOINTS.mobileMax}px)`]:{gridArea:"value"}}],secretValueWrapper:[I.rcss.overflow("hidden"),I.rcss.width("100%"),{textOverflow:"ellipsis",minWidth:0}],secretValueText:[I.rcss.overflow("hidden"),{textOverflow:"ellipsis",whiteSpace:"nowrap",display:"block",width:"100%",maxWidth:"100%",minWidth:0}],secretName:[I.rcss.overflow("hidden"),I.rcss.width("100%"),{textOverflow:"ellipsis",whiteSpace:"nowrap",display:"block",minWidth:0,maxWidth:"100%",[`@media (max-width: ${B.BREAKPOINTS.mobileMax}px)`]:{gridArea:"name",fontWeight:500}}],secretTimestamp:[I.rcss.color.foregroundDimmer,{[`@media (max-width: ${B.BREAKPOINTS.mobileMax}px)`]:{gridArea:"timestamp",textAlign:"right",fontSize:"0.75rem",whiteSpace:"nowrap"}}],emptyState:[I.rcss.center,I.rcss.border({color:D.tokens.outlineDefault,width:1,style:"dashed"}),I.rcss.borderRadius(4),I.rcss.py(24),I.rcss.px(12)],secretEditContainer:[{[`@media (max-width: ${B.BREAKPOINTS.mobileMax}px)`]:{gridArea:"edit",justifySelf:"end"}}]}),J=({value:e})=>{let[s,a]=(0,r.useState)(!1);return(0,t.jsxs)(W.View,{css:Q.secretValue,row:!0,align:"center","data-sensitive":!s,children:[(0,t.jsx)(V.CopyIconButton,{textToCopy:e}),(0,t.jsx)(W.View,{css:Q.secretValueWrapper,children:(0,t.jsx)("span",{css:Q.secretValueText,children:s?e:"****************"})}),(0,t.jsx)(F.IconButton,{onClick:()=>a(!s),alt:s?"Hide":"Show",children:s?(0,t.jsx)(y.default,{size:16}):(0,t.jsx)(x.default,{size:16})})]})},ee=(0,k.cssRecord)({root:[I.rcss.display.flex,I.rcss.flex.column,I.rcss.p(8),I.rcss.gap(8),Z,{borderBottomWidth:1,borderBottomStyle:"solid"}],formFields:[I.rcss.display.grid,I.rcss.gap(32),{gridTemplateColumns:"2fr 3fr"}],formField:[I.rcss.flex.column,I.rcss.gap(8)],formFieldLabel:[{label:[I.rcss.flex.row,I.rcss.align.center,I.rcss.gap(4)]}],disclaimer:[I.rcss.color.foregroundDimmer,{fontSize:D.tokens.fontSizeSmall,lineHeight:D.tokens.lineHeightSmall}],footer:[I.rcss.display.flex,I.rcss.flex.row,I.rcss.justify.spaceBetween],footerGroup:[I.rcss.display.flex,I.rcss.flex.row,I.rcss.gap(4)]}),et=({links:e})=>(0,t.jsxs)(W.View,{css:q.root,children:[(0,t.jsx)(Y.Text,{children:"The following Apps will be affected:"}),(0,t.jsx)("ul",{css:q.list,children:e.items.map(e=>"Repl"===e.resource.__typename?(0,t.jsxs)("li",{children:[(0,t.jsx)(X.default,{size:16,iconUrl:e.resource.iconUrl,alt:e.resource.title}),(0,t.jsx)(s.default,{href:e.resource.url,target:"_blank",children:e.resource.title},e.id)]},e.id):null)}),(0,t.jsxs)(Y.Text,{color:"dimmer",children:["Please refresh the App page, then Stop and Run the App",(0,t.jsx)("br",{})," to use the updated linked secrets."]})]}),es=({name:e,value:s,onSave:i,onCancel:n,onDelete:o,isNew:l,secrets:c})=>{let u=(0,r.useMemo)(()=>c.find(t=>t.name===e),[c,e]),d=u?.links,m=(0,b.default)(),[p,f]=(0,r.useState)(e),[g,h]=(0,r.useState)(s),[S,w]=(0,r.useState)(!0),[v,C]=(0,r.useState)(!1),[R,_]=(0,r.useState)(!1),[T,D]=(0,r.useState)(!1),B=(0,r.useMemo)(()=>null!==p.match(E.POSIX_ENV_VAR_PATTERN),[p]),k=(0,r.useMemo)(()=>!c.some(t=>t.name===p&&t.name!==e),[e,p,c]),[M,I]=(0,r.useState)(!1),[U,V]=(0,r.useState)(null);(0,r.useEffect)(()=>{k?!B&&p?V(E.POSIX_ENV_VAR_ERROR):V(null):V("Key must be unique")},[k,B,p]);let K=(0,r.useCallback)(async()=>{D(!0);try{await o()}catch(e){a.captureException(e),m.showError("Something went wrong. Please try again.")}D(!1)},[o,m]),Y=(0,r.useCallback)(async()=>{if(k&&B){C(!0);try{await i({name:p,value:g})}catch(e){V(e.message)}C(!1)}},[k,B,p,g,i]);return(0,t.jsxs)(P.Form,{css:ee.root,onSubmit:e=>{e.preventDefault(),Y()},children:[(0,t.jsxs)(W.View,{css:ee.formFields,children:[(0,t.jsx)(W.View,{css:ee.formField,children:(0,t.jsxs)(L.TextField,{validate:()=>k?!B&&p?E.POSIX_ENV_VAR_ERROR:void 0:"Key must be unique",validationBehavior:"aria",isRequired:!0,minLength:1,maxLength:128,name:"secretName",value:p,onChange:e=>f(e),isInvalid:null!==U,children:[(0,t.jsx)(N.Label,{color:"dimmer",multiline:!1,css:ee.formFieldLabel,children:"Key"}),(0,t.jsx)(O.Input,{autoFocus:!0,autoComplete:"off","data-1p-ignore":!0}),(0,t.jsx)(H.FieldError,{children:U})]})}),(0,t.jsx)(W.View,{css:ee.formField,children:(0,t.jsxs)(L.TextField,{isRequired:!0,minLength:1,name:"secretValue",value:g,onChange:e=>h(e),children:[(0,t.jsxs)(N.Label,{color:"dimmer",multiline:!1,css:ee.formFieldLabel,children:["Value"," ",(0,t.jsx)(F.IconButton,{alt:S?"Hide":"Show",size:12,onClick:()=>w(!S),children:S?(0,t.jsx)(y.default,{}):(0,t.jsx)(x.default,{})})]}),(0,t.jsx)(O.Input,{"data-sensitive":S,autoComplete:"off"})]})})]}),(0,t.jsx)(W.View,{css:ee.disclaimer,children:(0,t.jsx)(t.Fragment,{children:d&&d.totalCount>0?(0,t.jsxs)(W.View,{css:q.disclaimer,row:!0,align:"center",children:[(0,t.jsxs)($.PopoverTrigger,{label:"affected-repls",isOpen:M,onOpenChange:I,placement:"bottom start",children:[(0,t.jsxs)("span",{css:q.clickableText,children:[d.totalCount," Repl",1===d.totalCount?"":"s"," "]}),(0,t.jsx)(et,{links:d})]}),"will be affected by this change."]}):null})}),(0,t.jsxs)(W.View,{css:ee.footer,children:[l?(0,t.jsx)("div",{}):(0,t.jsx)(A.Button,{text:"Delete",colorway:"negative",onClick:()=>_(!0),iconLeft:(0,t.jsx)(j.default,{})}),(0,t.jsxs)(W.View,{css:ee.footerGroup,children:[(0,t.jsx)(A.Button,{text:"Cancel",onClick:n,disabled:v}),(0,t.jsx)(A.Button,{text:"Save",colorway:"primary",loading:v,disabled:!k||!B||!p.length,onClick:Y,type:"submit"})]})]}),(0,t.jsx)(G,{name:e,links:d,isOpen:R,onClose:()=>_(!1),onDelete:K,isLoading:T})]})},er=()=>{var e;let t,s=(0,R.useCurrentUserId)(),{showError:r}=(0,b.default)(),[i,n]=(e={update(e,{data:t}){if(t?.createSharedSecrets?.__typename==="CreateSharedSecretsResult"){let r=t.createSharedSecrets.createdSecrets;e.modify({id:e.identify({__typename:"CurrentUser",id:s}),fields:{secrets(t={items:[]}){let s=r.map(t=>e.writeFragment({data:t,fragment:d}));return{...t,items:[...s,...t.items]}}}})}else t?.createSharedSecrets&&r(t.createSharedSecrets.message)},onError:e=>{r("Failed to create secret. Please try again."),a.captureException(e)}},t={...u,...e},c.useMutation(p,t));return[i,n]},ea=()=>{var e;let t,s=(0,R.useCurrentUserId)(),{showError:r}=(0,b.default)(),[i,n]=(e={update(e,{data:t}){if(t?.updateSharedSecrets?.__typename==="UpdateSharedSecretsResult"){let r=t.updateSharedSecrets.updatedSecrets;e.modify({id:e.identify({__typename:"CurrentUser",id:s}),fields:{secrets(t={items:[]}){let s=t.items.map(t=>{let s=r.find(e=>e.id===t.id);return s?e.writeFragment({data:s,fragment:d}):t});return{...t,items:s}}}})}else t?.updateSharedSecrets&&r(t.updateSharedSecrets.message)},onError:e=>{r("Failed to update secret. Please try again."),a.captureException(e)}},t={...u,...e},c.useMutation(f,t));return[i,n]},ei=({id:e,name:s,value:n,timeUpdated:o,onRemoveSecret:l,secrets:d,version:m})=>{let p="0"===m,[f,x]=(0,r.useState)(p),y=(0,r.useRef)(null),w=(0,r.useCallback)(()=>{setTimeout(()=>y.current?.focus(),0)},[]),[v]=er(),[j]=ea(),[E]=(()=>{var e;let t,s=(0,R.useCurrentUserId)(),{showError:r}=(0,b.default)(),[i,n]=(e={update(e,{data:t},{variables:a}){let i=a?.id;i&&t?.deleteSharedSecret?.__typename==="DeleteSharedSecretResult"?e.modify({id:e.identify({__typename:"CurrentUser",id:s}),fields:{secrets:(e={items:[]},{readField:t})=>({...e,items:e.items.filter(e=>t("id",e)!==i)})}}):t?.deleteSharedSecret&&"message"in t.deleteSharedSecret&&r(t.deleteSharedSecret.message)},onError:e=>{r("Failed to delete secret. Please try again."),a.captureException(e)}},t={...u,...e},c.useMutation(g,t));return[i,n]})(),T=(0,r.useCallback)(async t=>{p?(await v({variables:{input:{ownerType:h.SharedSecretOwnerType.Account,secrets:[t]}}}),(0,_.track)(C.events.SHARED_SECRETS_USED,{ownerType:"account",action:"create",source:"account"})):(await j({variables:{input:{ownerType:h.SharedSecretOwnerType.Account,secrets:[{...t,id:e}]}}}),(0,_.track)(C.events.SHARED_SECRETS_USED,{ownerType:"account",action:"update",source:"account"})),x(!1)},[v,e,p,j]),D=(0,r.useCallback)(()=>{x(!1),p?l():w()},[p,l,w]);return f||!o?(0,t.jsx)(es,{secrets:d,isNew:p,name:s,value:n,onDelete:async()=>{await E({variables:{id:e}}),(0,_.track)(C.events.SHARED_SECRETS_USED,{ownerType:"account",action:"delete",source:"account"}),l()},onSave:T,onCancel:D}):(0,t.jsxs)(W.View,{css:Q.secretItem,children:[(0,t.jsx)(W.View,{css:Q.secretName,children:s}),(0,t.jsx)(J,{value:n}),(0,t.jsxs)(W.View,{css:Q.secretTimestamp,children:["Updated ",(0,i.format)(new Date(o),"MM/dd/yy")]}),(0,t.jsx)(W.View,{css:Q.secretEditContainer,align:"end",children:(0,t.jsx)(F.IconButton,{alt:"Edit",onClick:()=>x(!0),ref:y,children:(0,t.jsx)(S.default,{})})})]})};function en({hideHeader:e=!1}){let s,{data:a}=(s={...u,...void 0},l.useQuery(m,s)),[i,o]=(0,r.useState)(a?.currentUser?.secrets?.__typename==="SharedSecretConnection"?a.currentUser.secrets.items:[]);(0,r.useEffect)(()=>{o(a?.currentUser?.secrets?.__typename==="SharedSecretConnection"?a.currentUser.secrets.items:[])},[a?.currentUser?.secrets]);let c=(0,r.useCallback)(()=>{o(e=>[{__typename:"SharedSecret",id:`temp-${(0,n.v4)()}`,name:"",value:"",timeUpdated:new Date().toISOString(),timeCreated:new Date().toISOString(),version:"0"},...e])},[]),d=(0,r.useCallback)(e=>{o(t=>t.filter((t,s)=>s!==e))},[]);return(0,t.jsxs)(W.View,{gap:8,children:[(0,t.jsxs)(W.View,{row:!0,justify:e?"end":"space-between",children:[e?null:(0,t.jsx)(W.View,{css:Q.titleWrapper,row:!0,gap:8,children:(0,t.jsx)(Y.Text,{variant:"subheadBig",multiline:!1,children:"Account Secrets"})}),(0,t.jsx)(W.View,{align:"center",row:!0,gap:8,children:(0,t.jsx)(A.Button,{text:"New secret",iconLeft:(0,t.jsx)(v.default,{}),size:"small",colorway:"primary",onClick:c})})]}),(0,t.jsxs)(M.ShadesSurface,{css:Q.section,children:["Add secrets to your account to access them in any of your Apps.",0===i.length?(0,t.jsxs)(W.View,{css:Q.emptyState,gap:8,children:[(0,t.jsx)(w.default,{size:24,color:D.tokens.foregroundDimmest}),(0,t.jsx)(Y.Text,{color:"dimmer",children:"You haven't added any account secrets yet."})]}):(0,t.jsx)(M.ShadesSurface,{css:Q.secretList,elevate:"2x",children:i.map((e,s)=>(0,t.jsx)(ei,{secrets:i,onRemoveSecret:()=>d(s),...e},e.id))})]})]})}e.s(["default",()=>en,"useCreateSharedSecretsWithCache",0,er,"useUpdateSharedSecretsWithCache",0,ea],466640)},928838,e=>{"use strict";var t=e.i(276385),s=e.i(368964),r=e.i(961970),a=e.i(813707),i=e.i(416298),n=e.i(480028);let o={[s.HostingBuildStatus.Suspended]:{title:"Paused",color:n.tokens.greyDefault,colorway:"grey",icon:(0,t.jsx)(r.default,{})},SystemSuspended:{title:"Suspended",color:n.tokens.greyDefault,colorway:"negative",icon:(0,t.jsx)(i.default,{})},[s.HostingBuildStatus.UpdatingTier]:{title:"Updating tier",color:n.tokens.orangeStronger,colorway:"orange",icon:(0,t.jsx)(a.default,{})},[s.HostingBuildStatus.Suspending]:{title:"Pausing",color:n.tokens.orangeStronger,colorway:"orange",icon:(0,t.jsx)(a.default,{})},[s.HostingBuildStatus.Resuming]:{title:"Resuming",color:n.tokens.orangeStronger,colorway:"orange",icon:(0,t.jsx)(a.default,{})},[s.HostingBuildStatus.Pending]:{title:"Provisioning",color:n.tokens.orangeStronger,colorway:"orange",icon:(0,t.jsx)(a.default,{})},[s.HostingBuildStatus.Building]:{title:"Building",color:n.tokens.orangeStronger,colorway:"orange",icon:(0,t.jsx)(a.default,{})},[s.HostingBuildStatus.SecurityScanning]:{title:"Security scanning",color:n.tokens.orangeStronger,colorway:"orange",icon:(0,t.jsx)(a.default,{})},[s.HostingBuildStatus.Running]:{title:"Bundling",color:n.tokens.orangeStronger,colorway:"orange",icon:(0,t.jsx)(a.default,{})},[s.HostingBuildStatus.Promoting]:{title:"Promoting",color:n.tokens.orangeStronger,colorway:"orange",icon:(0,t.jsx)(a.default,{})},[s.HostingBuildStatus.Failed]:{title:"Failed",color:n.tokens.accentNegativeDefault,colorway:"negative",icon:(0,t.jsx)(i.default,{})},[s.HostingBuildStatus.Success]:{title:"Published",color:n.tokens.accentPositiveDefault,colorway:"positive"}};function l(e,t){switch(e){case s.HostingBuildStatus.Building:case s.HostingBuildStatus.SecurityScanning:case s.HostingBuildStatus.Promoting:case s.HostingBuildStatus.Running:case s.HostingBuildStatus.Pending:return"is publishing";case s.HostingBuildStatus.Resuming:return"is resuming";case s.HostingBuildStatus.Suspending:return"is pausing";case s.HostingBuildStatus.Failed:return"failed to publish";case s.HostingBuildStatus.Success:return"published";case s.HostingBuildStatus.Suspended:return t===s.HostingBuildSuspendedReason.Ubb||t===s.HostingBuildSuspendedReason.SubscriptionRequired?"suspended":"paused";case s.HostingBuildStatus.UpdatingTier:return"is updating tier"}}e.s(["buildStatuses",0,o,"getStatusSentenceText",()=>l])},327516,410960,975676,671662,550470,e=>{"use strict";var t=e.i(965078),s=e.i(149818),r=e.i(529131);function a(e){(0,r.default)(1,arguments);var t=(0,s.default)(e);return t.setHours(23,59,59,999),t}function i(e){(0,r.default)(1,arguments);var t=(0,s.default)(e),a=t.getMonth();return t.setFullYear(t.getFullYear(),a+1,0),t.setHours(23,59,59,999),t}function n(e,n){(0,r.default)(2,arguments);var o,l=(0,s.default)(e),c=(0,s.default)(n),u=(0,t.default)(l,c),d=Math.abs(function(e,t){(0,r.default)(2,arguments);var a=(0,s.default)(e),i=(0,s.default)(t);return 12*(a.getFullYear()-i.getFullYear())+(a.getMonth()-i.getMonth())}(l,c));if(d<1)o=0;else{1===l.getMonth()&&l.getDate()>27&&l.setDate(30),l.setMonth(l.getMonth()-u*d);var m=(0,t.default)(l,c)===-u;(function(e){(0,r.default)(1,arguments);var t=(0,s.default)(e);return a(t).getTime()===i(t).getTime()})((0,s.default)(e))&&1===d&&1===(0,t.default)(e,c)&&(m=!1),o=u*(d-Number(m))}return 0===o?0:o}e.s(["default",()=>a],410960),e.s(["default",()=>i],975676),e.s(["default",()=>n],671662);var o=e.i(351263);function l(e,t){(0,r.default)(2,arguments);var s=(0,o.default)(e,t)/1e3;return s>0?Math.floor(s):Math.ceil(s)}e.s(["default",()=>l],550470);var c=e.i(530929),u=e.i(592826),d=e.i(254878);function m(e,a){var i,o,m,p=arguments.length>2&&void 0!==arguments[2]?arguments[2]:{};(0,r.default)(2,arguments);var f=p.locale||c.default;if(!f.formatDistance)throw RangeError("locale must contain formatDistance property");var g=(0,t.default)(e,a);if(isNaN(g))throw RangeError("Invalid time value");var h=(0,u.default)(p);h.addSuffix=!!p.addSuffix,h.comparison=g,g>0?(i=(0,s.default)(a),o=(0,s.default)(e)):(i=(0,s.default)(e),o=(0,s.default)(a));var S=l(o,i),x=Math.round((S-((0,d.default)(o)-(0,d.default)(i))/1e3)/60);if(x<2)if(p.includeSeconds)if(S<5)return f.formatDistance("lessThanXSeconds",5,h);else if(S<10)return f.formatDistance("lessThanXSeconds",10,h);else if(S<20)return f.formatDistance("lessThanXSeconds",20,h);else if(S<40)return f.formatDistance("halfAMinute",null,h);else if(S<60)return f.formatDistance("lessThanXMinutes",1,h);else return f.formatDistance("xMinutes",1,h);else if(0===x)return f.formatDistance("lessThanXMinutes",1,h);else return f.formatDistance("xMinutes",x,h);if(x<45)return f.formatDistance("xMinutes",x,h);if(x<90)return f.formatDistance("aboutXHours",1,h);if(x<1440){var y=Math.round(x/60);return f.formatDistance("aboutXHours",y,h)}if(x<2520)return f.formatDistance("xDays",1,h);else if(x<43200){var w=Math.round(x/1440);return f.formatDistance("xDays",w,h)}else if(x<86400)return m=Math.round(x/43200),f.formatDistance("aboutXMonths",m,h);if((m=n(o,i))<12){var v=Math.round(x/43200);return f.formatDistance("xMonths",v,h)}var j=m%12,C=Math.floor(m/12);return j<3?f.formatDistance("aboutXYears",C,h):j<9?f.formatDistance("overXYears",C,h):f.formatDistance("almostXYears",C+1,h)}e.s(["default",()=>m],327516)},315315,e=>{"use strict";let t=e=>{let t=new Date(e),s=t.getMonth()+1,r=t.getDate(),a=t.getFullYear();return`${s}/${r}/${a}`};e.s(["formatDate",0,t,"formatDateTime",0,e=>{let s=new Date(e),r=s.getHours(),a=s.getMinutes(),i="AM";return r>=12&&(i="PM"),0==(r%=12)&&(r="12"),a<10&&(a="0"+a),t(e)+` ${r}:${a} ${i}`}])}]);
+
+//# debugId=ff710de1-09cf-b5ee-b95e-54d4b8954260
+//# sourceMappingURL=ac792be482eb10f3.js.map

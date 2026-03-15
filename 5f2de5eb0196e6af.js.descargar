@@ -1,0 +1,1024 @@
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="700e645d-677f-fb2d-76fa-0e070c21a140")}catch(e){}}();
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,28577,e=>{e.v({docsLink:"AuthenticationSection-module__dlUVQG__docsLink",scimUpgradeLink:"AuthenticationSection-module__dlUVQG__scimUpgradeLink",scimUpgradeSection:"AuthenticationSection-module__dlUVQG__scimUpgradeSection"})},508118,e=>{e.v({settingRowContent:"ToggleSetting-module__4h7Sga__settingRowContent"})},740138,e=>{e.v({card:"Billing-module__mO86zq__card",divider:"Billing-module__mO86zq__divider",invoiceLink:"Billing-module__mO86zq__invoiceLink",invoiceLinkDisabled:"Billing-module__mO86zq__invoiceLinkDisabled",mediumText:"Billing-module__mO86zq__mediumText",skeleton:"Billing-module__mO86zq__skeleton",skeletonCardInfo:"Billing-module__mO86zq__skeletonCardInfo",skeletonCost:"Billing-module__mO86zq__skeletonCost",skeletonPaymentDate:"Billing-module__mO86zq__skeletonPaymentDate",skeletonPlanName:"Billing-module__mO86zq__skeletonPlanName"})},823350,e=>{e.v({accordionHeaderContent:"index-module___iGdfG__accordionHeaderContent",creditTableContainer:"index-module___iGdfG__creditTableContainer",measureBar:"index-module___iGdfG__measureBar",measureBarContainer:"index-module___iGdfG__measureBarContainer",skeleton:"index-module___iGdfG__skeleton",skeletonBlock:"index-module___iGdfG__skeletonBlock",usageText:"index-module___iGdfG__usageText"})},89739,e=>{e.v({budgetInput:"SpendingAlerts-module__WF3pFa__budgetInput",closeButton:"SpendingAlerts-module__WF3pFa__closeButton",inputContainer:"SpendingAlerts-module__WF3pFa__inputContainer",inputIcon:"SpendingAlerts-module__WF3pFa__inputIcon",manageLink:"SpendingAlerts-module__WF3pFa__manageLink",skeleton:"SpendingAlerts-module__WF3pFa__skeleton",skeletonForm:"SpendingAlerts-module__WF3pFa__skeletonForm",skeletonValue:"SpendingAlerts-module__WF3pFa__skeletonValue"})},210829,e=>{e.v({card:"index-module__Te92Oa__card",cardContent:"index-module__Te92Oa__cardContent",cardsContainer:"index-module__Te92Oa__cardsContainer",cardsContainerWrapper:"index-module__Te92Oa__cardsContainerWrapper",dottedDivider:"index-module__Te92Oa__dottedDivider",fieldRow:"index-module__Te92Oa__fieldRow",popoverRow:"index-module__Te92Oa__popoverRow",skeleton:"index-module__Te92Oa__skeleton",skeletonBreakdown:"index-module__Te92Oa__skeletonBreakdown",solidDivider:"index-module__Te92Oa__solidDivider",statSkeleton:"index-module__Te92Oa__statSkeleton",statSkeletonWide:"index-module__Te92Oa__statSkeletonWide"})},889704,e=>{e.v({breakdownContainer:"CustomerResourceRow-module__Jr4ngq__breakdownContainer",breakdownHeaderCell:"CustomerResourceRow-module__Jr4ngq__breakdownHeaderCell",breakdownHeaderCellName:"CustomerResourceRow-module__Jr4ngq__breakdownHeaderCellName",breakdownHeaderRow:"CustomerResourceRow-module__Jr4ngq__breakdownHeaderRow",breakdownRow:"CustomerResourceRow-module__Jr4ngq__breakdownRow",breakdownRowCellName:"CustomerResourceRow-module__Jr4ngq__breakdownRowCellName",breakdownRowCellValue:"CustomerResourceRow-module__Jr4ngq__breakdownRowCellValue",breakdownTable:"CustomerResourceRow-module__Jr4ngq__breakdownTable",chevronIcon:"CustomerResourceRow-module__Jr4ngq__chevronIcon",chevronOpen:"CustomerResourceRow-module__Jr4ngq__chevronOpen",hiddenOnDesktop:"CustomerResourceRow-module__Jr4ngq__hiddenOnDesktop",hiddenOnMobile:"CustomerResourceRow-module__Jr4ngq__hiddenOnMobile",mobileNameCell:"CustomerResourceRow-module__Jr4ngq__mobileNameCell",mobilePriceUsageCell:"CustomerResourceRow-module__Jr4ngq__mobilePriceUsageCell",replLink:"CustomerResourceRow-module__Jr4ngq__replLink",resourceRow:"CustomerResourceRow-module__Jr4ngq__resourceRow",resourceRowCell:"CustomerResourceRow-module__Jr4ngq__resourceRowCell",resourceRowCellUnitPriceCell:"CustomerResourceRow-module__Jr4ngq__resourceRowCellUnitPriceCell",resourceRowClickable:"CustomerResourceRow-module__Jr4ngq__resourceRowClickable",resourceRowName:"CustomerResourceRow-module__Jr4ngq__resourceRowName",resourceRowValue:"CustomerResourceRow-module__Jr4ngq__resourceRowValue",skeleton:"CustomerResourceRow-module__Jr4ngq__skeleton",skeletonLineShort:"CustomerResourceRow-module__Jr4ngq__skeletonLineShort"})},517951,e=>{e.v({hiddenOnDesktop:"ResourceTables-module__rXZtiq__hiddenOnDesktop",hiddenOnMobile:"ResourceTables-module__rXZtiq__hiddenOnMobile",mobileResourceRowName:"ResourceTables-module__rXZtiq__mobileResourceRowName",mobileResourceRowValue:"ResourceTables-module__rXZtiq__mobileResourceRowValue",resourceHeaderCell:"ResourceTables-module__rXZtiq__resourceHeaderCell",resourceHeaderTitle:"ResourceTables-module__rXZtiq__resourceHeaderTitle",resourceRowName:"ResourceTables-module__rXZtiq__resourceRowName",resourceRowValue:"ResourceTables-module__rXZtiq__resourceRowValue",resourceTableContainer:"ResourceTables-module__rXZtiq__resourceTableContainer",sectionContainer:"ResourceTables-module__rXZtiq__sectionContainer"})},747642,e=>{e.v({avatarContainer:"WorkspaceOverview-module__FcNzfW__avatarContainer",avatarReadonly:"WorkspaceOverview-module__FcNzfW__avatarReadonly",avatarSkeleton:"WorkspaceOverview-module__FcNzfW__avatarSkeleton",closeButton:"WorkspaceOverview-module__FcNzfW__closeButton",deleteModal:"WorkspaceOverview-module__FcNzfW__deleteModal",draggingOver:"WorkspaceOverview-module__FcNzfW__draggingOver",editBadge:"WorkspaceOverview-module__FcNzfW__editBadge",formActions:"WorkspaceOverview-module__FcNzfW__formActions",formFields:"WorkspaceOverview-module__FcNzfW__formFields",hideOnMobile:"WorkspaceOverview-module__FcNzfW__hideOnMobile",inputContainer:"WorkspaceOverview-module__FcNzfW__inputContainer",inputSkeleton:"WorkspaceOverview-module__FcNzfW__inputSkeleton",label:"WorkspaceOverview-module__FcNzfW__label",labelSkeleton:"WorkspaceOverview-module__FcNzfW__labelSkeleton",labelWrapper:"WorkspaceOverview-module__FcNzfW__labelWrapper",nameInput:"WorkspaceOverview-module__FcNzfW__nameInput",overlayDisabled:"WorkspaceOverview-module__FcNzfW__overlayDisabled",overlayLabel:"WorkspaceOverview-module__FcNzfW__overlayLabel",topSection:"WorkspaceOverview-module__FcNzfW__topSection",uploadInput:"WorkspaceOverview-module__FcNzfW__uploadInput"})},353516,53705,671318,10844,672279,e=>{"use strict";var t=e.i(276385),r=e.i(389959),s=e.i(973245);let a=s.gql`
+    fragment PrivacySettings on CustomerSettings {
+  requirePrivateDeployments
+  adminOnlyPublicDeployments
+  requirePrivateDevUrls
+  disablePasswordProtectedDeployments
+  adminOnlyPasswordProtectedDeploymentsBypass
+  banPublicApps
+  banSourceCodeExport
+  banAttachmentUploads
+}
+    `,i=s.gql`
+    fragment SecuritySettings on CustomerSettings {
+  requireSecurityScanOnDeployment
+  adminOnlySecurityScanOnDeploymentBypass
+}
+    `,n=s.gql`
+    fragment SourceControlSettings on CustomerSettings {
+  requireGitRemoteBeforeDeployment
+  adminOnlyGitRemoteBeforeDeploymentBypass
+  requirePrivateRemote
+  adminOnlyPrivateRemoteBypass
+  allowedGitProvider
+  allowedGitRemoteTarget
+}
+    `,l=s.gql`
+    fragment DisableFeaturesSettings on CustomerSettings {
+  disableImport
+  disableIntegrations
+  disableFrameworks
+  turboDisabled
+}
+    `;var o=e.i(304277);e.i(566901);var d=e.i(951262);let u={},c=s.gql`
+    fragment AdvancedSettingsAuthSettings on OrgAuthSettingsOutput {
+  ... on OrgAuthSettings {
+    saml {
+      enabled
+    }
+    scim {
+      enabled
+      isDirectorySyncActive
+    }
+  }
+  ... on Error {
+    message
+  }
+}
+    `,g=s.gql`
+    fragment AdvancedCustomerSettings on CustomerSettings {
+  ...PrivacySettings
+  ...SecuritySettings
+  ...SourceControlSettings
+  ...DisableFeaturesSettings
+  scimViewerUpgradeLink
+}
+    ${a}
+${i}
+${n}
+${l}`,p=s.gql`
+    query AdvancedSettingsCustomer($orgId: String!) {
+  getOrg(orgId: $orgId) {
+    ... on Org {
+      id
+      slug
+      customer {
+        ... on Customer {
+          id
+          subscriptionSummary {
+            __typename
+          }
+          settings {
+            ...AdvancedCustomerSettings
+          }
+        }
+      }
+      authSettings {
+        ...AdvancedSettingsAuthSettings
+      }
+    }
+  }
+}
+    ${g}
+${c}`,m=s.gql`
+    mutation AdvancedSettingsProvisionScim($orgId: String!) {
+  provisionOrgSCIM(orgId: $orgId) {
+    __typename
+    ... on Org {
+      id
+      authSettings {
+        ... on OrgAuthSettings {
+          scim {
+            enabled
+            isDirectorySyncActive
+          }
+        }
+      }
+    }
+    ... on UnauthorizedError {
+      message
+    }
+    ... on UserError {
+      message
+    }
+    ... on NotFoundError {
+      message
+    }
+    ... on Error {
+      message
+    }
+  }
+}
+    `,x=s.gql`
+    mutation AdvancedSettingsUpdateCustomerSettings($input: UpdateCustomerSettingsInput!) {
+  updateCustomerSettings(input: $input) {
+    __typename
+    ... on Customer {
+      id
+      settings {
+        ...AdvancedCustomerSettings
+      }
+    }
+    ... on UnauthorizedError {
+      message
+    }
+    ... on NotFoundError {
+      message
+    }
+    ... on UserError {
+      message
+    }
+  }
+}
+    ${g}`;function h(e){let t={...u,...e};return d.useMutation(x,t)}var f=e.i(269848),j=e.i(995691),w=e.i(596139),y=e.i(222342),b=e.i(341126),v=e.i(775283),_=e.i(612866),C=e.i(204977),S=e.i(220743),k=e.i(761201),U=e.i(810206),V=e.i(319122),T=e.i(322823),A=e.i(428596),O=e.i(140487),D=e.i(607278),R=e.i(396776),P=e.i(960178),I=e.i(795581),B=e.i(625484),E=e.i(496213);let L=e=>e&&""!==e.trim()&&!(0,V.default)(e)?{severity:"error",message:"Please enter a valid URL"}:null;function q({customerId:e,currentUpgradeLink:s,onClose:a}){let[i,{loading:n}]=h(),l=(0,T.useFormField)(s,L,{debounceDelay:"long"}),[o,d]=(0,r.useState)({type:"idle"}),u=(0,A.useIdSeed)(),c=u("upgradeLink"),g=u("upgradeLinkError"),p=async()=>{d({type:"idle"});try{let{data:t}=await i({variables:{input:{customerId:e,scimViewerUpgradeLink:l.value}}});t?.updateCustomerSettings.__typename==="Customer"?(d({type:"success"}),a()):d({type:"error",message:t?.updateCustomerSettings.message??"Failed to update SCIM viewer upgrade link"})}catch(e){d({type:"error",message:e instanceof Error?e.message:"Failed to update SCIM viewer upgrade link"})}};return(0,t.jsxs)(B.View,{p:12,gap:16,children:[(0,t.jsx)(P.Text,{variant:"headerDefault",children:"Modify Upgrade Request Link"}),(0,t.jsx)(B.View,{gap:8,children:(0,t.jsx)(P.Text,{color:"dimmest",variant:"small",children:"When team members request seat upgrades, they'll be redirected to this URL (e.g., ServiceNow, Jira Service Management) instead of filling out Replit's form. Leave blank to use the default flow."})}),(0,t.jsx)(I.TextField,{children:(0,t.jsx)(D.Input,{id:c,"aria-describedby":g,value:l.value,onChange:e=>l.setValue(e.target.value),placeholder:"https://example.com/upgrade"})}),"error"===o.type?(0,t.jsx)(R.StatusBanner,{text:o.message,colorway:"negative"}):null,(0,t.jsxs)(B.View,{justify:"space-between",row:!0,gap:16,align:"center",children:[(0,t.jsx)(E.InputError,{error:l.error,id:g}),(0,t.jsx)(B.View,{justify:"end",row:!0,children:(0,t.jsx)(O.Button,{colorway:"primary",text:"Submit",disabled:!l.isValid||n,loading:n,onClick:p})})]})]})}var z=e.i(480028),N=e.i(173703);function F({title:e,children:r,disabled:s}){return(0,t.jsxs)(N.ShadesSurface,{br:"container",style:s?{color:z.tokens.foregroundDimmer}:void 0,p:16,gap:12,children:[e?(0,t.jsx)(B.View,{row:!0,gap:8,align:"center",children:(0,t.jsx)(P.Text,{color:s?"dimmer":void 0,children:e})}):null,r]})}var M=e.i(91720),G=e.i(988676),$=e.i(136540),H=e.i(739521),W=e.i(624782),K=e.i(751273),Y=e.i(28577);function Q(e){return e.isEnterprise?(0,t.jsxs)(U.CollapsibleSection,{title:"Authentication",defaultExpanded:!0,children:[(0,t.jsx)(X,{isEnterprise:!0,authSettings:e.authSettings}),(0,t.jsx)(J,{isEnterprise:!0,authSettings:e.authSettings,customerId:e.customerId,scimViewerUpgradeLink:e.scimViewerUpgradeLink,scimOnboardingLink:e.scimOnboardingLink,canEditSettings:e.canEditSettings,onProvisionScim:e.onProvisionScim,isProvisioningScim:e.isProvisioningScim})]}):(0,t.jsxs)(U.CollapsibleSection,{title:"Authentication",defaultExpanded:!0,children:[(0,t.jsx)(X,{isEnterprise:!1}),(0,t.jsx)(J,{isEnterprise:!1})]})}function X(e){let r=null,s=!1;return e.isEnterprise?r=e.authSettings.saml.enabled?(0,t.jsx)(P.Text,{color:"dimmest",children:"Enabled for your organization."}):(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(P.Text,{color:"dimmest",children:"SAML SSO is not yet configured for your organization."}),(0,t.jsx)(B.View,{row:!0,children:(0,t.jsx)(v.TeamsContactUsButton,{text:"Contact us to enable SAML SSO",context:"orgs_settings",reason:"enterprise_feature",hrefOverride:`mailto:${k.SALES_TEAM_CONTACT_EMAIL}`,colorway:"primary"})})]}):(s=!0,r=(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(P.Text,{color:"dimmest",children:"Enable SAML SSO to require authentication using your identity provider. A Replit Enterprise plan is required."}),(0,t.jsx)(B.View,{row:!0,children:(0,t.jsx)(v.TeamsContactUsButton,{text:"Contact Sales",context:"orgs_settings",reason:"enterprise_feature",colorway:"primary"})})]})),(0,t.jsxs)(F,{disabled:s,title:"SAML single sign-on",children:[r,(0,t.jsxs)(P.Text,{color:"dimmest",children:["Read more about SAML SSO in our"," ",(0,t.jsx)(_.default,{href:k.LINKS_DOCS.SAML_SSO,clsx:Y.default.docsLink,target:"_blank",children:"documentation"}),"."]})]})}function J(e){let[s,a]=(0,r.useState)(!1);if(!e.isEnterprise)return(0,t.jsxs)(F,{disabled:!0,title:"Automatic member provisioning (SCIM)",children:[(0,t.jsx)(P.Text,{color:"dimmest",children:"Automatically provision and deprovision members in your organization using your Identity Provider and SCIM. A Replit Enterprise plan is required."}),(0,t.jsx)(B.View,{row:!0,children:(0,t.jsx)(v.TeamsContactUsButton,{text:"Contact Sales",context:"orgs_settings",reason:"enterprise_feature",colorway:"primary"})}),(0,t.jsx)(Z,{})]});let{authSettings:i,customerId:n,scimViewerUpgradeLink:l,scimOnboardingLink:o,canEditSettings:d,onProvisionScim:u,isProvisioningScim:c}=e,g=i.scim.enabled,p=i.scim.isDirectorySyncActive;return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(F,{title:"Automatic member provisioning (SCIM)",children:[(0,t.jsx)(ee,{scimEnabled:g,scimActive:p}),(0,t.jsx)(et,{scimEnabled:g,scimActive:p,scimOnboardingLink:o,canEditSettings:d,isProvisioningScim:c,onProvisionScim:u}),(0,t.jsx)(Z,{}),g&&p&&d?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(G.DividerH,{}),(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Custom Upgrade Request Flow."}),(0,t.jsx)(P.Text,{color:"dimmest",children:"Direct seat upgrade requests to your enterprise ticketing system or ITSM tool instead of using Replit's built-in request flow."}),(0,t.jsx)(B.View,{clsx:Y.default.scimUpgradeSection,p:12,gap:8,children:(0,t.jsxs)(B.View,{row:!0,gap:4,align:"center",children:[(0,t.jsx)(P.Text,{variant:"small",color:l?"dimmer":"dimmest",clsx:Y.default.scimUpgradeLink,children:l||"Click edit to set a custom upgrade request link"}),(0,t.jsx)(B.View,{row:!0,children:(0,t.jsx)($.IconButton,{alt:"Edit SCIM upgrade link",onClick:()=>a(!0),tooltipContents:"When team members request seat upgrades, they'll be redirected to this URL (e.g., ServiceNow, Jira Service Management) instead of filling out Replit's form. Leave blank to use the default flow.",children:(0,t.jsx)(C.default,{})})})]})})]}):null]}),(0,t.jsx)(H.Modal,{isOpen:s,onRequestClose:()=>a(!1),children:(0,t.jsx)(q,{customerId:n,currentUpgradeLink:l,onClose:()=>a(!1)})})]})}function Z(){return(0,t.jsxs)(P.Text,{color:"dimmest",children:["Read more about SCIM in our"," ",(0,t.jsx)(_.default,{href:k.LINKS_DOCS.SCIM,clsx:Y.default.docsLink,target:"_blank",children:"documentation"}),"."]})}function ee({scimEnabled:e,scimActive:r}){return e?r?(0,t.jsx)(B.View,{row:!0,children:(0,t.jsx)(W.Pill,{colorway:"positive",text:"Active"})}):(0,t.jsx)(B.View,{row:!0,children:(0,t.jsx)(W.Pill,{colorway:"warning",text:"Setup incomplete"})}):null}function et({scimEnabled:e,scimActive:r,scimOnboardingLink:s,canEditSettings:a,isProvisioningScim:i,onProvisionScim:n}){return e?r?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(P.Text,{color:"dimmest",children:"SCIM is enabled for your organization."}),s?(0,t.jsx)(K.Tooltip,{tooltip:"You don't have permission to manage SCIM.",isDisabled:a,children:(0,t.jsx)(B.View,{row:!0,children:(0,t.jsx)(M.ButtonLink,{disabled:!a,iconLeft:(0,t.jsx)(S.default,{}),text:"Manage SCIM",href:s.href,colorway:"primary",target:"_blank"})})}):null]}):s?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(P.Text,{color:"dimmest",children:"SCIM is enabled for your organization. Please click the button below to enter the SCIM support portal and complete the setup process."}),(0,t.jsx)(K.Tooltip,{tooltip:"You don't have permission to manage SCIM.",isDisabled:a,children:(0,t.jsx)(B.View,{row:!0,children:(0,t.jsx)(M.ButtonLink,{disabled:!a,iconLeft:(0,t.jsx)(S.default,{}),text:"Complete SCIM setup",href:s.href,colorway:"primary",target:"_blank"})})})]}):null:(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(P.Text,{color:"dimmest",children:"SCIM is not yet configured for your organization."}),(0,t.jsx)(K.Tooltip,{tooltip:"You don't have permission to enable SCIM.",isDisabled:a,children:(0,t.jsx)(B.View,{row:!0,children:(0,t.jsx)(O.Button,{text:i?"Enabling SCIM...":"Enable SCIM",disabled:!a||i,loading:i,onClick:n,colorway:"primary"})})})]})}function er(){return(0,t.jsxs)(U.CollapsibleSection,{title:"Design systems",defaultExpanded:!1,children:[(0,t.jsxs)(F,{disabled:!0,title:"Integrate a design system package",children:[(0,t.jsx)(P.Text,{color:"dimmest",children:"Connect to a private registry or upload your existing component library to be used by Agent."}),(0,t.jsx)(B.View,{align:"start",pt:8,children:(0,t.jsx)(O.Button,{text:"Contact sales",colorway:"primary",onClick:()=>{window.location.href="mailto:sales@repl.it"}})})]}),(0,t.jsxs)(F,{disabled:!0,title:"Integrate a Figma design system",children:[(0,t.jsx)(P.Text,{color:"dimmest",children:"Convert and integrate your Figma design system into an Agent compatible workflow."}),(0,t.jsx)(B.View,{align:"start",pt:8,children:(0,t.jsx)(O.Button,{text:"Contact sales",colorway:"primary",onClick:()=>{window.location.href="mailto:sales@repl.it"}})})]})]})}var es=e.i(112767),ea=e.i(508118);function ei({label:e,description:r,isSelected:s,isDisabled:a,onChange:i}){return(0,t.jsxs)(B.View,{row:!0,gap:16,justify:"space-between",children:[(0,t.jsxs)(B.View,{gap:4,clsx:ea.default.settingRowContent,children:[(0,t.jsx)(P.Text,{children:e}),(0,t.jsx)(P.Text,{variant:"small",color:"dimmest",children:r})]}),(0,t.jsx)(es.Switch,{isDisabled:a,"aria-label":e,isSelected:s,onChange:i})]})}function en(e){let r=!e.isEnterprise||!e.canEditSettings;return(0,t.jsx)(U.CollapsibleSection,{title:"Disable features",defaultExpanded:!1,children:(0,t.jsxs)(F,{children:[(0,t.jsx)(ei,{label:"Import Code or Design",description:"Disable the Import Code or Design feature in the sidebar for all organization members.",isSelected:!!e.isEnterprise&&e.settings.disableImport,isDisabled:r,onChange:t=>e.isEnterprise&&e.updateSettings({disableImport:t})}),(0,t.jsx)(ei,{label:"Integrations",description:"Disable the Integrations feature in the sidebar for all organization members.",isSelected:!!e.isEnterprise&&e.settings.disableIntegrations,isDisabled:r,onChange:t=>e.isEnterprise&&e.updateSettings({disableIntegrations:t})}),(0,t.jsx)(ei,{label:"Developer Frameworks",description:"Disable the Developer Frameworks feature in the sidebar for all organization members.",isSelected:!!e.isEnterprise&&e.settings.disableFrameworks,isDisabled:r,onChange:t=>e.isEnterprise&&e.updateSettings({disableFrameworks:t})}),(0,t.jsx)(ei,{label:"Turbo Mode",description:"Disable Turbo mode for all organization members.",isSelected:!!e.isEnterprise&&(e.settings.turboDisabled??!0),isDisabled:r,onChange:t=>e.isEnterprise&&e.updateSettings({turboDisabled:t})})]})})}var el=e.i(119274);function eo({label:e,description:r,options:s,currentKey:a,isDisabled:i,onAction:n}){return(0,t.jsx)(B.View,{gap:12,children:(0,t.jsxs)(B.View,{gap:12,row:!0,justify:"space-between",children:[(0,t.jsxs)(B.View,{shrink:!0,gap:4,children:[(0,t.jsx)(P.Text,{children:e}),(0,t.jsx)(P.Text,{variant:"small",color:"dimmest",children:r})]}),(0,t.jsx)(el.PopupMenu,{isDisabled:i,label:s[a].name,onAction:e=>n(e),items:Object.entries(s),children:([e,r])=>(0,t.jsx)(el.MenuItem,{id:e,label:r.name,description:r.description},e)})]})})}let ed={off:{name:"Off",description:"Users can publish both public and private apps."},requirePrivateDeployments:{name:"Require",description:"All new published apps will be private."},adminOnlyPublicDeployments:{name:"Require for non-admins",description:"Only administrators can publish public apps."}},eu={requirePrivateDeployments:{requirePrivateDeployments:!0,adminOnlyPublicDeployments:!1},adminOnlyPublicDeployments:{requirePrivateDeployments:!1,adminOnlyPublicDeployments:!0},off:{requirePrivateDeployments:!1,adminOnlyPublicDeployments:!1}},ec={off:{name:"Enabled",description:"Users can create password-protected deployments."},disablePasswordProtectedDeployments:{name:"Disabled",description:"Password-protected deployments are disabled for all users."},adminOnlyPasswordProtectedDeployments:{name:"Disabled for non-admins",description:"Only administrators can create password-protected deployments."}},eg={disablePasswordProtectedDeployments:{disablePasswordProtectedDeployments:!0,adminOnlyPasswordProtectedDeploymentsBypass:!1},adminOnlyPasswordProtectedDeployments:{disablePasswordProtectedDeployments:!1,adminOnlyPasswordProtectedDeploymentsBypass:!0},off:{disablePasswordProtectedDeployments:!1,adminOnlyPasswordProtectedDeploymentsBypass:!1}};function ep(e){var r,s;let a=!e.isEnterprise||!e.canEditSettings;return(0,t.jsx)(U.CollapsibleSection,{title:"Privacy settings",defaultExpanded:!0,children:(0,t.jsxs)(F,{children:[(0,t.jsx)(eo,{label:"Private deployments",description:"All new apps will be required to be published as private. Does not apply to existing published apps.",options:ed,currentKey:e.isEnterprise?(r=e.settings).requirePrivateDeployments?"requirePrivateDeployments":r.adminOnlyPublicDeployments?"adminOnlyPublicDeployments":"off":"off",isDisabled:a,onAction:t=>e.isEnterprise&&e.updateSettings(eu[t])}),(0,t.jsx)(eo,{label:"Password-protected deployments",description:"Control whether users can create password-protected deployments. Does not apply to existing apps.",options:ec,currentKey:e.isEnterprise?(s=e.settings).disablePasswordProtectedDeployments?"disablePasswordProtectedDeployments":s.adminOnlyPasswordProtectedDeploymentsBypass?"adminOnlyPasswordProtectedDeployments":"off":"off",isDisabled:a,onAction:t=>e.isEnterprise&&e.updateSettings(eg[t])}),(0,t.jsx)(ei,{label:"Require private development URLs",description:"If enabled, all app development URLs will require authentication. This includes SSO if your organization has enabled SAML. Applies retroactively to all existing apps.",isSelected:!!e.isEnterprise&&e.settings.requirePrivateDevUrls,isDisabled:a,onChange:t=>e.isEnterprise&&e.updateSettings({requirePrivateDevUrls:t})}),(0,t.jsx)(ei,{label:"Ban public apps",description:"Public apps can be forked and have their source code viewed by anyone in the general public. If enabled, all new apps will be private to your organization.",isSelected:!!e.isEnterprise&&e.settings.banPublicApps,isDisabled:a,onChange:t=>e.isEnterprise&&e.updateSettings({banPublicApps:t})}),(0,t.jsx)(ei,{label:"Ban source code export",description:"If enabled, users will be unable to export app source code as a zip file.",isSelected:!!e.isEnterprise&&e.settings.banSourceCodeExport,isDisabled:a,onChange:t=>e.isEnterprise&&e.updateSettings({banSourceCodeExport:t})}),(0,t.jsx)(ei,{label:"Ban attachment uploads",description:"If enabled, users will be unable to upload file attachments in agent chat or import files.",isSelected:!!e.isEnterprise&&e.settings.banAttachmentUploads,isDisabled:a,onChange:t=>e.isEnterprise&&e.updateSettings({banAttachmentUploads:t})})]})})}let em={off:{name:"Off",description:"Users can choose whether to run security scans on publishing."},requireSecurityScanOnDeployment:{name:"Require",description:"All publishing will be required to run security scans."},adminOnlySecurityScanOnDeploymentBypass:{name:"Require for non-admins",description:"Only admins can choose to skip security scans on publishing."}},ex={requireSecurityScanOnDeployment:{requireSecurityScanOnDeployment:!0,adminOnlySecurityScanOnDeploymentBypass:!1},adminOnlySecurityScanOnDeploymentBypass:{requireSecurityScanOnDeployment:!1,adminOnlySecurityScanOnDeploymentBypass:!0},off:{requireSecurityScanOnDeployment:!1,adminOnlySecurityScanOnDeploymentBypass:!1}};function eh(e){var r;let s=!e.isEnterprise||!e.canEditSettings;return(0,t.jsx)(U.CollapsibleSection,{title:"Security settings",defaultExpanded:!1,children:(0,t.jsx)(F,{children:(0,t.jsx)(eo,{label:"Require security scan",description:"All publishing will be required to run security scans to detect vulnerabilities. Does not apply to existing publishing.",options:em,currentKey:e.isEnterprise?(r=e.settings).requireSecurityScanOnDeployment?"requireSecurityScanOnDeployment":r.adminOnlySecurityScanOnDeploymentBypass?"adminOnlySecurityScanOnDeploymentBypass":"off":"off",isDisabled:s,onAction:t=>e.isEnterprise&&e.updateSettings(ex[t])})})})}var ef=e.i(368964),ej=e.i(818503);let ew={off:{name:"Off",description:"Users can publish apps without a git remote."},requireGitRemoteDeployment:{name:"Require",description:"Users will be required to push their code to a git remote before publishing."},adminOnlyGitRemoteDeploymentBypass:{name:"Require for non-admins",description:"Only admins can publish apps without a git remote."}},ey={requireGitRemoteDeployment:{requireGitRemoteBeforeDeployment:!0,adminOnlyGitRemoteBeforeDeploymentBypass:!1},adminOnlyGitRemoteDeploymentBypass:{requireGitRemoteBeforeDeployment:!1,adminOnlyGitRemoteBeforeDeploymentBypass:!0},off:{requireGitRemoteBeforeDeployment:!1,adminOnlyGitRemoteBeforeDeploymentBypass:!1}},eb={off:{name:"Off",description:"Users can create both public and private repositories."},requirePrivateRemote:{name:"Require",description:"Users can only create private repositories."},adminOnlyPrivateRemoteBypass:{name:"Require for non-admins",description:"Only admins can create public repositories."}},ev={requirePrivateRemote:{requirePrivateRemote:!0,adminOnlyPrivateRemoteBypass:!1},adminOnlyPrivateRemoteBypass:{requirePrivateRemote:!1,adminOnlyPrivateRemoteBypass:!0},off:{requirePrivateRemote:!1,adminOnlyPrivateRemoteBypass:!1}},e_={off:{name:"All providers",description:"Users can push to any git provider."},[ef.OrgGitProvider.Github]:{name:"GitHub",description:"Users can only push to GitHub."},[ef.OrgGitProvider.Gitlab]:{name:"GitLab",description:"Users can only push to GitLab."},[ef.OrgGitProvider.Bitbucket]:{name:"Bitbucket",description:"Users can only push to Bitbucket."}};function eC(e){var r,s;let a=!e.isEnterprise||!e.canEditSettings;return(0,t.jsx)(U.CollapsibleSection,{title:"Source control settings",defaultExpanded:!1,children:(0,t.jsxs)(F,{children:[(0,t.jsx)(eo,{label:"Require Git remote",description:"All apps will be required to have all local changes pushed to a git remote before publishing. Does not apply to existing published apps.",options:ew,currentKey:e.isEnterprise?(r=e.settings).requireGitRemoteBeforeDeployment?"requireGitRemoteDeployment":r.adminOnlyGitRemoteBeforeDeploymentBypass?"adminOnlyGitRemoteDeploymentBypass":"off":"off",isDisabled:a,onAction:t=>e.isEnterprise&&e.updateSettings(ey[t])}),(0,t.jsx)(eo,{label:"Private remotes",description:"Restrict users to only be able to create private repositories on all platforms (GitHub, etc).",options:eb,currentKey:e.isEnterprise?(s=e.settings).requirePrivateRemote?"requirePrivateRemote":s.adminOnlyPrivateRemoteBypass?"adminOnlyPrivateRemoteBypass":"off":"off",isDisabled:a,onAction:t=>e.isEnterprise&&e.updateSettings(ev[t])}),(0,t.jsx)(eo,{label:"Allowed Git provider",description:"Restrict which Git provider members can push to.",options:e_,currentKey:e.isEnterprise?e.settings.allowedGitProvider??"off":"off",isDisabled:a,onAction:t=>{e.isEnterprise&&("off"===t?e.updateSettings({allowedGitProvider:null}):e.updateSettings({allowedGitProvider:t}))}}),(0,t.jsx)(eS,{isDisabled:a,isLoading:!!e.isEnterprise&&e.loading,allowedGitRemoteTarget:e.isEnterprise?e.settings.allowedGitRemoteTarget??[]:[],onUpdate:t=>e.isEnterprise&&e.updateSettings({allowedGitRemoteTarget:t.length>0?t:null})})]})})}function eS({isDisabled:e,isLoading:s,allowedGitRemoteTarget:a,onUpdate:i}){let n=(0,r.useMemo)(()=>a?a.filter(e=>null!==e):[],[a]).join(", "),[l,o]=(0,r.useState)(n);(0,r.useEffect)(()=>{s||o(n)},[n,s]);let d=l!==n,u=()=>{i(l.split(",").map(e=>e.trim()).filter(e=>e.length>0))};return(0,t.jsxs)(B.View,{gap:12,children:[(0,t.jsxs)(B.View,{shrink:!0,gap:4,children:[(0,t.jsx)(P.Text,{children:"Whitelisted organizations"}),(0,t.jsx)(P.Text,{variant:"small",color:"dimmest",children:"Only allow creating repos in the specified comma-separated list of organizations (personal git repos will be disabled). Allowed Git provider must be set for this to take effect. Matching is case-insensitive."})]}),(0,t.jsxs)(B.View,{row:!0,gap:8,align:"end",children:[(0,t.jsxs)(B.View,{grow:!0,children:[(0,t.jsx)(ej.Label,{children:"GitHub organization names, GitLab group paths, or Bitbucket workspace names"}),(0,t.jsx)(D.Input,{maxLength:500,value:l,onChange:e=>o(e.target.value),onKeyDown:e=>{"Enter"===e.key&&d&&(e.preventDefault(),u())},placeholder:"GitHub: org1, GitLab: group1 / subGroup1, Bitbucket: workspace1",disabled:e||s})]}),(0,t.jsx)(O.Button,{text:"Save",size:"small",disabled:e||s||!d,loading:s,onClick:u})]})]})}function ek({customerContext:e}){var s;let a,i,n=e?.type==="shared"?e.orgId:null,{showError:l}=(0,y.default)(),{data:c,loading:g}=(s={variables:{orgId:n??""},skip:!n,ssr:!1},a={...u,...s},o.useQuery(p,a)),[x]=(i={...u,...void 0},d.useMutation(m,i)),[j,w]=(0,r.useState)(!1),[v,_]=(0,r.useState)(null),[C,{loading:S}]=h();if(g)return(0,t.jsx)(B.View,{p:64,align:"center",children:(0,t.jsx)(f.default,{})});let k=c?.getOrg?.__typename==="Org"?c.getOrg:null,U=k?.customer?.__typename==="Customer"?k.customer:null,V=U?.id??null,T=U?.settings??null,A=k?.authSettings.__typename==="OrgAuthSettings"?k.authSettings:null,O=U?.subscriptionSummary?.__typename==="CustomerSubscriptionSummarySalesContract",D=async()=>{if(n){_(null),w(!0);try{let{data:e}=await x({variables:{orgId:n}});e?.provisionOrgSCIM.__typename==="Org"?window.location.reload():_(e?.provisionOrgSCIM.message||"Failed to enable SCIM")}catch{_("Failed to enable SCIM")}finally{w(!1)}}},P=e?.customerAuthorizations.editSettings.isAuthorized??!1,I=O&&A&&U?{isEnterprise:!0,authSettings:A,customerId:U.id,scimViewerUpgradeLink:U.settings?.scimViewerUpgradeLink??"",scimOnboardingLink:k?.slug?(0,b.scimOnboardingRedirectLink)({orgSlug:k.slug}):null,canEditSettings:P,onProvisionScim:D,isProvisioningScim:j}:{isEnterprise:!1},E=async e=>{if(P&&null!=V)try{let t=await C({variables:{input:{customerId:V,...e}}}),r=t.data?.updateCustomerSettings;if(!r||"Customer"!==r.__typename||t.errors)return void l(r&&"Customer"!==r.__typename?r.message:"Failed to update settings")}catch{l("Failed to update settings")}},L=O&&T?{isEnterprise:!0,settings:T,canEditSettings:P,updateSettings:E,loading:S}:{isEnterprise:!1};return(0,t.jsxs)(B.View,{gap:6,pb:32,children:[O?null:(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(eU,{}),(0,t.jsx)(B.View,{py:12,children:(0,t.jsx)(G.DividerH,{})})]}),e&&!P?(0,t.jsx)(R.StatusBanner,{text:e.customerAuthorizations.editSettings.message,colorway:"warning"}):null,v?(0,t.jsx)(R.StatusBanner,{text:v,colorway:"negative"}):null,(0,t.jsx)(Q,{...I}),(0,t.jsx)(B.View,{py:12,children:(0,t.jsx)(G.DividerH,{})}),(0,t.jsx)(ep,{...L}),(0,t.jsx)(B.View,{py:12,children:(0,t.jsx)(G.DividerH,{})}),(0,t.jsx)(eh,{...L}),(0,t.jsx)(B.View,{py:12,children:(0,t.jsx)(G.DividerH,{})}),(0,t.jsx)(en,{...L}),(0,t.jsx)(B.View,{py:12,children:(0,t.jsx)(G.DividerH,{})}),(0,t.jsx)(eC,{...L}),(0,t.jsx)(B.View,{py:12,children:(0,t.jsx)(G.DividerH,{})}),(0,t.jsx)(er,{})]})}function eU(){return(0,t.jsx)(R.StatusBanner,{text:(0,t.jsxs)(B.View,{row:!0,gap:8,align:"center",children:[(0,t.jsx)(j.default,{}),(0,t.jsx)(B.View,{shrink:!0,children:(0,t.jsxs)(P.Text,{children:["These settings require a Replit ",w.enterprisePlanName," plan. Contact our sales team to learn more about enabling advanced features for your organization."]})})]}),action:(0,t.jsx)(v.TeamsContactUsButton,{text:"Contact sales",context:"orgs_settings",reason:"enterprise_feature",colorway:"primary"})})}e.s(["default",()=>ek],353516);let eV={},eT=s.gql`
+    fragment UniversalSettingsBilling on Customer {
+  id
+  authorizations {
+    editSubscription {
+      isAuthorized
+      message
+    }
+    editPaymentMethod {
+      isAuthorized
+      message
+    }
+    cancelSubscription {
+      isAuthorized
+      message
+    }
+  }
+  billing {
+    __typename
+    ... on CustomerBilling {
+      arrangement {
+        __typename
+        ... on CustomerSelfServeSubscription {
+          status
+          cancellationScheduledAt
+          subscriptionStartDate
+          subscriptionEndDate
+          plan {
+            __typename
+            ... on TieredSelfServePlan {
+              name
+              tier
+              externalId
+              interval
+              costCents
+              provider
+            }
+            ... on FlatSelfServePlan {
+              name
+              externalId
+              interval
+              costCents
+              provider
+            }
+          }
+        }
+        ... on CustomerSalesContract {
+          id
+          name
+          isTrial
+          startDate
+          endDate
+          salesContactEmail
+        }
+        ... on CustomerFreeTier {
+          _empty
+        }
+      }
+      paymentMethod {
+        id
+        last4
+        expirationMonth
+        expirationYear
+        externalId
+        isSaved
+      }
+    }
+  }
+}
+    `,eA=s.gql`
+    query UniversalSettingsBillingCurrentUser {
+  currentUser {
+    __typename
+    ... on CurrentUser {
+      id
+      customer {
+        id
+        ...UniversalSettingsBilling
+      }
+    }
+  }
+}
+    ${eT}`,eO=s.gql`
+    query UniversalSettingsBillingOrg($orgId: String!) {
+  getOrg(orgId: $orgId) {
+    __typename
+    ... on Org {
+      id
+      customer {
+        __typename
+        ... on Customer {
+          id
+          ...UniversalSettingsBilling
+        }
+      }
+    }
+  }
+}
+    ${eT}`,eD=s.gql`
+    mutation BillingCancelOrgSubscription($input: CancelOrgSubscriptionInput!) {
+  cancelOrgSubscription(input: $input) {
+    ... on CurrentUser {
+      id
+    }
+    ... on Error {
+      message
+    }
+  }
+}
+    `;var eR=e.i(602686),eP=e.i(252204),eI=e.i(416298),eB=e.i(569910),eE=e.i(319855),eL=e.i(315315),eq=e.i(213733),ez=e.i(940668),eN=e.i(681953),eF=e.i(6338),eM=e.i(939562),eG=e.i(887877),e$=e.i(740138);let eH=eF.loadingStyle.foregroundPulse(),eW={display:"flex",flexDirection:"column",padding:`${z.tokens.space12} ${z.tokens.space16}`},eK=["All collaborators will lose access","All active deployments will be taken down","Any unused credits will be forfeited","No access to full Replit Agent"],eY=["All collaborators will lose access","No access to full Replit Agent"];function eQ({loading:e,arrangement:r}){let s=r?function(e){if("CustomerSelfServeSubscription"===e.__typename){let{plan:t}=e;return`${(0,eE.displayCentsAsDollars)(t.costCents,2)} / ${function(e){switch(e){case"MONTHLY":return"month";case"YEARLY":return"year";case"SEMI_YEARLY":return"6 months";default:(0,eB.default)(e)}}(t.interval)}`}return null}(r):null;return(0,t.jsxs)(B.View,{clsx:e$.default.card,gap:12,children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",multiline:!1,children:"Current plan"}),(0,t.jsx)(B.View,{gap:4,children:e||!r?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(B.View,{clsx:[e$.default.skeleton,e$.default.skeletonPlanName],css:eH}),(0,t.jsx)(B.View,{clsx:[e$.default.skeleton,e$.default.skeletonCost],css:eH})]}):(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(P.Text,{multiline:!1,clsx:e$.default.mediumText,children:function(e){if("CustomerSelfServeSubscription"===e.__typename){let{plan:t}=e;return"TieredSelfServePlan"===t.__typename?`${t.name} ${t.tier}`:t.name}return"CustomerSalesContract"===e.__typename?e.name:"Free"}(r)}),null!=s&&(0,t.jsx)(P.Text,{color:"dimmest",multiline:!1,children:s})]})})]})}function eX({arrangement:e,paymentMethod:r}){var s;let a=e?"CustomerSelfServeSubscription"===(s=e).__typename?s.cancellationScheduledAt?`Cancels on ${(0,eL.formatDate)(s.cancellationScheduledAt)}`:`Next payment ${(0,eL.formatDate)(s.subscriptionEndDate)}`:"CustomerSalesContract"===s.__typename?`Contract ends ${(0,eL.formatDate)(s.endDate)}`:null:null;return r?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(P.Text,{multiline:!1,clsx:e$.default.mediumText,children:["•••• ",r.last4]}),a?(0,t.jsx)(P.Text,{color:"dimmest",multiline:!1,children:a}):null]}):(0,t.jsx)(P.Text,{color:"dimmest",multiline:!1,children:"No payment method on file"})}function eJ({loading:e,arrangement:r,paymentMethod:s}){return(0,t.jsxs)(B.View,{clsx:e$.default.card,gap:12,children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",multiline:!1,children:"Payment method"}),(0,t.jsx)(B.View,{gap:4,children:e?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(B.View,{clsx:[e$.default.skeleton,e$.default.skeletonCardInfo],css:eH}),(0,t.jsx)(B.View,{clsx:[e$.default.skeleton,e$.default.skeletonPaymentDate],css:eH})]}):(0,t.jsx)(eX,{arrangement:r,paymentMethod:s})})]})}function eZ({title:e,description:r,buttonText:s,disabledReason:a,action:i}){return(0,t.jsxs)(B.View,{gap:4,children:[(0,t.jsxs)(B.View,{row:!0,justify:"space-between",align:"center",gap:8,children:[(0,t.jsx)(B.View,{shrink:1,children:(0,t.jsx)(P.Text,{variant:"subheadDefault",multiline:!1,children:e})}),(0,t.jsx)(K.Tooltip,{tooltip:a,isDisabled:!a,children:"link"===i.type?(0,t.jsx)(M.ButtonLink,{noNextLink:!0,text:s,size:"default",href:i.href,disabled:!!a,target:"_blank",rel:"noopener noreferrer"}):(0,t.jsx)(O.Button,{text:s,size:"default",disabled:!!a,onClick:i.onClick})})]}),(0,t.jsx)(P.Text,{color:"dimmest",children:r})]})}function e0({title:e,description:s,buttonText:a,disabledReason:i,renderModal:n}){let[l,o]=(0,r.useState)(!1);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(eZ,{title:e,description:s,buttonText:a,disabledReason:i,action:{type:"button",onClick:()=>o(!0)}}),n({isOpen:l,onClose:()=>o(!1)})]})}function e1({isOpen:e,onClose:s,orgId:a,orgName:i,onCanceled:n}){var l;let o,u=(0,T.useFormField)("",e=>e.trim().toLowerCase()!==i.trim().toLowerCase()?{message:"Organization name does not match",severity:"error"}:null),c=(0,r.useId)(),{showError:g}=(0,y.default)(),[p,{loading:m}]=(l={onCompleted:e=>{switch(e.cancelOrgSubscription?.__typename){case"NotFoundError":case"UnauthorizedError":case"UserError":g(e.cancelOrgSubscription.message);break;case"CurrentUser":n(),s();break;default:(0,eB.default)(e.cancelOrgSubscription)}},onError:e=>g((0,eq.default)(e.message))},o={...eV,...l},d.useMutation(eD,o)),x=()=>{u.setValue(""),s()};return(0,t.jsx)(H.Modal,{isOpen:e,onRequestClose:x,maxWidth:440,centered:!0,hideCloseButton:!0,noPadding:!0,children:(0,t.jsxs)(eG.Form,{css:eW,onSubmit:async e=>{e.preventDefault(),await u.validate()||p({variables:{input:{orgId:a}}})},children:[(0,t.jsxs)(P.Text,{variant:"subheadBig",children:["Are you sure you want to cancel your subscription for ",i,"?"]}),(0,t.jsxs)(N.ShadesSurface,{p:12,gap:4,children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Here's what will change:"}),(0,t.jsx)(B.View,{gap:4,children:eY.map(e=>(0,t.jsxs)(B.View,{row:!0,gap:4,align:"center",py:4,children:[(0,t.jsx)(eR.default,{size:16,color:z.tokens.accentNegativeStrongest}),(0,t.jsx)(P.Text,{children:e})]},e))})]}),(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsx)(B.View,{tag:"label",htmlFor:c,children:"Organization name"}),(0,t.jsxs)(B.View,{gap:2,children:[(0,t.jsx)(D.Input,{id:c,placeholder:i,value:u.value,onChange:e=>u.setValue(e.target.value),onBlur:u.handleBlur}),u.error?(0,t.jsx)(eM.FieldErrorText,{children:u.error?.message}):(0,t.jsx)(P.Text,{color:"dimmer",variant:"small",children:"Enter the organization's name to confirm cancellation"})]})]}),(0,t.jsxs)(B.View,{row:!0,justify:"end",gap:12,children:[(0,t.jsx)(O.Button,{text:"Back",onClick:x}),(0,t.jsx)(O.Button,{disabled:!u.isValid||!!u.error||m,type:"submit",colorway:"negative",loading:m,text:"Yes, cancel subscription"})]})]})})}function e2({customerContext:e,cancellationDate:s,cancelSubscriptionDisabledReason:a,refetch:i}){let[n,l]=(0,r.useState)(!1);return n?(0,t.jsx)(R.StatusBanner,{colorway:"positive",text:"Subscription canceled successfully. Your subscription will end at the end of the current billing period."}):s?(0,t.jsx)(R.StatusBanner,{colorway:"negative",text:`Your Teams subscription ends on ${(0,eL.formatDate)(s)}. Contact support to request reactivation.`,action:(0,t.jsx)(M.ButtonLink,{noNextLink:!0,text:"Contact support",size:"small",href:k.SUPPORT_URL,target:"_blank",rel:"noopener noreferrer",iconRight:(0,t.jsx)(eP.default,{})})}):(0,t.jsx)(e0,{title:"Cancel subscription",description:"Cancel your subscription",buttonText:"Cancel subscription",disabledReason:a,renderModal:({isOpen:r,onClose:s})=>(0,t.jsx)(e1,{isOpen:r,onClose:s,orgId:e.orgId,orgName:e.orgName,onCanceled:()=>{l(!0),i()}})})}function e4({cancellationDate:e,cancelSubscriptionDisabledReason:r,cancelManagementHref:s}){return e?(0,t.jsx)(eZ,{title:"Restore subscription",description:`Your subscription ends on ${(0,eL.formatDate)(e)}. Restore your subscription to prevent service disruption`,buttonText:"Manage subscription",disabledReason:r,action:{type:"link",href:s}}):(0,t.jsx)(e0,{title:"Cancel subscription",description:"Cancel your subscription",buttonText:"Cancel subscription",disabledReason:r,renderModal:({isOpen:e,onClose:r})=>(0,t.jsx)(e6,{isOpen:e,onClose:r,managementHref:s})})}function e8({cancellationFlow:e,customerContext:r,cancellationDate:s,cancelSubscriptionDisabledReason:a,cancelManagementHref:i,refetch:n}){switch(e.type){case"orb":if("shared"!==r.type)return(0,t.jsx)(R.StatusBanner,{text:"Unable to cancel subscription from this context.",colorway:"negative",icon:(0,t.jsx)(eI.default,{})});return(0,t.jsx)(e2,{customerContext:r,cancellationDate:s,cancelSubscriptionDisabledReason:a,refetch:n});case"stripe":return(0,t.jsx)(e4,{cancellationDate:s,cancelSubscriptionDisabledReason:a,cancelManagementHref:i});case"mobile":return(0,t.jsx)(R.StatusBanner,{text:`Your subscription is managed through the ${e.storeName}. To cancel, please use the mobile app where it was purchased.`,colorway:"warning",icon:(0,t.jsx)(eI.default,{})});default:(0,eB.default)(e)}}function e6({isOpen:e,onClose:r,managementHref:s}){return(0,t.jsx)(H.Modal,{isOpen:e,onRequestClose:r,maxWidth:440,centered:!0,children:(0,t.jsxs)(B.View,{gap:24,p:4,children:[(0,t.jsx)(P.Text,{variant:"subheadBig",children:"Are you sure you want to cancel?"}),(0,t.jsxs)(N.ShadesSurface,{p:12,gap:4,children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Here's what will change:"}),(0,t.jsx)(B.View,{gap:4,children:eK.map(e=>(0,t.jsxs)(B.View,{row:!0,gap:4,align:"center",py:4,children:[(0,t.jsx)(eR.default,{size:16,color:z.tokens.accentNegativeStrongest}),(0,t.jsx)(P.Text,{children:e})]},e))})]}),(0,t.jsx)(B.View,{align:"center",children:(0,t.jsx)(M.ButtonLink,{noNextLink:!0,variant:"underlinedOnHover",colorway:"primary",text:"Read more about pricing and plans",href:"/pricing",target:"_blank",rel:"noopener noreferrer",iconRight:(0,t.jsx)(eP.default,{})})}),(0,t.jsxs)(B.View,{row:!0,gap:4,children:[(0,t.jsx)(B.View,{grow:!0,children:(0,t.jsx)(M.ButtonLink,{noNextLink:!0,variant:"nofill",stretch:!0,text:"Continue to Cancel",href:s,target:"_blank",rel:"noopener noreferrer",onClick:r})}),(0,t.jsx)(B.View,{grow:!0,children:(0,t.jsx)(O.Button,{stretch:!0,colorway:"primary",text:"Keep my Subscription",onClick:r})})]})]})})}e.s(["default",0,({customerContext:e})=>{let r,s,a,{loading:i,error:n,billing:l,customerId:d,authorizations:u,refetch:c}=(e=>{var t,r;let s,a,i="shared"===e.type,{data:n,loading:l,error:d,refetch:u}=(t={skip:i},s={...eV,...t},o.useQuery(eA,s)),{data:c,loading:g,error:p,refetch:m}=(r={variables:{orgId:i?e.orgId:""},skip:!i},a={...eV,...r},o.useQuery(eO,a)),x=c?.getOrg?.__typename==="Org"?c.getOrg:null,h=null;return i?h=x&&"Customer"===x.customer.__typename?x.customer:null:n?.currentUser?.__typename==="CurrentUser"&&(h=n.currentUser.customer),{loading:i?g:l,error:!!(i?p:d),billing:h?.billing.__typename==="CustomerBilling"?h.billing:null,customerId:h?.id??null,authorizations:h?.authorizations??null,refetch:i?m:u}})(e);if(!i&&(n||!l))return(0,t.jsx)(R.StatusBanner,{text:"Unable to load billing data.",colorway:"negative",icon:(0,t.jsx)(eI.default,{})});let g=l?.arrangement??null,p=l?.paymentMethod??null,m=g?.__typename==="CustomerSelfServeSubscription"?g.cancellationScheduledAt??null:null,x=!0,h=!0,f=!0,j="/checkout",w="View or change your subscription plan",y="Upgrade",b="/stripe-customer-portal",v={type:"stripe"};if(i?(r="Loading billing data",s="Loading billing data",a="Loading billing data"):u&&(u.editSubscription.isAuthorized||(r=u.editSubscription.message),u.editPaymentMethod.isAuthorized||(s=u.editPaymentMethod.message),u.cancelSubscription.isAuthorized||(a=u.cancelSubscription.message)),!i&&g)switch(g.__typename){case"CustomerFreeTier":h=!1,f=!1;break;case"CustomerSalesContract":{let e=g.salesContactEmail||"sales@replit.com",t=`Contact ${e}`;r=`${t} to change your plan`,s=`${t} to update billing details`,x=!1,h=!1,f=!1;break}case"CustomerSelfServeSubscription":{let e=function(e,t){switch(e){case"STRIPE":return{subscriptionManagementHref:"/checkout",subscriptionDescription:"View or change your subscription plan",subscriptionButtonText:"Upgrade",cancelManagementHref:t?`/stripe-customer-portal/customer/${t}`:"/stripe-customer-portal"};case"ORB":return{subscriptionManagementHref:t?`/orb-customer-portal/customer/${t}`:"/orb-customer-portal",subscriptionDescription:"View or change your subscription plan",subscriptionButtonText:"Upgrade",cancelManagementHref:t?`/orb-customer-portal/customer/${t}`:"/orb-customer-portal"};case"GOOGLE":return{subscriptionManagementHref:"https://play.google.com/store/account/subscriptions",subscriptionDescription:"Your subscription is managed through Google Play. Visit Google Play to manage your subscription.",subscriptionButtonText:"Open Google Play",cancelManagementHref:"https://play.google.com/store/account/subscriptions"};case"APPLE":return{subscriptionManagementHref:"https://apps.apple.com/account/subscriptions",subscriptionDescription:"Your subscription is managed through the App Store. Visit your Apple ID settings to manage your subscription.",subscriptionButtonText:"Open App Store",cancelManagementHref:"https://apps.apple.com/account/subscriptions"};default:(0,eB.default)(e)}}(g.plan.provider,d);switch(j=e.subscriptionManagementHref,w=e.subscriptionDescription,y=e.subscriptionButtonText,b=e.cancelManagementHref,g.plan.provider){case"STRIPE":v={type:"stripe"};break;case"ORB":v={type:"orb"};break;case"GOOGLE":v={type:"mobile",storeName:"Google Play"};break;case"APPLE":v={type:"mobile",storeName:"App Store"};break;default:(0,eB.default)(g.plan.provider)}}}return(0,t.jsxs)(B.View,{gap:20,children:[(0,t.jsxs)(P.Text,{color:"dimmest",children:[(0,t.jsx)("a",{href:d?`/orb-customer-portal/customer/${d}`:void 0,target:"_blank",rel:"noopener noreferrer",clsx:[e$.default.invoiceLink,{[e$.default.invoiceLinkDisabled]:i}],title:i?"Loading":void 0,"aria-disabled":i,children:"View previous invoices here"}),". Updates take up to 1 hour and may not reflect the latest usage data."]}),(0,t.jsxs)(B.View,{row:!0,gap:12,children:[(0,t.jsx)(eQ,{loading:i,arrangement:g}),x?(0,t.jsx)(eJ,{loading:i,arrangement:g,paymentMethod:p}):null]}),(0,t.jsx)("div",{clsx:e$.default.divider}),(0,t.jsx)(eZ,{title:"Change plan",description:w,buttonText:y,disabledReason:r,action:{type:"link",href:j}}),h?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)("div",{clsx:e$.default.divider}),(0,t.jsx)(e0,{title:"Update payment information",description:"Manage your payment methods and billing details",buttonText:"Update payment method",disabledReason:s,renderModal:({isOpen:r,onClose:a})=>{let i=()=>{a(),c()};return(0,t.jsx)(H.Modal,{isOpen:r,onRequestClose:i,maxWidth:480,centered:!0,children:(0,t.jsxs)(B.View,{gap:16,p:4,children:[(0,t.jsx)(P.Text,{variant:"subheadBig",children:"Update payment method"}),"shared"===e.type?(0,t.jsx)(ez.PaymentMethodFlow,{orgId:e.orgId,onSuccess:i,editPaymentAuthzMessage:s}):(0,t.jsx)(eN.AccountPaymentMethodFlow,{})]})})}})]}):null,f?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)("div",{clsx:e$.default.divider}),(0,t.jsx)(e8,{cancellationFlow:v,customerContext:e,cancellationDate:m,cancelSubscriptionDisabledReason:a,cancelManagementHref:b,refetch:c})]}):null]})}],53705);let e7={},e3=s.gql`
+    fragment SpendingAlertsCustomerAlerts on CustomerAlerts {
+  softAlert {
+    id
+    threshold
+  }
+  hardAlert {
+    id
+    threshold
+  }
+}
+    `,e5=s.gql`
+    fragment CustomerSpendingAlerts on Customer {
+  id
+  usageInterval {
+    spendingControls {
+      __typename
+      ... on CustomerSpendingControls {
+        alerts {
+          ...SpendingAlertsCustomerAlerts
+        }
+      }
+      ... on UnauthorizedError {
+        message
+      }
+    }
+  }
+  authorizations {
+    editUsageLimit {
+      isAuthorized
+      message
+    }
+  }
+}
+    ${e3}`,e9=s.gql`
+    mutation CustomerUsageUpdateSpendingAlerts($input: UpdateCustomerSpendingAlertsInput!) {
+  updateCustomerSpendingAlerts(input: $input) {
+    ... on Customer {
+      id
+      name
+      usageInterval {
+        spendingControls {
+          ... on CustomerSpendingControls {
+            alerts {
+              ...SpendingAlertsCustomerAlerts
+            }
+          }
+          ... on UnauthorizedError {
+            message
+          }
+        }
+      }
+    }
+    ... on UnauthorizedError {
+      message
+    }
+    ... on NotFoundError {
+      message
+    }
+    ... on UserError {
+      message
+    }
+    ... on Error {
+      message
+    }
+  }
+}
+    ${e3}`,te=s.gql`
+    fragment CustomerUsageOverViewCreditsBreakdown on CustomerCreditsOutput {
+  __typename
+  ... on CustomerCredits {
+    totalRemainingCredits
+    totalUsedCredits
+    subscription: byType(type: SUBSCRIPTION) {
+      remaining
+      used
+    }
+    creditPackPurchase: byType(type: CREDIT_PACK_PURCHASE) {
+      remaining
+      used
+    }
+    referral: byType(type: REFERRAL) {
+      remaining
+      used
+    }
+    gift: byType(type: GIFT) {
+      remaining
+      used
+    }
+    additional: byType(type: ADDITIONAL) {
+      remaining
+      used
+    }
+  }
+  ... on UnauthorizedError {
+    message
+  }
+}
+    `,tt=s.gql`
+    fragment CustomerUsageOverview on Customer {
+  id
+  usageInterval {
+    startDate
+    endDate
+    usage {
+      __typename
+      ... on CustomerUsage {
+        totalAmountUsd
+        subtotalAmountUsd
+      }
+      ... on UnauthorizedError {
+        message
+      }
+    }
+    credits {
+      ... on CustomerCredits {
+        ...CustomerUsageOverViewCreditsBreakdown
+      }
+      ...CustomerUsageOverViewCreditsBreakdown
+    }
+  }
+  ...CustomerSpendingAlerts
+}
+    ${te}
+${e5}`,tr=s.gql`
+    fragment CustomerCreditsBlocks on Customer {
+  id
+  usageInterval {
+    credits {
+      __typename
+      ... on CustomerCredits {
+        totalRemainingCredits
+        totalUsedCredits
+        creditPackPurchaseBlocks: byType(type: CREDIT_PACK_PURCHASE) {
+          blocks {
+            blockId
+            creditType
+            initialBalance
+            currentBalance
+            effectiveDate
+            expiryDate
+          }
+        }
+        referralBlocks: byType(type: REFERRAL) {
+          blocks {
+            blockId
+            creditType
+            initialBalance
+            currentBalance
+            effectiveDate
+            expiryDate
+          }
+        }
+        giftBlocks: byType(type: GIFT) {
+          blocks {
+            blockId
+            creditType
+            initialBalance
+            currentBalance
+            effectiveDate
+            expiryDate
+          }
+        }
+      }
+      ... on UnauthorizedError {
+        message
+      }
+    }
+  }
+}
+    `,ts=s.gql`
+    fragment CustomerUsageBudgetWarning on Customer {
+  id
+  usageInterval {
+    usage {
+      __typename
+      ... on CustomerUsage {
+        totalAmountUsd
+      }
+      ... on UnauthorizedError {
+        message
+      }
+    }
+    spendingControls {
+      __typename
+      ... on CustomerSpendingControls {
+        alerts {
+          hardAlert {
+            threshold
+          }
+        }
+      }
+      ... on UnauthorizedError {
+        message
+      }
+    }
+  }
+}
+    `,ta={},ti=s.gql`
+    fragment CustomerUsageAuthorizations on CustomerAuthorizations {
+  viewUsage {
+    isAuthorized
+    message
+  }
+  viewUsageLimit {
+    isAuthorized
+    message
+  }
+  editUsageLimit {
+    isAuthorized
+    message
+  }
+  viewSubscription {
+    isAuthorized
+    message
+  }
+}
+    `,tn=s.gql`
+    fragment CustomerUsage on Customer {
+  id
+  ...CustomerUsageOverview
+  ...CustomerSpendingAlerts
+  ...CustomerCreditsBlocks
+  ...CustomerUsageBudgetWarning
+}
+    ${tt}
+${e5}
+${tr}
+${ts}`,tl=s.gql`
+    query CustomerUsagePersonal {
+  currentUser {
+    __typename
+    ... on CurrentUser {
+      id
+      customer {
+        id
+        authorizations {
+          ...CustomerUsageAuthorizations
+        }
+        ...CustomerUsage
+      }
+    }
+  }
+}
+    ${ti}
+${tn}`,to=s.gql`
+    query CustomerUsageShared($orgId: String!) {
+  getOrg(orgId: $orgId) {
+    __typename
+    ... on Org {
+      id
+      customer {
+        __typename
+        ... on Customer {
+          id
+          authorizations {
+            ...CustomerUsageAuthorizations
+          }
+          ...CustomerUsage
+        }
+      }
+    }
+  }
+}
+    ${ti}
+${tn}`;var td=e.i(342008),tu=e.i(884151),tc=e.i(917255);function tg(e){if(e.loading)return null;let{data:r}=e,s=r.usageInterval.usage,a=r.usageInterval.spendingControls;if("UnauthorizedError"===s.__typename||"UnauthorizedError"===a.__typename)return null;let i=a.alerts.hardAlert?.threshold;if(!i)return null;let n=s.totalAmountUsd;return n>=i?(0,t.jsx)(R.StatusBanner,{colorway:"warning",text:(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsxs)(B.View,{children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Your usage has reached your monthly cost limit."}),(0,t.jsx)(P.Text,{children:"Increase your limit to resume normal functionality."})]}),(0,t.jsx)(B.View,{row:!0,children:(0,t.jsx)(M.ButtonLink,{text:"Learn more",target:"_blank",variant:"nofill",href:k.LINKS_DOCS.MANAGING_SPEND,iconLeft:(0,t.jsx)(tc.default,{})})})]})}):n>=.75*i?(0,t.jsx)(R.StatusBanner,{colorway:"yellow",text:(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsxs)(B.View,{children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Your usage is nearing your monthly cost limit."}),(0,t.jsx)(P.Text,{children:"To prevent service suspension, consider increasing your limit or reducing usage."})]}),(0,t.jsx)(B.View,{row:!0,children:(0,t.jsx)(M.ButtonLink,{text:"Learn more",target:"_blank",variant:"nofill",href:k.LINKS_DOCS.USAGE_BASED_BILLING_BUDGETS,iconLeft:(0,t.jsx)(tc.default,{})})})]})}):null}var tp=e.i(121758),tm=e.i(417751),tx=e.i(187505),th=e.i(441329),tf=e.i(138492),tj=e.i(965153),tw=e.i(27820),ty=e.i(169932),tb=e.i(420309),tv=e.i(272119),t_=e.i(403671),tC=e.i(833387),tS=e.i(423828),tk=e.i(782514),tU=e.i(823350);let tV=eF.loadingStyle.foregroundPulse();function tT(e){return e.toLocaleString("en-US",{style:"currency",currency:"USD",minimumFractionDigits:0})}function tA({loading:e,data:r,creditType:s}){let a,{title:i,label:n,queryName:l}=function(e){switch(e){case ef.CustomerCreditType.CreditPackPurchase:return{title:"Credit packs",label:"credit pack",queryName:"creditPackPurchaseBlocks"};case ef.CustomerCreditType.Referral:return{title:"Referral credits",label:"referral credits",queryName:"referralBlocks"};case ef.CustomerCreditType.Gift:return{title:"Gifted credits",label:"gifted credits",queryName:"giftBlocks"};default:(0,eB.default)(e)}}(s);if(e)a=(0,t.jsx)(B.View,{clsx:[tU.default.skeleton,tU.default.skeletonBlock],css:tV});else if("UnauthorizedError"===r.usageInterval.credits.__typename)a=(0,t.jsx)(P.Text,{color:"dimmer",children:r.usageInterval.credits.message});else if(r.usageInterval.credits[l].blocks.length>0){let e=r.usageInterval.credits[l].blocks.map(e=>({...e,id:e.blockId}));a=(0,t.jsxs)(ty.default,{"aria-label":i,selectionMode:"none",children:[(0,t.jsx)(tC.TableHeader,{columns:[{key:"name",label:"Name"},{key:"issueDate",label:"Issue date"},{key:"expiryDate",label:"Expiry date"},{key:"usage",label:"Usage"}],children:e=>(0,t.jsx)(t_.TableColumn,{children:(0,t.jsx)(P.Text,{color:"dimmest",children:e.label})},e.key)}),(0,t.jsx)(tb.default,{items:e,children:e=>(0,t.jsxs)(tS.TableRow,{id:e.id,children:[(0,t.jsx)(tv.TableCell,{children:(0,t.jsxs)(P.Text,{children:[tT(e.initialBalance)," ",n]})}),(0,t.jsx)(tv.TableCell,{children:(0,t.jsx)(P.Text,{children:(0,tm.format)(new Date(e.effectiveDate),"MMM dd, yyyy")})}),(0,t.jsx)(tv.TableCell,{children:(0,t.jsx)(P.Text,{children:(0,tm.format)(new Date(e.expiryDate),"MMM dd, yyyy")})}),(0,t.jsx)(tv.TableCell,{children:(0,t.jsxs)(B.View,{row:!0,align:"center",gap:12,children:[(0,t.jsx)(B.View,{clsx:tU.default.usageText,children:(0,t.jsxs)(P.Text,{children:[tT(e.initialBalance-e.currentBalance)," ","/ ",tT(e.initialBalance)]})}),(0,t.jsx)(B.View,{clsx:tU.default.measureBarContainer,children:(0,t.jsx)(tw.MeasureBar,{clsx:tU.default.measureBar,current:e.initialBalance>0?(e.initialBalance-e.currentBalance)/e.initialBalance:0,total:1,tooltipHidden:!0})})]})})]})})]})}else a=(0,t.jsx)(B.View,{py:8,align:"center",children:(0,t.jsxs)(P.Text,{color:"dimmer",children:["You do not have any ",n]})});return(0,t.jsxs)(B.View,{children:[(0,t.jsx)(P.Text,{children:i}),(0,t.jsx)(B.View,{clsx:tU.default.creditTableContainer,children:a})]})}function tO(e){let{trackClick:r}=(0,tx.useTrackClick)(),s=(0,th.useIsInBonsaiWebview)();return(0,t.jsx)(tk.TrackingHierarchyProvider,{hierarchy:{surface:"credits"},children:(0,t.jsxs)(B.View,{gap:16,children:[(0,t.jsx)(P.Header,{variant:"subheadBig",level:2,children:"Credits"}),!s&&(0,t.jsx)(B.View,{align:"start",children:(0,t.jsx)(O.Button,{stretch:!1,type:"button",onClick:()=>{r({productArea:"billing",target:"purchase_credit_packs_button"}),tp.default.show(tf.default,{onPurchaseSuccess:e.onPurchaseCreditPackSuccess})},text:"Purchase credit pack"})}),(0,t.jsx)(tj.AccordionItem,{headerContent:(0,t.jsx)(B.View,{clsx:tU.default.accordionHeaderContent,children:(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Credit packs"})}),defaultExpanded:!1,chevron:"start",children:(0,t.jsx)(tA,{...e,creditType:ef.CustomerCreditType.CreditPackPurchase})}),(0,t.jsx)(tj.AccordionItem,{headerContent:(0,t.jsx)(B.View,{clsx:tU.default.accordionHeaderContent,children:(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Promotional credits"})}),defaultExpanded:!1,chevron:"start",children:(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsx)(tA,{...e,creditType:ef.CustomerCreditType.Referral}),(0,t.jsx)(tA,{...e,creditType:ef.CustomerCreditType.Gift})]})})]})})}var tD=e.i(330666),tR=e.i(116235),tP=e.i(706323),tI=e.i(791729),tB=e.i(284325),tE=e.i(89739);let tL=eF.loadingStyle.foregroundPulse();function tq(e){return e?e.toLocaleString("en-US",{style:"currency",currency:"USD",maximumFractionDigits:2*!Number.isInteger(e)}):"not set"}function tz(e,t){let r=e.trim(),s=t.trim(),a=""!==r?Number.parseFloat(r):null,i=""!==s?Number.parseFloat(s):null;return null!=a&&Number.isNaN(a)||null!=i&&Number.isNaN(i)?{ok:!1,error:{softAlertError:Number.isNaN(a)?"Please enter a number":void 0,hardAlertError:Number.isNaN(i)?"Please enter a number":void 0}}:(0,tI.validateAlertThresholds)(a,i)}function tN(e){let s,[a,i]=(0,r.useState)(!1),{showError:n}=(0,y.default)(),l=(0,tB.default)(),o=(0,th.useDoesBonsaiSupportFeature)("paymentFlowBridgeSetUsageLimits");return s=e.loading?(0,t.jsx)(B.View,{clsx:[tE.default.skeleton,tE.default.skeletonForm],css:tL}):"UnauthorizedError"===e.data.usageInterval.spendingControls.__typename?(0,t.jsx)(P.Text,{children:e.data.usageInterval.spendingControls.message}):e.data.authorizations.editUsageLimit.isAuthorized?(0,t.jsx)(tM,{customerId:e.data.id,initialAlerts:e.data.usageInterval.spendingControls.alerts,onDone:()=>i(!1)}):(0,t.jsx)(P.Text,{children:e.data.authorizations.editUsageLimit.message}),(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsxs)(B.View,{row:!0,children:[(0,t.jsx)(P.Text,{color:"dimmer",children:"Alert: "}),e.loading?(0,t.jsx)(B.View,{clsx:[tE.default.skeleton,tE.default.skeletonValue],css:tL}):(0,t.jsx)(P.Text,{children:"UnauthorizedError"===e.data.usageInterval.spendingControls.__typename?e.data.usageInterval.spendingControls.message:tq(e.data.usageInterval.spendingControls.alerts.softAlert?.threshold)}),(0,t.jsx)(P.Text,{color:"dimmer",children:" | "}),(0,t.jsx)(P.Text,{color:"dimmer",children:"Budget: "}),e.loading?(0,t.jsx)(B.View,{clsx:[tE.default.skeleton,tE.default.skeletonValue],css:tL}):(0,t.jsx)(P.Text,{children:"UnauthorizedError"===e.data.usageInterval.spendingControls.__typename?e.data.usageInterval.spendingControls.message:tq(e.data.usageInterval.spendingControls.alerts.hardAlert?.threshold)})]}),(0,t.jsx)(B.View,{onClick:()=>{if(o){if(!e.loading){if("UnauthorizedError"===e.data.usageInterval.spendingControls.__typename||!e.data.authorizations.editUsageLimit.isAuthorized)return void n(e.data.authorizations.editUsageLimit.message??"You do not have permission to edit usage limits.");l.showPaymentFlow({type:"setUsageLimits"})}}else i(!0)},children:(0,t.jsx)(B.View,{row:!0,gap:4,align:"center",children:(0,t.jsxs)(P.Text,{clsx:tE.default.manageLink,children:["Manage ",o?null:(0,t.jsx)(S.default,{})]})})})]}),(0,t.jsx)(H.Modal,{isOpen:a,onRequestClose:()=>i(!1),children:s})]})}function tF({type:e,value:s,error:a,onChange:i}){let n=(0,r.useId)(),l=(0,r.useId)();return(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsxs)(B.View,{clsx:tE.default.inputContainer,children:[(0,t.jsxs)(tR.default,{alt:"Dollars",clsx:tE.default.inputIcon,children:[(0,t.jsx)(tP.default,{size:24}),(0,t.jsx)(tD.VisuallyHidden,{children:"Dollars"})]}),(0,t.jsx)(D.Input,{id:n,type:"number",min:0,value:s,clsx:tE.default.budgetInput,"aria-describedby":l,onChange:e=>i(e.target.value)}),s?(0,t.jsx)(B.View,{clsx:tE.default.closeButton,onClick:()=>i(""),role:"button",tabIndex:0,"aria-label":`Clear monthly usage ${"hard"===e?"limit":"alert"}`,onKeyDown:e=>{("Enter"===e.key||" "===e.key)&&(e.preventDefault(),i(""))},children:(0,t.jsx)(eR.default,{size:16})}):null]}),a?(0,t.jsx)(R.StatusBanner,{id:l,icon:(0,t.jsx)(eI.default,{}),text:a,colorway:"negative"}):null]})}function tM({customerId:e,initialAlerts:s,onDone:a}){var i;let n,l=s?.softAlert?.threshold.toString()??"",o=s?.hardAlert?.threshold.toString()??"",u=(0,T.useFormField)(l,e=>{let t=tz(e,c.value);if(!t.ok&&t.error.softAlertError)return{severity:"error",message:t.error.softAlertError}}),c=(0,T.useFormField)(o,e=>{let t=tz(u.value,e);if(!t.ok&&t.error.hardAlertError)return{severity:"error",message:t.error.hardAlertError}}),{showConfirm:g,showError:p}=(0,y.default)(),m=u.validate,x=c.validate;(0,r.useEffect)(()=>{m(),x()},[u.value,c.value,m,x]);let[h,f]=(i={onError(e){p(e.message)},onCompleted(e){"Customer"!==e.updateCustomerSpendingAlerts.__typename?p(e.updateCustomerSpendingAlerts.message):(g("Updated usage settings"),a())},refetchQueries:[tl,to]},n={...e7,...i},d.useMutation(e9,n));return(0,t.jsxs)(B.View,{gap:16,align:"start",children:[(0,t.jsx)(P.Header,{level:1,variant:"subheadBig",children:"Manage your monthly spending"}),(0,t.jsx)(P.Text,{children:"Usage alerts and budgets can help you control spending on additional usage beyond the monthly credit included with your plan"}),(0,t.jsxs)(B.View,{gap:8,align:"start",children:[(0,t.jsx)(P.Header,{level:2,variant:"subheadDefault",children:"Set a usage alert"}),(0,t.jsx)(P.Text,{children:"Choose an amount, and we'll notify you if your spending reaches it — no interruptions, just a helpful heads-up."}),(0,t.jsx)(tF,{type:"soft",value:u.value,onChange:u.setValue,error:u.error?.message})]}),(0,t.jsxs)(B.View,{gap:8,align:"start",children:[(0,t.jsx)(P.Header,{level:2,variant:"subheadDefault",children:"Set a usage budget"}),(0,t.jsx)(P.Text,{children:"When this limit is reached, services will be suspended until the budget is increased or the next billing cycle begins. This will help prevent extra charges."}),(0,t.jsx)(tF,{type:"hard",value:c.value,onChange:c.setValue,error:c.error?.message})]}),(0,t.jsx)(O.Button,{text:"Save",colorway:"primary",loading:f.loading,disabled:f.loading||null!==u.error||null!==c.error,onClick:()=>{if(u.validate()||c.validate())return;let t=tz(u.value,c.value);t.ok&&h({variables:{input:{customerId:e,softAlertThreshold:t.value.softAlertValue,hardAlertThreshold:t.value.hardAlertValue}}})},stretch:!0})]})}var tG=e.i(604963),t$=e.i(257811),tH=e.i(210829);let tW=eF.loadingStyle.foregroundPulse();function tK(e){return e.toLocaleString("en-US",{style:"currency",currency:"USD",minimumFractionDigits:0})}function tY(e){return e.toLocaleString("en-US",{style:"currency",currency:"USD",maximumFractionDigits:2,minimumFractionDigits:2})}function tQ(e){let s,[a,i]=(0,r.useState)(!1);return s=e.loading?(0,t.jsx)(B.View,{clsx:[tH.default.skeleton,tH.default.skeletonBreakdown],css:tW}):"UnauthorizedError"===e.data.__typename?(0,t.jsx)(B.View,{children:(0,t.jsx)(P.Text,{children:e.data.message})}):(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)(B.View,{clsx:tH.default.popoverRow,children:[(0,t.jsx)(P.Text,{color:"dimmer",children:"Subscription credits"}),(0,t.jsx)(P.Text,{children:tK(e.data.subscription[e.type])})]}),(0,t.jsxs)(B.View,{clsx:tH.default.popoverRow,children:[(0,t.jsx)(P.Text,{color:"dimmer",children:"Credit packs"}),(0,t.jsx)(P.Text,{children:tK(e.data.creditPackPurchase[e.type])})]}),(0,t.jsx)(B.View,{clsx:tH.default.dottedDivider}),(0,t.jsxs)(B.View,{clsx:tH.default.popoverRow,children:[(0,t.jsx)(P.Text,{color:"dimmer",children:"Promotional credits"}),(0,t.jsx)(P.Text,{children:tK(e.data.referral[e.type]+e.data.gift[e.type])})]}),(0,t.jsxs)(B.View,{clsx:tH.default.popoverRow,children:[(0,t.jsx)(P.Text,{color:"dimmer",children:"Additional credits"}),(0,t.jsx)(P.Text,{children:tK(e.data.additional[e.type])})]}),(0,t.jsx)(B.View,{clsx:tH.default.solidDivider}),(0,t.jsxs)(B.View,{clsx:tH.default.popoverRow,children:[(0,t.jsxs)(P.Text,{children:["Total ",e.type]}),(0,t.jsx)(P.Text,{children:tK("remaining"===e.type?e.data.totalRemainingCredits:e.data.totalUsedCredits)})]})]}),(0,t.jsxs)(tG.PopoverTrigger,{label:"Credits breakdown",arrow:!0,placement:"bottom",isOpen:a,onOpenChange:i,children:[(0,t.jsx)(O.Button,{variant:"underlined",colorway:"blue",text:"View breakdown",alignment:"start"}),(0,t.jsx)(B.View,{gap:8,p:16,children:s})]})}function tX(e){let r=e.loading?{loading:!0,data:null}:{loading:!1,data:e.data.usageInterval.credits};return(0,t.jsxs)(B.View,{gap:16,children:[(0,t.jsx)(P.Header,{variant:"subheadBig",level:2,children:"Usage overview"}),(0,t.jsx)(B.View,{clsx:tH.default.cardsContainerWrapper,children:(0,t.jsxs)(B.View,{clsx:tH.default.cardsContainer,children:[(0,t.jsx)(B.View,{p:12,clsx:tH.default.card,children:(0,t.jsxs)(B.View,{gap:12,children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Total available credits"}),(0,t.jsxs)(B.View,{clsx:tH.default.cardContent,children:[(0,t.jsxs)(B.View,{clsx:tH.default.fieldRow,children:[(0,t.jsx)(P.Text,{color:"dimmer",children:"Remaining "}),e.loading?(0,t.jsx)(B.View,{clsx:[tH.default.skeleton,tH.default.statSkeleton],css:tW}):(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"UnauthorizedError"===e.data.usageInterval.credits.__typename?e.data.usageInterval.credits.message:tK(e.data.usageInterval.credits.totalRemainingCredits)})]}),(0,t.jsx)(tQ,{...r,type:"remaining"}),(0,t.jsxs)(B.View,{clsx:tH.default.fieldRow,children:[(0,t.jsx)(P.Text,{color:"dimmer",children:"Resets "}),e.loading?(0,t.jsx)(B.View,{clsx:[tH.default.skeleton,tH.default.statSkeletonWide],css:tW}):(0,t.jsx)(t$.Timestamp,{textColor:"dimmer",date:new Date(e.data.usageInterval.endDate),dateFormat:"relative"})]})]})]})}),(0,t.jsx)(B.View,{p:12,clsx:tH.default.card,children:(0,t.jsxs)(B.View,{gap:12,children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Credits used this month"}),(0,t.jsxs)(B.View,{clsx:tH.default.cardContent,children:[(0,t.jsxs)(B.View,{clsx:tH.default.fieldRow,children:[(0,t.jsx)(P.Text,{color:"dimmer",children:"Used "}),e.loading?(0,t.jsx)(B.View,{clsx:[tH.default.skeleton,tH.default.statSkeleton],css:tW}):(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"UnauthorizedError"===e.data.usageInterval.credits.__typename?e.data.usageInterval.credits.message:tK(e.data.usageInterval.credits.totalUsedCredits)})]}),(0,t.jsx)(tQ,{...r,type:"used"})]})]})}),(0,t.jsx)(B.View,{p:12,clsx:tH.default.card,children:(0,t.jsxs)(B.View,{gap:12,children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Additional usage"}),(0,t.jsxs)(B.View,{clsx:tH.default.cardContent,children:[(0,t.jsxs)(B.View,{clsx:tH.default.fieldRow,children:[(0,t.jsx)(P.Text,{color:"dimmer",children:"Spent "}),e.loading?(0,t.jsx)(B.View,{clsx:[tH.default.skeleton,tH.default.statSkeleton],css:tW}):(0,t.jsx)(K.Tooltip,{tooltip:"UnauthorizedError"===e.data.usageInterval.usage.__typename?e.data.usageInterval.usage.message:(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsxs)(B.View,{clsx:tH.default.popoverRow,children:[(0,t.jsx)(P.Text,{variant:"small",children:"Subtotal"}),(0,t.jsx)(P.Text,{variant:"small",children:tY(e.data.usageInterval.usage.subtotalAmountUsd)})]}),e.data.usageInterval.usage.subtotalAmountUsd-e.data.usageInterval.usage.totalAmountUsd>0?(0,t.jsxs)(B.View,{clsx:tH.default.popoverRow,children:[(0,t.jsx)(P.Text,{variant:"small",color:"dimmer",children:"Credits applied"}),(0,t.jsxs)(P.Text,{variant:"small",color:"dimmer",children:["-",tY(e.data.usageInterval.usage.subtotalAmountUsd-e.data.usageInterval.usage.totalAmountUsd)]})]}):null,(0,t.jsx)(G.DividerH,{}),(0,t.jsxs)(B.View,{clsx:tH.default.popoverRow,children:[(0,t.jsx)(P.Text,{variant:"small",children:"Total due"}),(0,t.jsx)(P.Text,{variant:"small",children:tY(e.data.usageInterval.usage.totalAmountUsd)})]})]}),children:(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"UnauthorizedError"===e.data.usageInterval.usage.__typename?e.data.usageInterval.usage.message:tY(e.data.usageInterval.usage.totalAmountUsd)})})]}),(0,t.jsx)(B.View,{clsx:tH.default.fieldRow,children:(0,t.jsx)(tN,{...e})})]})]})})]})})]})}var tJ=e.i(103490),tZ=e.i(182409),t0=e.i(695784);let t1={},t2=s.gql`
+    fragment CustomerResourceUsageFields on CustomerResourceUsage {
+  type
+  displayName
+  allotment
+  usage
+  percentage
+  overageCostsUSD
+  totalRepls
+  unitPrice
+  usageByReplConnection(input: $usageInput) {
+    items {
+      id
+      usageRepl {
+        ... on Repl {
+          id
+          title
+          url
+          nextPagePathname
+          iconUrl
+        }
+        ... on DeletedRepl {
+          id
+        }
+      }
+      usage
+      percentage
+      configName
+    }
+    pageInfo {
+      hasNextPage
+      nextCursor
+    }
+  }
+}
+    `,t4=s.gql`
+    query CustomerResourceRowPersonal($resource: CustomerResourceUsageType!, $usageInput: ResourceUsageByReplConnectionInput) {
+  currentUser {
+    ... on CurrentUser {
+      id
+      username
+      customer {
+        id
+        usageInterval {
+          usage {
+            __typename
+            ... on CustomerUsage {
+              usageByResource(resource: $resource) {
+                ...CustomerResourceUsageFields
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+    ${t2}`,t8=s.gql`
+    query CustomerResourceRowShared($orgId: String!, $resource: CustomerResourceUsageType!, $usageInput: ResourceUsageByReplConnectionInput) {
+  currentUser {
+    ... on CurrentUser {
+      id
+      username
+    }
+  }
+  getOrg(orgId: $orgId) {
+    __typename
+    ... on Org {
+      id
+      customer {
+        __typename
+        ... on Customer {
+          id
+          usageInterval {
+            usage {
+              __typename
+              ... on CustomerUsage {
+                usageByResource(resource: $resource) {
+                  ...CustomerResourceUsageFields
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+    ${t2}`;var t6=e.i(927600),t7=e.i(845822),t3=e.i(228108),t5=e.i(889704);let t9=eF.loadingStyle.foregroundPulse();function re(e){switch(e){case ef.CustomerResourceUsageType.AgentUsage:return{loadingDisplayName:"Agent Usage",displayUnitLabel:null};case ef.CustomerResourceUsageType.ModelFarmUsage:return{loadingDisplayName:"Replit AI Integrations",displayUnitLabel:null};case ef.CustomerResourceUsageType.DeploymentsOutboundDataTransfer:return{loadingDisplayName:"Outbound Data Transfer",displayUnitLabel:"GiB"};case ef.CustomerResourceUsageType.ReservedVmComputeTime:return{loadingDisplayName:"Reserved VM Deployment",displayUnitLabel:"Compute hours"};case ef.CustomerResourceUsageType.AutoscaleDeployments:return{loadingDisplayName:"Autoscale Deployment",displayUnitLabel:"Deployments"};case ef.CustomerResourceUsageType.AutoscaleComputeUnits:return{loadingDisplayName:"Autoscale Deployment",displayUnitLabel:"Compute units"};case ef.CustomerResourceUsageType.AutoscaleRequests:return{loadingDisplayName:"Autoscale Deployment",displayUnitLabel:"Requests"};case ef.CustomerResourceUsageType.StaticDeployments:return{loadingDisplayName:"Static Deployment",displayUnitLabel:"Count"};case ef.CustomerResourceUsageType.ScheduledSchedulerDays:return{loadingDisplayName:"Scheduled Deployment",displayUnitLabel:"Deployments"};case ef.CustomerResourceUsageType.ScheduledComputeUnits:return{loadingDisplayName:"Scheduled Deployment",displayUnitLabel:"Compute units"};case ef.CustomerResourceUsageType.NeonDataStorage:return{loadingDisplayName:"PostgreSQL Storage",displayUnitLabel:"GiB"};case ef.CustomerResourceUsageType.NeonComputeTime:return{loadingDisplayName:"PostgreSQL Compute",displayUnitLabel:"Hours"};case ef.CustomerResourceUsageType.ObjectStorageDataStorage:return{loadingDisplayName:"App Storage",displayUnitLabel:"GiB-months"};case ef.CustomerResourceUsageType.ObjectStorageDataTransfer:return{loadingDisplayName:"App Storage Data Transfer",displayUnitLabel:"GiB"};case ef.CustomerResourceUsageType.ObjectStorageBasicOperations:return{loadingDisplayName:"App Storage Basic Operations",displayUnitLabel:"Requests"};case ef.CustomerResourceUsageType.ObjectStorageAdvancedOperations:return{loadingDisplayName:"App Storage Advanced Operations",displayUnitLabel:"Requests"}}return{loadingDisplayName:"Resource",displayUnitLabel:null}}function rt({displayName:e,displayUnitLabel:r,color:s,maxLines:a}){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(P.Text,{color:s,maxLines:a,children:e}),r?(0,t.jsxs)(P.Text,{color:"dimmest",maxLines:1,children:["(",r,")"]}):null]})}function rr({resource:e,orgId:r,id:s,hideQuotaColumns:a}){return r?(0,t.jsx)(ra,{resource:e,orgId:r,id:s,hideQuotaColumns:a}):(0,t.jsx)(rs,{resource:e,id:s,hideQuotaColumns:a})}function rs({resource:e,id:r,hideQuotaColumns:s}){var a;let i,{data:n,fetchMore:l,networkStatus:d}=(a={ssr:!1,fetchPolicy:"cache-and-network",variables:{resource:e,usageInput:{count:t7.NUM_REPLS_IN_PAGE}},notifyOnNetworkStatusChange:!0},i={...t1,...a},o.useQuery(t4,i)),u=n?.currentUser?.customer.usageInterval.usage.__typename==="CustomerUsage"?n.currentUser.customer.usageInterval.usage.usageByResource:void 0,c=u?{rowData:u,loading:!1,fetchingMore:d===t0.NetworkStatus.fetchMore,onFetchMore:()=>{let e=u?.usageByReplConnection?.pageInfo;e?.hasNextPage&&l({variables:{usageInput:{after:e.nextCursor}}})},id:r,hideQuotaColumns:s,resource:e}:{loading:!0,rowData:null,fetchingMore:!1,onFetchMore:()=>{},id:r,hideQuotaColumns:s,resource:e};return(0,t.jsx)(rp,{...c})}function ra({resource:e,orgId:r,id:s,hideQuotaColumns:a}){var i;let n,{data:l,fetchMore:d,networkStatus:u}=(i={ssr:!1,fetchPolicy:"cache-and-network",variables:{orgId:r,resource:e,usageInput:{count:t7.NUM_REPLS_IN_PAGE}},notifyOnNetworkStatusChange:!0},n={...t1,...i},o.useQuery(t8,n)),c=l?.getOrg?.__typename==="Org"?l.getOrg:void 0,g=c?.customer.__typename==="Customer"?c.customer:void 0,p=g?.usageInterval.usage.__typename==="CustomerUsage"?g.usageInterval.usage.usageByResource:void 0,m=p?{rowData:p,loading:!1,fetchingMore:u===t0.NetworkStatus.fetchMore,onFetchMore:()=>{let e=p?.usageByReplConnection?.pageInfo;e?.hasNextPage&&d({variables:{usageInput:{after:e.nextCursor}}})},id:s,hideQuotaColumns:a,resource:e}:{loading:!0,rowData:null,fetchingMore:!1,onFetchMore:()=>{},id:s,hideQuotaColumns:a,resource:e};return(0,t.jsx)(rp,{...m})}function ri({resource:e,hideQuotaColumns:r,isBreakdownOpen:s,onToggleBreakdown:a}){let{displayUnitLabel:i,loadingDisplayName:n}=re(e),l=(0,t.jsx)(B.View,{align:"end",children:(0,t.jsx)(B.View,{clsx:[t5.default.skeleton,t5.default.skeletonLineShort],css:t9})});return(0,t.jsxs)("tr",{clsx:[t5.default.resourceRow,t5.default.hiddenOnMobile,t5.default.resourceRowClickable],onClick:a,children:[(0,t.jsx)("td",{clsx:[t5.default.resourceRowCell,t5.default.resourceRowName],children:(0,t.jsxs)(B.View,{row:!0,gap:4,align:"center",children:[(0,t.jsx)(t6.default,{clsx:[t5.default.chevronIcon,{[t5.default.chevronOpen]:s}],size:16}),(0,t.jsx)(rt,{displayName:n,displayUnitLabel:i,color:"dimmer"})]})}),r?null:(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(ro,{children:l}),(0,t.jsx)(ro,{children:l})]}),(0,t.jsx)(ro,{children:l}),(0,t.jsx)(ro,{isUnitPrice:!0,children:l}),(0,t.jsx)(ro,{children:l})]})}function rn({resource:e,isBreakdownOpen:r,onToggleBreakdown:s}){let{displayUnitLabel:a,loadingDisplayName:i}=re(e);return(0,t.jsxs)("tr",{clsx:[t5.default.resourceRow,t5.default.hiddenOnDesktop,t5.default.resourceRowClickable],onClick:s,children:[(0,t.jsx)("td",{clsx:[t5.default.resourceRowCell,t5.default.resourceRowName,t5.default.mobileNameCell],children:(0,t.jsxs)(B.View,{row:!0,gap:4,align:"center",children:[(0,t.jsx)(t6.default,{clsx:[t5.default.chevronIcon,{[t5.default.chevronOpen]:r}],size:16}),(0,t.jsx)(rt,{displayName:i,displayUnitLabel:a,color:"dimmer"})]})}),(0,t.jsx)("td",{clsx:[t5.default.resourceRowCell,t5.default.mobilePriceUsageCell],children:(0,t.jsxs)(B.View,{align:"end",gap:4,children:[(0,t.jsx)(B.View,{clsx:[t5.default.skeleton,t5.default.skeletonLineShort],css:t9}),(0,t.jsx)(B.View,{clsx:[t5.default.skeleton,t5.default.skeletonLineShort],css:t9})]})})]})}function rl({rowData:e,loading:r,resource:s,fetchingMore:a,onFetchMore:i}){let n,l=e?.usageByReplConnection?.items??[],o=l.length>0,d=e?.usageByReplConnection?.pageInfo.hasNextPage??!1;return n=r?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsxs)("tr",{clsx:t5.default.breakdownRow,children:[(0,t.jsx)("td",{clsx:t5.default.breakdownRowCellName,children:(0,t.jsxs)(B.View,{row:!0,gap:8,align:"center",children:[(0,t.jsx)(B.View,{clsx:t5.default.skeleton,width:16,height:16,css:t9}),(0,t.jsx)(B.View,{clsx:t5.default.skeleton,width:120,height:14,css:t9})]})}),(0,t.jsx)("td",{clsx:t5.default.breakdownRowCellValue,children:(0,t.jsx)(B.View,{align:"end",children:(0,t.jsx)(B.View,{clsx:t5.default.skeleton,width:64,height:14,css:t9})})})]}),(0,t.jsxs)("tr",{clsx:t5.default.breakdownRow,children:[(0,t.jsx)("td",{clsx:t5.default.breakdownRowCellName,children:(0,t.jsxs)(B.View,{row:!0,gap:8,align:"center",children:[(0,t.jsx)(B.View,{clsx:t5.default.skeleton,width:16,height:16,css:t9}),(0,t.jsx)(B.View,{clsx:t5.default.skeleton,width:160,height:14,css:t9})]})}),(0,t.jsx)("td",{clsx:t5.default.breakdownRowCellValue,children:(0,t.jsx)(B.View,{align:"end",children:(0,t.jsx)(B.View,{clsx:t5.default.skeleton,width:80,height:14,css:t9})})})]})]}):o?l.map(e=>{let r=e.usageRepl?.__typename==="Repl"?e.usageRepl:null;return(0,t.jsxs)("tr",{clsx:t5.default.breakdownRow,children:[(0,t.jsx)("td",{clsx:t5.default.breakdownRowCellName,children:r?(0,t.jsxs)("a",{href:r.url,clsx:t5.default.replLink,children:[(0,t.jsx)(t3.default,{size:16,iconUrl:r.iconUrl,alt:r.title}),(0,t.jsx)(P.Text,{variant:"small",maxLines:1,children:r.title})]}):(0,t.jsx)(P.Text,{variant:"small",color:"dimmest",children:e.id})}),(0,t.jsx)("td",{clsx:t5.default.breakdownRowCellValue,children:(0,t.jsx)(P.Text,{variant:"small",color:"dimmer",children:e.usage.toFixed(2)})})]},e.id)}):(0,t.jsx)("tr",{clsx:t5.default.breakdownRow,children:(0,t.jsx)("td",{colSpan:2,children:(0,t.jsx)(B.View,{px:12,py:12,align:"center",children:(0,t.jsx)(P.Text,{variant:"small",color:"dimmer",children:"This resource has no breakdown by App"})})})}),(0,t.jsxs)("div",{clsx:t5.default.breakdownContainer,children:[(0,t.jsxs)("table",{clsx:t5.default.breakdownTable,children:[(0,t.jsx)("thead",{children:(0,t.jsxs)("tr",{clsx:t5.default.breakdownHeaderRow,children:[(0,t.jsx)("th",{clsx:t5.default.breakdownHeaderCellName,children:(0,t.jsx)(P.Text,{variant:"small",color:"dimmer",children:"App"})}),(0,t.jsx)("th",{clsx:t5.default.breakdownHeaderCell,children:(0,t.jsx)(P.Text,{variant:"small",color:"dimmer",children:function(e){switch(e){case ef.CustomerResourceUsageType.AgentUsage:case ef.CustomerResourceUsageType.ModelFarmUsage:return"Dollars";case ef.CustomerResourceUsageType.DeploymentsOutboundDataTransfer:case ef.CustomerResourceUsageType.NeonDataStorage:case ef.CustomerResourceUsageType.ObjectStorageDataTransfer:return"Size";case ef.CustomerResourceUsageType.ObjectStorageDataStorage:return"Volume";case ef.CustomerResourceUsageType.ReservedVmComputeTime:return"Compute Hours";case ef.CustomerResourceUsageType.AutoscaleDeployments:case ef.CustomerResourceUsageType.ScheduledSchedulerDays:return"Deployments";case ef.CustomerResourceUsageType.AutoscaleComputeUnits:case ef.CustomerResourceUsageType.ScheduledComputeUnits:return"Compute Units";case ef.CustomerResourceUsageType.AutoscaleRequests:case ef.CustomerResourceUsageType.ObjectStorageBasicOperations:case ef.CustomerResourceUsageType.ObjectStorageAdvancedOperations:return"Requests";case ef.CustomerResourceUsageType.StaticDeployments:return"Last deployed";case ef.CustomerResourceUsageType.NeonComputeTime:return"Hours"}return"Usage"}(s)})})]})}),(0,t.jsx)("tbody",{children:n})]}),!r&&d?(0,t.jsx)(B.View,{p:8,align:"center",children:(0,t.jsx)(O.Button,{text:"Load more Apps",variant:"outlined",size:"small",loading:a,onClick:i})}):null]})}function ro({children:e,isUnitPrice:r=!1}){return(0,t.jsx)("td",{clsx:[t5.default.resourceRowCell,t5.default.resourceRowValue,{[t5.default.resourceRowCellUnitPriceCell]:r}],children:e})}function rd({id:e,displayName:r,displayUnitLabel:s,quotaUsed:a,quota:i,usageTotal:n,unitPrice:l,costAccrued:o,costAccruedColor:d,hideQuotaColumns:u,isBreakdownOpen:c,onToggleBreakdown:g}){return(0,t.jsxs)("tr",{id:e,clsx:[t5.default.resourceRow,t5.default.hiddenOnMobile,t5.default.resourceRowClickable],onClick:g,children:[(0,t.jsx)("td",{clsx:[t5.default.resourceRowCell,t5.default.resourceRowName],children:(0,t.jsxs)(B.View,{row:!0,gap:4,align:"center",children:[(0,t.jsx)(t6.default,{clsx:[t5.default.chevronIcon,{[t5.default.chevronOpen]:c}],size:16}),(0,t.jsx)(rt,{displayName:r,displayUnitLabel:s})]})}),u?null:(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(ro,{children:(0,t.jsx)(P.Text,{color:"dimmer",children:a})}),(0,t.jsx)(ro,{children:(0,t.jsx)(P.Text,{children:i})})]}),(0,t.jsx)(ro,{children:(0,t.jsx)(P.Text,{children:n})}),(0,t.jsx)(ro,{isUnitPrice:!0,children:(0,t.jsx)(P.Text,{children:l})}),(0,t.jsx)(ro,{children:(0,t.jsx)(P.Text,{color:d,children:o})})]})}function ru({displayName:e,displayUnitLabel:r,quotaUsed:s,quota:a,usageTotal:i,unitPrice:n,costAccrued:l,costAccruedColor:o,hideQuotaColumns:d,isBreakdownOpen:u,onToggleBreakdown:c}){return(0,t.jsxs)("tr",{clsx:[t5.default.resourceRow,t5.default.hiddenOnDesktop,t5.default.resourceRowClickable],onClick:c,children:[(0,t.jsx)("td",{clsx:[t5.default.resourceRowCell,t5.default.resourceRowName,t5.default.mobileNameCell],children:(0,t.jsxs)(B.View,{gap:4,children:[(0,t.jsxs)(B.View,{row:!0,gap:4,align:"center",children:[(0,t.jsx)(t6.default,{clsx:[t5.default.chevronIcon,{[t5.default.chevronOpen]:u}],size:16}),(0,t.jsx)(rt,{displayName:e,displayUnitLabel:r,maxLines:1})]}),d?null:(0,t.jsxs)(B.View,{gap:2,children:[(0,t.jsxs)(P.Text,{variant:"small",color:"dimmer",children:["Quota used: ",s]}),(0,t.jsxs)(P.Text,{variant:"small",color:"dimmest",children:["Quota: ",a]})]})]})}),(0,t.jsx)("td",{clsx:[t5.default.resourceRowCell,t5.default.mobilePriceUsageCell],children:(0,t.jsxs)(B.View,{gap:2,align:"end",children:[(0,t.jsx)(P.Text,{color:o,children:l}),(0,t.jsxs)(P.Text,{variant:"small",color:"dimmer",children:["Usage: ",i]}),(0,t.jsxs)(P.Text,{variant:"small",color:"dimmest",children:["Unit price: ",n]})]})})]})}function rc({hideQuotaColumns:e,breakdownContent:r}){return(0,t.jsx)("tr",{clsx:t5.default.hiddenOnMobile,children:(0,t.jsx)("td",{colSpan:e?4:6,children:(0,t.jsx)(B.View,{pl:24,pr:12,py:8,children:r})})})}function rg({breakdownContent:e}){return(0,t.jsx)("tr",{clsx:t5.default.hiddenOnDesktop,children:(0,t.jsx)("td",{colSpan:2,children:(0,t.jsx)(B.View,{px:8,py:8,children:e})})})}function rp({rowData:e,loading:s,fetchingMore:a,onFetchMore:i,id:n,hideQuotaColumns:l,resource:o}){let[d,u]=(0,r.useState)(!1),c=()=>{u(e=>!e)},g=(0,t.jsx)(rl,{rowData:e,loading:s,resource:o,fetchingMore:a,onFetchMore:i});if(s)return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(ri,{resource:o,hideQuotaColumns:l,isBreakdownOpen:d,onToggleBreakdown:c}),(0,t.jsx)(rn,{resource:o,isBreakdownOpen:d,onToggleBreakdown:c}),d?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(rc,{hideQuotaColumns:l,breakdownContent:g}),(0,t.jsx)(rg,{breakdownContent:g})]}):null]});let p=null!=e.percentage?`${(100*e.percentage).toFixed(0)}%`:"-",m=e.allotment??"-",x=e.usage.toFixed(2),h=e.unitPrice??"-",f=`$${(e.overageCostsUSD??0).toFixed(2)}`,j=(e.overageCostsUSD??0)===0?"dimmest":void 0,{displayUnitLabel:w}=re(o);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(rd,{id:n,displayName:e.displayName??"-",displayUnitLabel:w,quotaUsed:p,quota:m,usageTotal:x,unitPrice:h,costAccrued:f,costAccruedColor:j,hideQuotaColumns:l,isBreakdownOpen:d,onToggleBreakdown:c}),(0,t.jsx)(ru,{displayName:e.displayName??"-",displayUnitLabel:w,quotaUsed:p,quota:m,usageTotal:x,unitPrice:h,costAccrued:f,costAccruedColor:j,hideQuotaColumns:l,isBreakdownOpen:d,onToggleBreakdown:c}),d?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(rc,{hideQuotaColumns:l,breakdownContent:g}),(0,t.jsx)(rg,{breakdownContent:g})]}):null]})}var rm=e.i(517951);function rx({icon:e,name:r,hideQuotaColumns:s}){return(0,t.jsxs)("tr",{clsx:rm.default.hiddenOnMobile,children:[(0,t.jsx)("th",{clsx:[rm.default.resourceHeaderCell,rm.default.resourceRowName],children:(0,t.jsxs)(B.View,{row:!0,clsx:rm.default.resourceHeaderTitle,children:[e,(0,t.jsx)(P.Text,{children:r})]})}),s?null:(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)("th",{clsx:[rm.default.resourceHeaderCell,rm.default.resourceRowValue],children:(0,t.jsx)(P.Text,{variant:"small",color:"dimmest",children:"Quota used"})}),(0,t.jsx)("th",{clsx:[rm.default.resourceHeaderCell,rm.default.resourceRowValue],children:(0,t.jsx)(P.Text,{variant:"small",color:"dimmest",children:"Quota"})})]}),(0,t.jsx)("th",{clsx:[rm.default.resourceHeaderCell,rm.default.resourceRowValue],children:(0,t.jsx)(P.Text,{variant:"small",color:"dimmest",children:"Usage total"})}),(0,t.jsx)("th",{clsx:[rm.default.resourceHeaderCell,rm.default.resourceRowValue],children:(0,t.jsx)(P.Text,{variant:"small",color:"dimmest",children:"Unit price"})}),(0,t.jsx)("th",{clsx:[rm.default.resourceHeaderCell,rm.default.resourceRowValue],children:(0,t.jsx)(P.Text,{variant:"small",color:"dimmest",children:"Cost accrued"})})]})}function rh({icon:e,name:r}){return(0,t.jsxs)("tr",{clsx:rm.default.hiddenOnDesktop,children:[(0,t.jsx)("th",{clsx:[rm.default.resourceHeaderCell,rm.default.mobileResourceRowName],children:(0,t.jsxs)(B.View,{row:!0,clsx:rm.default.resourceHeaderTitle,children:[e,(0,t.jsx)(P.Text,{children:r})]})}),(0,t.jsx)("th",{clsx:[rm.default.resourceHeaderCell,rm.default.mobileResourceRowValue],children:(0,t.jsx)(P.Text,{variant:"small",color:"dimmest",children:"Price and usage"})})]})}function rf(e){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(rx,{...e}),(0,t.jsx)(rh,{icon:e.icon,name:e.name})]})}function rj({orgId:e}){return(0,t.jsx)("div",{clsx:rm.default.resourceTableContainer,children:(0,t.jsxs)("table",{"aria-label":"AI Usage",clsx:rm.default.sectionContainer,children:[(0,t.jsx)("thead",{children:(0,t.jsx)(rf,{icon:(0,t.jsx)(tJ.default,{}),name:"AI",hideQuotaColumns:!0})}),(0,t.jsxs)("tbody",{children:[(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.AgentUsage,orgId:e,id:"customer-agent-usage",hideQuotaColumns:!0}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.ModelFarmUsage,orgId:e,id:"customer-model-farm-usage",hideQuotaColumns:!0})]})]})})}function rw({orgId:e}){return(0,t.jsx)("div",{clsx:rm.default.resourceTableContainer,children:(0,t.jsxs)("table",{"aria-label":"Published Apps Usage",clsx:rm.default.sectionContainer,children:[(0,t.jsx)("thead",{children:(0,t.jsx)(rf,{icon:(0,t.jsx)(tZ.default,{}),name:"Published Apps"})}),(0,t.jsxs)("tbody",{children:[(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.DeploymentsOutboundDataTransfer,orgId:e,id:"customer-deployment-outbound-data-transfer"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.ReservedVmComputeTime,orgId:e,id:"customer-reserved-vm"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.AutoscaleDeployments,orgId:e,id:"customer-autoscale-deployments"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.AutoscaleComputeUnits,orgId:e,id:"customer-autoscale-compute"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.AutoscaleRequests,orgId:e,id:"customer-autoscale-requests"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.StaticDeployments,orgId:e,id:"customer-static-deployments"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.ScheduledSchedulerDays,orgId:e,id:"customer-schedulers"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.ScheduledComputeUnits,orgId:e,id:"customer-scheduled-compute"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.NeonDataStorage,orgId:e,id:"customer-neon-storage"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.NeonComputeTime,orgId:e,id:"customer-neon-compute"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.ObjectStorageDataStorage,orgId:e,id:"customer-object-storage-data"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.ObjectStorageDataTransfer,orgId:e,id:"customer-object-storage-transfer"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.ObjectStorageBasicOperations,orgId:e,id:"customer-object-storage-basic-ops"}),(0,t.jsx)(rr,{resource:ef.CustomerResourceUsageType.ObjectStorageAdvancedOperations,orgId:e,id:"customer-object-storage-advanced-ops"})]})]})})}function ry({orgId:e}){return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(rj,{orgId:e}),(0,t.jsx)(rw,{orgId:e})]})}function rb(e){let[s,a]=(0,r.useState)(!1);return(0,r.useEffect)(()=>{s&&e.customerId&&(a(!1),window.open(`/orb-customer-portal/customer/${e.customerId}`,"_blank"))},[s,e.customerId]),(0,t.jsxs)(B.View,{gap:16,children:[(0,t.jsx)(P.Header,{variant:"subheadBig",level:2,children:"Resource usage"}),(0,t.jsxs)(P.Text,{color:"dimmer",children:["Updates take up to 1 hour and may not reflect the latest usage data."," ",(0,t.jsx)("a",{onClick:t=>{if(!e.customerId){t.preventDefault(),a(!0);return}},href:`/orb-customer-portal/customer/${e.customerId??""}`,target:"_blank",rel:"noopener noreferrer",children:"See previous invoices"}),"."]}),(0,t.jsx)(ry,{orgId:e.queryContext.orgId})]})}function rv({customerContext:e,onPurchaseCreditPackSuccess:r}){return"shared"===e.type?(0,t.jsx)(rC,{orgId:e.orgId,onPurchaseCreditPackSuccess:r}):(0,t.jsx)(r_,{onPurchaseCreditPackSuccess:r})}function r_({onPurchaseCreditPackSuccess:e}){var r;let s,{data:a,loading:i,error:n,refetch:l}=(r={ssr:!1,fetchPolicy:"cache-and-network"},s={...ta,...r},o.useQuery(tl,s));(0,tu.default)({onChange:l});let d=()=>{l(),e&&Promise.resolve(e()).catch(()=>null)},u=a?.currentUser?.customer;return i&&!u?(0,t.jsx)(rS,{loading:!0,data:null,resourcesQueryContext:{orgId:void 0},onPurchaseCreditPackSuccess:d}):n||!u?(0,t.jsx)(R.StatusBanner,{colorway:"negative",text:"Unable to fetch usage data. Please try again later.",icon:(0,t.jsx)(td.default,{})}):(0,t.jsx)(rS,{loading:!1,data:u,resourcesQueryContext:{orgId:void 0},onPurchaseCreditPackSuccess:d})}function rC({orgId:e,onPurchaseCreditPackSuccess:r}){var s;let a,{data:i,loading:n,error:l,refetch:d}=(s={variables:{orgId:e},ssr:!1,fetchPolicy:"cache-and-network"},a={...ta,...s},o.useQuery(to,a));(0,tu.default)({onChange:d});let u=()=>{d(),r&&Promise.resolve(r()).catch(()=>null)},c=i?.getOrg?.__typename==="Org"&&"Customer"===i.getOrg.customer.__typename?i.getOrg.customer:null;return n&&!c?(0,t.jsx)(rS,{loading:!0,data:null,resourcesQueryContext:{orgId:e},onPurchaseCreditPackSuccess:u}):l||!c?(0,t.jsx)(R.StatusBanner,{colorway:"negative",text:"Unable to fetch usage data. Please try again later.",icon:(0,t.jsx)(td.default,{})}):(0,t.jsx)(rS,{loading:!1,data:c,resourcesQueryContext:{orgId:e},onPurchaseCreditPackSuccess:u})}function rS(e){return(0,t.jsx)(tk.TrackingHierarchyProvider,{hierarchy:{page:"usage"},children:(0,t.jsxs)(B.View,{gap:32,children:[(0,t.jsx)(tg,{...e}),(0,t.jsx)(tX,{...e}),(0,t.jsx)(tO,{...e}),(0,t.jsx)(rb,{customerId:e.loading?void 0:e.data.id,queryContext:{orgId:e.resourcesQueryContext.orgId}})]})})}e.s(["default",()=>rv],671318);var rk=e.i(750854);let rU={},rV=s.gql`
+    query WorkspaceOverview($orgId: String!) {
+  getOrg(orgId: $orgId) {
+    __typename
+    ... on Org {
+      id
+      name
+      image
+      dealContext {
+        dealType
+      }
+      authorizations {
+        editOrgName {
+          isAuthorized
+          message
+        }
+        editOrgAvatar {
+          isAuthorized
+          message
+        }
+        editAppTheme {
+          isAuthorized
+          message
+        }
+        deleteOrg {
+          isAuthorized
+          message
+        }
+      }
+    }
+  }
+}
+    `,rT=s.gql`
+    query UserOverview {
+  currentUser {
+    __typename
+    ... on CurrentUser {
+      id
+      username
+      hasProfileImage
+      image
+      canStartUserExport
+      personalOrgAuthorizations {
+        __typename
+        ... on OrgAuthorizations {
+          editAppTheme {
+            isAuthorized
+            message
+          }
+        }
+      }
+    }
+  }
+}
+    `,rA=s.gql`
+    mutation UpdateWorkspaceOverviewOrgProfile($input: UpdateOrgProfileInput!) {
+  updateOrgProfile(input: $input) {
+    ... on Org {
+      __typename
+      id
+      name
+      image
+    }
+    ... on Error {
+      __typename
+      message
+    }
+  }
+}
+    `,rO=s.gql`
+    mutation WorkspaceOverviewExportUserData {
+  userDataExport {
+    __typename
+    ... on UserDataExportWorkerResult {
+      exportId
+    }
+    ... on Error {
+      __typename
+      message
+    }
+  }
+}
+    `,rD=s.gql`
+    mutation DeleteOrgWorkspaceOverview($input: DeleteOrgInput!, $count: Int!) {
+  deleteOrg(input: $input) {
+    ... on CurrentUser {
+      id
+      orgs(count: $count) {
+        ... on CurrentUserOrganizationConnection {
+          items {
+            org {
+              id
+            }
+          }
+        }
+      }
+    }
+    ... on Error {
+      message
+    }
+  }
+}
+    `;var rR=e.i(183035),rP=e.i(36654),rI=e.i(416746),rB=e.i(491194),rE=e.i(349597),rL=e.i(968783),rq=e.i(422025),rz=e.i(971072),rN=e.i(858248),rF=e.i(709485),rM=e.i(746788),rG=e.i(532130),r$=e.i(714165),rH=e.i(747642);let rW=eF.loadingStyle.foregroundPulse(),rK=()=>(0,t.jsx)(B.View,{children:(0,t.jsxs)(B.View,{clsx:rH.default.topSection,children:[(0,t.jsx)(B.View,{clsx:rH.default.avatarSkeleton,css:rW}),(0,t.jsxs)(B.View,{gap:24,grow:!0,clsx:rH.default.formFields,children:[(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsx)(B.View,{clsx:rH.default.labelSkeleton,css:rW}),(0,t.jsx)(B.View,{clsx:rH.default.inputSkeleton,css:rW})]}),(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsx)(B.View,{clsx:rH.default.labelSkeleton,css:rW}),(0,t.jsx)(B.View,{clsx:rH.default.inputSkeleton,css:rW})]})]})]})}),rY=({orgId:e,orgSlug:s})=>{var a,i;let n,l,{data:u,loading:c}=(a={variables:{orgId:e}},n={...rU,...a},o.useQuery(rV,n)),g=u?.getOrg?.__typename==="Org"?u.getOrg:void 0,p=(0,A.useIdSeed)(),m=(0,r.useRef)(`${Date.now()}-${Math.random()}`),x=p(`workspace-name-${e}`),h=p(`workspace-id-${e}`),f=p(`workspace-name-error-${e}`),j=`file-input-${e}-${m.current}`,w=(0,r.useRef)(null),[y,v]=(0,r.useState)(!1),[_,S]=(0,r.useState)(!1),[k,U]=(0,r.useState)(null),[V,I]=(0,r.useState)(null),[E,L]=(0,r.useState)(!1),q=(0,T.useFormField)(g?.name??"",rM.default.workspaceName),{setValue:N}=q;(0,r.useEffect)(()=>{g?.name&&N(g.name)},[g?.name,N]);let[F,{loading:M}]=(i={onError:()=>{let e="Something unexpected happened";_?U(e):I(e),S(!1)},onCompleted:e=>{if("Org"===e.updateOrgProfile.__typename)S(!1),U(null),I(null),_?(0,rN.track)(rF.events.WORKSPACE_LIFECYCLE,{action:"settings_avatar_updated",workspace_type:"shared"}):((0,rN.track)(rF.events.WORKSPACE_LIFECYCLE,{action:"settings_name_updated",workspace_type:"shared"}),L(!0),setTimeout(()=>{L(!1)},3e3));else{let t=e.updateOrgProfile;_?U(t.message):I(t.message),S(!1)}}},l={...rU,...i},d.useMutation(rA,l)),$=(0,rq.default)({onUpload:({id:t})=>{S(!0),U(null),F({variables:{input:{imageId:t,orgId:e}}})},onUploadPreview:()=>{U(null)},onError:e=>U(e.message)});if(c)return(0,t.jsx)(rK,{});if(!g)return(0,t.jsx)(B.View,{gap:12,children:(0,t.jsx)(R.StatusBanner,{text:"Unable to load workspace information. You may not have access to this workspace.",colorway:"negative",icon:(0,t.jsx)(eI.default,{})})});let H=async()=>{await q.validate()||(I(null),F({variables:{input:{orgId:g.id,name:q.value}}}))},W=()=>{q.setValue(g.name)},Y=q.value!==g.name,{isAuthorized:Q,message:X}=g.authorizations.editOrgName,J=`${(0,b.orgLinks)({slug:s}).home.href}/theme-editor`;return(0,t.jsxs)(B.View,{shrink:1,children:[(0,t.jsxs)(B.View,{clsx:rH.default.topSection,children:[(0,t.jsxs)(B.View,{clsx:[rH.default.avatarContainer,{[rH.default.draggingOver]:y}],onDrop:e=>{if(e.preventDefault(),v(!1),!g||!g.authorizations.editOrgAvatar.isAuthorized)return;let t=e.dataTransfer?.files?.[0];t&&(rz.ACCEPTABLE_IMAGE_UPLOAD_TYPES.includes(t.type)?$.uploadImage(t,rE.ImageUploadContexts.OrgProfileImage):U("Please upload a supported image format (PNG, JPEG, GIF, or WebP)"))},onDragOver:e=>e.preventDefault(),onDragEnter:e=>{if(e.preventDefault(),!g||!g.authorizations.editOrgAvatar.isAuthorized)return;let t=e.dataTransfer.items;if(t)for(let e=0;e<t.length;e++){let r=t[e];if("file"===r.kind&&rz.ACCEPTABLE_IMAGE_UPLOAD_TYPES.includes(r.type))return void v(!0)}},onDragLeave:e=>{e.preventDefault();let t=e.currentTarget.getBoundingClientRect(),r=e.clientX,s=e.clientY;(r<t.left||r>=t.right||s<t.top||s>=t.bottom)&&v(!1)},children:[(0,t.jsx)(r$.Avatar,{src:g.image??null,username:g.name,size:128}),(0,t.jsx)(B.View,{clsx:[rH.default.overlayLabel,{[rH.default.overlayDisabled]:!g.authorizations.editOrgAvatar.isAuthorized}],tag:"label",htmlFor:j,children:g.authorizations.editOrgAvatar.isAuthorized?(0,t.jsx)(P.Text,{variant:"small",multiline:!1,children:"Upload or drop image"}):null}),(0,t.jsx)(B.View,{clsx:rH.default.editBadge,tag:"button",type:"button",onClick:()=>{g.authorizations.editOrgAvatar.isAuthorized&&w.current?.click()},"aria-label":"Change workspace image",disabled:!g.authorizations.editOrgAvatar.isAuthorized,children:(0,t.jsx)(C.default,{size:16,color:z.tokens.foregroundDefault})}),(0,t.jsx)("input",{id:j,ref:w,type:"file",accept:rz.ACCEPTABLE_IMAGE_UPLOAD_TYPES.join(","),onChange:e=>{let t=e.target.files;t?.length&&e.target.validity.valid&&($.uploadImage(t[0],rE.ImageUploadContexts.OrgProfileImage),e.target.value="")},disabled:!g.authorizations.editOrgAvatar.isAuthorized,clsx:rH.default.uploadInput,"aria-hidden":"true"})]}),(0,t.jsxs)(B.View,{gap:24,grow:!0,clsx:rH.default.formFields,children:[k?(0,t.jsx)(R.StatusBanner,{text:k,colorway:"negative",icon:(0,t.jsx)(eI.default,{})}):null,(0,t.jsx)(eG.Form,{onSubmit:e=>{e.preventDefault(),H()},children:(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsx)(B.View,{clsx:rH.default.labelWrapper,gap:4,children:(0,t.jsxs)(B.View,{row:!0,gap:8,align:"center",children:[(0,t.jsx)(B.View,{tag:"label",htmlFor:x,clsx:rH.default.label,children:"Workspace name"}),Q?null:(0,t.jsx)(K.Tooltip,{tooltip:X,isDisabled:Q,children:(0,t.jsx)(rI.default,{color:z.tokens.foregroundDefault})})]})}),(0,t.jsxs)(B.View,{clsx:rH.default.inputContainer,children:[(0,t.jsx)(D.Input,{id:x,"aria-describedby":f,value:q.value,onChange:e=>{q.setValue(e.target.value),L(!1)},disabled:!Q,clsx:rH.default.nameInput}),Y?(0,t.jsx)(B.View,{clsx:rH.default.closeButton,onClick:W,role:"button",tabIndex:0,"aria-label":"Discard changes",onKeyDown:e=>{("Enter"===e.key||" "===e.key)&&(e.preventDefault(),W())},children:(0,t.jsx)(eR.default,{size:16})}):null]}),q.error?.message?(0,t.jsx)(R.StatusBanner,{id:f,text:q.error?.message,colorway:"negative",icon:(0,t.jsx)(eI.default,{})}):null,V?(0,t.jsx)(R.StatusBanner,{text:V,colorway:"negative",icon:(0,t.jsx)(eI.default,{})}):null]})}),(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsxs)(B.View,{clsx:rH.default.labelWrapper,gap:4,children:[(0,t.jsx)(B.View,{row:!0,gap:8,align:"center",children:(0,t.jsx)(B.View,{tag:"label",htmlFor:h,clsx:rH.default.label,children:"Workspace ID"})}),(0,t.jsx)(P.Text,{variant:"small",color:"dimmer",clsx:rH.default.hideOnMobile,children:"This is your workspace's ID. You can use this when running CLUI commands (e.g. transferring Repls). It cannot be changed."})]}),(0,t.jsx)(B.View,{clsx:rH.default.inputContainer,children:(0,t.jsx)(D.Input,{id:h,disabled:!0,value:g.id,clsx:rH.default.nameInput})})]}),(0,t.jsx)(B.View,{clsx:rH.default.formActions,children:(0,t.jsx)(O.Button,{type:"button",text:E?"Changes saved":"Save changes",disabled:M||g.name===q.value||""===q.value,colorway:E?"positive":"primary",loading:M,iconLeft:E?(0,t.jsx)(rR.default,{color:z.tokens.foregroundDefault}):void 0,onClick:H})})]})]}),(0,t.jsx)(B.View,{py:24,children:(0,t.jsx)(G.DividerH,{})}),(0,t.jsx)(rX,{themeEditorUrl:J,canEditAppTheme:g.authorizations.editAppTheme}),(0,t.jsx)(B.View,{py:24,children:(0,t.jsx)(G.DividerH,{})}),(0,t.jsx)(rZ,{orgId:g.id,orgName:g.name,dealType:g.dealContext.dealType,authorizations:g.authorizations})]})},rQ=({canStartUserExport:e,onExportComplete:s})=>{var a;let i,[n,l]=(0,r.useState)(!1),[o,{loading:u}]=(a={onCompleted:async e=>{e.userDataExport?.__typename==="UserError"?c({content:e.userDataExport.message,type:"error"}):e.userDataExport?.__typename==="UserDataExportWorkerResult"?(l(!1),c({content:"Export started. You will receive an email when it's ready.",type:"confirm",time:1e4}),s()):c({content:"Something went wrong. Please try again or contact support.",type:"error"})},onError:()=>{c({content:"Something went wrong. Please try again or contact support.",type:"error"})}},i={...rU,...a},d.useMutation(rO,i)),{showMessage:c}=(0,y.default)(),g=!e;return(0,t.jsxs)(B.View,{row:!0,align:"center",justify:"space-between",gap:24,children:[(0,t.jsxs)(B.View,{shrink:!0,gap:8,children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Export Apps"}),(0,t.jsx)(P.Text,{color:"dimmer",children:"Bulk export personal Apps. We'll send you a download link when ready."})]}),(0,t.jsx)(B.View,{children:g?(0,t.jsx)(R.StatusBanner,{colorway:"warning",text:"An export is currently in progress. You will receive a notification when it completes."}):(0,t.jsx)(O.Button,{onClick:()=>l(!0),variant:"outlined",text:"Start Export",disabled:g,iconLeft:(0,t.jsx)(rP.default,{})})}),(0,t.jsx)(H.Modal,{isOpen:n,onRequestClose:()=>l(!1),children:(0,t.jsxs)(B.View,{justify:"space-between",gap:24,children:[(0,t.jsx)(P.Header,{variant:"headerDefault",level:2,children:"Export Apps"}),(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsx)(P.Text,{children:"We will prepare a folder with your Apps and send it to your email address and notification center."}),(0,t.jsx)(P.Text,{children:"Your export link will be available for 7 days."})]}),(0,t.jsxs)(B.View,{row:!0,gap:12,justify:"end",children:[(0,t.jsx)(O.Button,{text:"Cancel",loading:u,onClick:()=>l(!1)}),(0,t.jsx)(K.Tooltip,{tooltip:"You already have an app export in progress",isDisabled:!g,children:(0,t.jsx)(O.Button,{iconLeft:u?(0,t.jsx)(f.default,{}):(0,t.jsx)(rP.default,{}),loading:u,disabled:g,onClick:async()=>await o(),text:"Start Export",colorway:"primary"})})]})]})})]})},rX=({themeEditorUrl:e,canEditAppTheme:r})=>(0,t.jsxs)(B.View,{row:!0,align:"center",justify:"space-between",gap:24,children:[(0,t.jsxs)(B.View,{gap:8,shrink:1,children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Custom themes"}),(0,t.jsx)(P.Text,{color:"dimmer",children:"Apply your brand's colors, fonts, and styles across all Apps using the theme editor."})]}),(0,t.jsx)(B.View,{children:(0,t.jsx)(K.Tooltip,{tooltip:r.message,isDisabled:r.isAuthorized,children:(0,t.jsx)(O.Button,{onClick:()=>window.open(e,"_blank"),variant:"outlined",text:"Manage themes",iconLeft:(0,t.jsx)(eP.default,{}),disabled:!r.isAuthorized})})})]}),rJ=()=>{let e,{data:r,loading:s,refetch:a}=(e={...rU,...void 0},o.useQuery(rT,e)),i=r?.currentUser?.__typename==="CurrentUser"?r.currentUser:void 0,n=(0,A.useIdSeed)()("personal-workspace-name");if(s)return(0,t.jsx)(rK,{});if(!i)return(0,t.jsx)(B.View,{gap:12,children:(0,t.jsx)(R.StatusBanner,{text:"Unable to load user information.",colorway:"negative",icon:(0,t.jsx)(eI.default,{})})});let l="OrgAuthorizations"===i.personalOrgAuthorizations.__typename?i.personalOrgAuthorizations.editAppTheme:{isAuthorized:!1,message:"Unable to verify permissions"};return(0,t.jsxs)(B.View,{children:[(0,t.jsxs)(B.View,{clsx:rH.default.topSection,children:[(0,t.jsx)(B.View,{clsx:rH.default.avatarReadonly,children:(0,t.jsx)(r$.Avatar,{src:i.hasProfileImage?i.image:null,username:i.username,size:128})}),(0,t.jsx)(B.View,{gap:24,grow:!0,clsx:rH.default.formFields,children:(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsx)(B.View,{clsx:rH.default.labelWrapper,gap:4,children:(0,t.jsx)(B.View,{tag:"label",htmlFor:n,clsx:rH.default.label,children:"Workspace name"})}),(0,t.jsx)(B.View,{clsx:rH.default.inputContainer,children:(0,t.jsx)(D.Input,{id:n,disabled:!0,value:`${i.username}'s workspace`,clsx:rH.default.nameInput})})]})})]}),(0,t.jsx)(B.View,{py:24,children:(0,t.jsx)(G.DividerH,{})}),(0,t.jsx)(rX,{themeEditorUrl:"/theme-editor",canEditAppTheme:l}),(0,t.jsx)(B.View,{py:24,children:(0,t.jsx)(G.DividerH,{})}),(0,t.jsx)(rQ,{canStartUserExport:i.canStartUserExport,onExportComplete:()=>a()})]})},rZ=({orgId:e,orgName:s,dealType:a,authorizations:i})=>{var n;let l,[o,u]=(0,r.useState)(!1),c=(0,T.useFormField)("",r0(s)),g=(0,r.useId)(),p=(0,rk.useRouter)(),{showError:m}=(0,y.default)(),[x,h]=(0,r.useState)(!1),{switchOrg:f}=(0,rL.useCurrentUserStoredOrgContext)(),[j,{loading:w}]=(n={onCompleted:e=>{switch(e.deleteOrg?.__typename){case"UserError":case"NotFoundError":case"UnauthorizedError":m(e.deleteOrg.message);break;case"CurrentUser":h(!0),f({type:ef.OrgstypeEnumType.Personal}),p.push("/home","/~");break;default:(0,eB.default)(e.deleteOrg)}},onError:e=>m((0,eq.default)(e.message))},l={...rU,...n},d.useMutation(rD,l));return(0,r.useEffect)(()=>{o||c.setValue("")},[o,c]),(0,t.jsxs)(B.View,{row:!0,align:"center",justify:"space-between",gap:24,children:[(0,t.jsxs)(B.View,{shrink:!0,gap:8,children:[(0,t.jsx)(P.Text,{variant:"subheadDefault",children:"Delete workspace"}),(0,t.jsxs)(P.Text,{color:"dimmer",children:["Permanently remove the ",s," workspace and all of its data from Replit. This action is not reversible!"]})]}),(0,t.jsx)(B.View,{children:"default"===a?(0,t.jsx)(K.Tooltip,{tooltip:i.deleteOrg.message,isDisabled:i.deleteOrg.isAuthorized,children:(0,t.jsx)(O.Button,{colorway:"negative",variant:"outlined",iconLeft:(0,t.jsx)(rB.default,{}),isDisabled:!i.deleteOrg.isAuthorized,text:"Delete workspace",onClick:()=>u(!0)})}):(0,t.jsx)(K.Tooltip,{tooltip:i.deleteOrg.message,children:(0,t.jsx)(v.TeamsContactUsButton,{text:"Contact Sales",context:"orgs_settings",reason:"delete_org",colorway:"primary",variant:"outlined"})})}),(0,t.jsx)(H.Modal,{isOpen:o,hideCloseButton:!0,onRequestClose:()=>u(!1),centered:!0,noPadding:!0,children:(0,t.jsxs)(eG.Form,{clsx:rH.default.deleteModal,onSubmit:async t=>{t.preventDefault(),await c.validate()||x||j({variables:{input:{orgId:e},count:rG.NUM_ORGS_PER_PAGE}})},children:[(0,t.jsxs)(P.Text,{variant:"headerDefault",children:["Delete the ",s," workspace?"]}),(0,t.jsx)(R.StatusBanner,{colorway:"negative",icon:(0,t.jsx)(eI.default,{size:24}),text:`Deleting the ${s} workspace will delete all of its data, including all Projects.`}),(0,t.jsxs)(B.View,{gap:8,children:[(0,t.jsx)(B.View,{tag:"label",htmlFor:g,children:"Workspace name"}),(0,t.jsxs)(B.View,{gap:2,children:[(0,t.jsx)(D.Input,{id:g,placeholder:s,value:c.value,onChange:e=>c.setValue(e.target.value),onBlur:c.handleBlur}),c.error?(0,t.jsx)(eM.FieldErrorText,{children:c.error?.message}):(0,t.jsx)(P.Text,{color:"dimmer",variant:"small",children:"Enter the workspace's name to confirm deletion"})]})]}),(0,t.jsxs)(B.View,{row:!0,justify:"end",gap:12,children:[(0,t.jsx)(O.Button,{text:"Back",onClick:()=>u(!1)}),(0,t.jsx)(O.Button,{disabled:!c.isValid||!!c.error||w,type:"submit",colorway:x?"positive":"negative",loading:w,text:x?"Workspace deleted":"Delete workspace",iconRight:x?(0,t.jsx)(rR.default,{size:16}):void 0})]})]})})]})},r0=e=>t=>t.trim().toLowerCase()!==e.trim().toLowerCase()?{message:"Workspace name does not match",severity:"error"}:null;e.s(["default",0,({orgId:e,orgSlug:r})=>e&&r?(0,t.jsx)(rY,{orgId:e,orgSlug:r},e):(0,t.jsx)(rJ,{})],10844);var r1=e.i(315793);let r2={},r4=s.gql`
+    fragment UsageIntervalFields on CustomerUsageInterval {
+  startDate
+  endDate
+  orgUsage(orgId: $orgId) {
+    __typename
+    ... on CustomerOrgUsage {
+      totalAmountUsd
+      agentUsageByUser {
+        items {
+          userId
+          amountUsd
+          email
+          orgRole
+          user {
+            id
+            displayName
+            username
+            image
+          }
+        }
+      }
+    }
+    ... on UnauthorizedError {
+      message
+    }
+  }
+}
+    `,r8=s.gql`
+    query WorkspaceUsage($orgId: String, $hasOrgId: Boolean!) {
+  getOrg(orgId: $orgId) @include(if: $hasOrgId) {
+    __typename
+    ... on Org {
+      id
+      customer {
+        __typename
+        ... on Customer {
+          id
+          usageInterval {
+            ...UsageIntervalFields
+          }
+        }
+        ... on UnauthorizedError {
+          message
+        }
+        ... on NotFoundError {
+          message
+        }
+      }
+      usageBasedBillingAlerts {
+        ... on UsageBasedBillingAlertsConfig {
+          ...OrgUsageBillingAlertsConfig
+        }
+        ... on Error {
+          message
+        }
+      }
+      authorizations {
+        viewUsageAlerts {
+          isAuthorized
+          message
+        }
+        editUsageAlerts {
+          isAuthorized
+          message
+        }
+      }
+    }
+  }
+  currentUser @skip(if: $hasOrgId) {
+    __typename
+    id
+    ... on CurrentUser {
+      customer {
+        id
+        usageInterval {
+          ...UsageIntervalFields
+        }
+      }
+    }
+  }
+}
+    ${r4}
+${r1.OrgUsageBillingAlertsConfigFragmentDoc}`;function r6(e){let t={...r2,...e};return o.useQuery(r8,t)}e.s(["useWorkspaceUsageQuery",()=>r6],672279)},27785,e=>{e.v({buttonColumn:"OrgUsageAlerts-module__qXh0Kq__buttonColumn",buttonColumnNoShrink:"OrgUsageAlerts-module__qXh0Kq__buttonColumnNoShrink",currentValueText:"OrgUsageAlerts-module__qXh0Kq__currentValueText",divider:"OrgUsageAlerts-module__qXh0Kq__divider",fullWidth:"OrgUsageAlerts-module__qXh0Kq__fullWidth",groupAlertPill:"OrgUsageAlerts-module__qXh0Kq__groupAlertPill",groupBudgetRow:"OrgUsageAlerts-module__qXh0Kq__groupBudgetRow",modalContainer:"OrgUsageAlerts-module__qXh0Kq__modalContainer",scrollableList:"OrgUsageAlerts-module__qXh0Kq__scrollableList","skeleton-pulse":"OrgUsageAlerts-module__qXh0Kq__skeleton-pulse",skeletonButton:"OrgUsageAlerts-module__qXh0Kq__skeletonButton",skeletonLine:"OrgUsageAlerts-module__qXh0Kq__skeletonLine",skeletonLineMedium:"OrgUsageAlerts-module__qXh0Kq__skeletonLineMedium",skeletonLineShort:"OrgUsageAlerts-module__qXh0Kq__skeletonLineShort",tableContainer:"OrgUsageAlerts-module__qXh0Kq__tableContainer",tableRow:"OrgUsageAlerts-module__qXh0Kq__tableRow",valueText:"OrgUsageAlerts-module__qXh0Kq__valueText",wordBreak:"OrgUsageAlerts-module__qXh0Kq__wordBreak"})},724306,e=>{"use strict";var t=e.i(276385),r=e.i(389959),s=e.i(915598),a=e.i(973245),i=e.i(315793),n=e.i(951262);let l={},o=a.gql`
+    mutation UpdateOrgGlobalUsageAlerts($input: UpdateOrgGlobalUsageAlertsInput!) {
+  updateOrgGlobalUsageAlerts(input: $input) {
+    ... on Org {
+      id
+      name
+      usageBasedBillingAlerts {
+        ...OrgUsageBillingAlertsConfig
+      }
+    }
+    ... on Error {
+      message
+    }
+  }
+}
+    ${i.OrgUsageBillingAlertsConfigFragmentDoc}`,d=a.gql`
+    mutation UpdateOrgGroupUsageAlerts($input: UpdateOrgGroupUsageAlertsInput!) {
+  updateOrgGroupUsageAlerts(input: $input) {
+    ... on Org {
+      id
+      name
+      usageBasedBillingAlerts {
+        ...OrgUsageBillingAlertsConfig
+      }
+    }
+    ... on Error {
+      message
+    }
+  }
+}
+    ${i.OrgUsageBillingAlertsConfigFragmentDoc}`;var u=e.i(167392),c=e.i(269848),g=e.i(491194),p=e.i(162914),m=e.i(820734),x=e.i(222342),h=e.i(158689),f=e.i(814629),j=e.i(201411),w=e.i(140487),y=e.i(988676),b=e.i(136540),v=e.i(607278),_=e.i(739521),C=e.i(960178),S=e.i(795581),k=e.i(751273),U=e.i(625484),V=e.i(27785);let T=e=>e.toLocaleString("en-US",{style:"currency",currency:"USD",maximumFractionDigits:2*!Number.isInteger(e)});function A({orgId:e,initialValue:s,isOpen:a,onClose:i}){var d;let u,[c,g]=(0,r.useState)(s?.toString()||""),{showConfirm:p,showError:m}=(0,x.default)(),[h,{loading:j}]=(d={onCompleted:e=>{"Org"===e.updateOrgGlobalUsageAlerts.__typename?(p("Per-user agent usage alert updated successfully"),i()):("UserError"===e.updateOrgGlobalUsageAlerts.__typename||"NotFoundError"===e.updateOrgGlobalUsageAlerts.__typename||"UnauthorizedError"===e.updateOrgGlobalUsageAlerts.__typename)&&m(e.updateOrgGlobalUsageAlerts.message)},onError:()=>{m("Failed to update per-user agent usage alert")}},u={...l,...d},n.useMutation(o,u));return(0,r.useEffect)(()=>{a&&g(s?.toString()||"")},[a,s]),(0,t.jsx)(_.Modal,{isOpen:a,onRequestClose:i,children:(0,t.jsxs)(U.View,{gap:16,align:"start",children:[(0,t.jsx)(C.Header,{variant:"subheadBig",level:2,children:"Edit per-user agent usage alerts"}),(0,t.jsx)(C.Text,{color:"dimmer",children:"Set an alert threshold on agent usage for all users in your organization. When a user reaches this threshold, admins will receive an alert notification."}),(0,t.jsx)(f.BudgetInput,{type:"soft",value:c,onChange:g,label:"Per-user threshold"}),(0,t.jsxs)(U.View,{row:!0,gap:8,children:[(0,t.jsx)(w.Button,{onClick:()=>{let t=c.trim();if(""===t)return void h({variables:{input:{orgId:e,alertThreshold:null}}});let r=Number(t);Number.isNaN(r)||r<=0?m("Please enter a valid budget limit"):h({variables:{input:{orgId:e,alertThreshold:r}}})},text:"Save",colorway:"primary",loading:j,disabled:j}),(0,t.jsx)(w.Button,{onClick:i,text:"Cancel",disabled:j})]})]})})}function O(e){return e?.org?.__typename==="Org"&&e?.org?.groups?.__typename==="OrgGroupConnection"}function D({orgId:e,groupAlerts:a,isOpen:i,onClose:o}){var g;let h,[f,j]=(0,r.useState)(""),y=(0,p.default)(f,250),{showConfirm:k,showError:T}=(0,x.default)(),{data:A,loading:D,fetchMore:P}=(0,s.useOrgGroupsQuery)({variables:{orgId:e,input:{count:10,types:["system_admins","system_members","system_guests","custom"],filters:y?{name:{search:y}}:null}},skip:!i}),I=async()=>{!D&&O(A?.currentUser)&&A.currentUser.org.groups.pageInfo.hasNextPage&&await P({variables:{orgId:e,input:{count:10,types:["system_admins","system_members","system_guests","custom"],filters:y?{name:{search:y}}:null,cursor:A.currentUser.org.groups.pageInfo.nextCursor}},updateQuery:(e,{fetchMoreResult:t})=>{if(!t||!t.currentUser||!O(t.currentUser))return e;let r=[...O(e.currentUser)?e.currentUser.org.groups.items:[],...t.currentUser.org.groups.items];return{...t,currentUser:{...t.currentUser,org:{...t.currentUser.org,groups:{...t.currentUser.org.groups,pageInfo:{...t.currentUser.org.groups.pageInfo},items:r}}}}}})},{targetRef:B}=(0,m.default)({onLoadMore:I,rootMargin:"0px 0px 150px 0px"}),E=O(A?.currentUser)&&A.currentUser.org.groups.pageInfo.hasNextPage,L=!D&&E,[q,{loading:z}]=(g={onCompleted:e=>{"Org"===e.updateOrgGroupUsageAlerts.__typename?k("Group usage alert updated successfully"):"UserError"===e.updateOrgGroupUsageAlerts.__typename||"NotFoundError"===e.updateOrgGroupUsageAlerts.__typename||"UnauthorizedError"===e.updateOrgGroupUsageAlerts.__typename?T(e.updateOrgGroupUsageAlerts.message):T("Something went wrong while updating the group usage alert. Please try again.")},onError:()=>{T("Something went wrong while updating the group usage alert. Please try again.")}},h={...l,...g},n.useMutation(d,h)),N=(0,r.useMemo)(()=>A?.currentUser?.org?.__typename==="Org"&&A.currentUser.org.groups?.__typename==="OrgGroupConnection"&&A.currentUser.org.groups.items||[],[A]),F=(t,r)=>{q({variables:{input:{orgId:e,groupId:t,alertThreshold:r}}})},M=(0,r.useMemo)(()=>{let e=new Map;return a.forEach(t=>{e.set(t.groupId,t)}),e},[a]);return(0,t.jsx)(_.Modal,{isOpen:i,onRequestClose:o,children:(0,t.jsxs)(U.View,{gap:16,align:"start",clsx:V.default.modalContainer,children:[(0,t.jsx)(C.Header,{variant:"subheadBig",level:2,children:"Manage group usage alerts"}),(0,t.jsx)(C.Text,{color:"dimmer",clsx:V.default.wordBreak,children:"Set agent usage alert thresholds for specific groups. When the cumulative agent usage of all users in the group reaches the threshold, admins will receive an alert notification."}),(0,t.jsx)(U.View,{clsx:V.default.fullWidth,children:(0,t.jsx)(S.TextField,{children:(0,t.jsx)(v.Input,{placeholder:"Search groups...",value:f,onChange:e=>j(e.target.value)})})}),(0,t.jsxs)(U.View,{gap:8,clsx:V.default.scrollableList,children:[D?(0,t.jsx)(C.Text,{color:"dimmer",children:"Loading groups..."}):null,D||0!==N.length?null:(0,t.jsx)(C.Text,{color:"dimmer",children:"No groups found"}),!D&&N.map(e=>{let r=M.get(e.id);return(0,t.jsx)(R,{group:e,existingThreshold:r?.threshold,onSave:t=>F(e.id,t),onDelete:()=>F(e.id,null),disabled:z},e.id)}),D?(0,t.jsx)(c.default,{}):null,L?(0,t.jsx)("div",{ref:B}):null,L?(0,t.jsx)(U.View,{children:(0,t.jsx)(b.IconButton,{tooltipBehavior:"hidden",alt:"Show more",onClick:I,children:(0,t.jsx)(u.default,{})})}):null]}),(0,t.jsx)(w.Button,{onClick:o,text:"Done"})]})})}function R({group:e,existingThreshold:s,onSave:a,onDelete:i,disabled:n}){let[l,o]=(0,r.useState)(!1),[d,u]=(0,r.useState)(s?.toString()||""),{showError:c}=(0,x.default)();(0,r.useEffect)(()=>{l||u(s?.toString()||"")},[s,l]);let p=()=>{i(),o(!1)};return(0,t.jsxs)(U.View,{row:!0,gap:8,align:"center",p:8,clsx:V.default.groupBudgetRow,children:[(0,t.jsx)(U.View,{grow:!0,children:(0,t.jsxs)(U.View,{row:!0,gap:8,align:"center",wrap:!0,children:[(0,t.jsx)(C.Text,{variant:"subheadDefault",clsx:V.default.wordBreak,children:e.name}),s&&!l?(0,t.jsx)(h.Pill,{text:T(s)}):null]})}),l?(0,t.jsxs)(U.View,{row:!0,gap:8,align:"center",shrink:!1,wrap:!0,children:[(0,t.jsx)(f.BudgetInput,{type:"soft",value:d,onChange:u}),(0,t.jsxs)(U.View,{row:!0,gap:8,shrink:!1,children:[(0,t.jsx)(w.Button,{onClick:()=>{let e=d.trim();if(""===e)return void c("Please enter a valid threshold");let t=Number(e);Number.isNaN(t)||t<=0?c("Please enter a valid threshold greater than 0"):(a(t),o(!1))},text:"Save",size:"small",colorway:"primary",disabled:n}),(0,t.jsx)(w.Button,{onClick:()=>{u(s?.toString()||""),o(!1)},text:"Cancel",size:"small",disabled:n}),s?(0,t.jsx)(w.Button,{onClick:p,text:"",iconLeft:(0,t.jsx)(g.default,{}),size:"small",variant:"outlined",disabled:n}):null]})]}):(0,t.jsxs)(U.View,{row:!0,gap:8,shrink:!1,children:[(0,t.jsx)(w.Button,{onClick:()=>o(!0),text:s?"Edit":"Set alert",size:"small",variant:"outlined",disabled:n}),s?(0,t.jsx)(w.Button,{onClick:p,text:"",iconLeft:(0,t.jsx)(g.default,{}),size:"small",variant:"outlined",disabled:n}):null]})]})}function P(){return(0,t.jsx)(U.View,{children:(0,t.jsxs)(U.View,{clsx:V.default.tableContainer,children:[(0,t.jsxs)(U.View,{row:!0,justify:"space-between",clsx:V.default.tableRow,align:"center",gap:16,children:[(0,t.jsxs)(U.View,{grow:!0,gap:4,children:[(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineMedium]}),(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineMedium]})]}),(0,t.jsxs)(U.View,{gap:4,children:[(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineShort]}),(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineShort]})]}),(0,t.jsx)(U.View,{clsx:V.default.buttonColumn,children:(0,t.jsx)(U.View,{clsx:V.default.skeletonButton})})]}),(0,t.jsx)(y.DividerH,{clsx:V.default.divider}),(0,t.jsx)(U.View,{clsx:V.default.tableRow,gap:16,children:(0,t.jsxs)(U.View,{row:!0,justify:"space-between",align:"start",gap:16,wrap:!0,children:[(0,t.jsxs)(U.View,{grow:!0,gap:4,children:[(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineMedium]}),(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineMedium]})]}),(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineShort]}),(0,t.jsx)(U.View,{clsx:V.default.buttonColumnNoShrink,children:(0,t.jsx)(U.View,{clsx:V.default.skeletonButton})})]})})]})})}function I({orgId:e,alertsConfig:a,canEdit:i,loading:n}){let[l,o]=(0,r.useState)(!1),[d,u]=(0,r.useState)(!1),c=a?.globalAlert?.threshold,g=(0,r.useMemo)(()=>a?.__typename!=="UsageBasedBillingAlertsConfig"?[]:a?.groupAlerts?.filter(e=>null!==e)||[],[a]),p=g.map(e=>e.groupId),{data:m}=(0,s.useOrgGroupsQuery)({variables:{orgId:e,input:{count:100}},skip:0===p.length}),x=(0,r.useMemo)(()=>{let e=new Map;return m?.currentUser?.org?.__typename==="Org"&&m.currentUser.org.groups?.__typename==="OrgGroupConnection"&&(m.currentUser.org.groups.items||[]).forEach(t=>{t&&e.set(t.id,t)}),e},[m]),h=(0,r.useMemo)(()=>g.map(e=>({...e,group:x.get(e.groupId)})).filter(e=>e.group),[g,x]);return n?(0,t.jsx)(P,{}):(0,t.jsxs)(U.View,{children:[(0,t.jsxs)(U.View,{clsx:V.default.tableContainer,children:[(0,t.jsxs)(U.View,{row:!0,justify:"space-between",clsx:V.default.tableRow,align:"center",gap:16,children:[(0,t.jsxs)(U.View,{grow:!0,gap:4,children:[(0,t.jsx)(C.Text,{variant:"subheadDefault",children:"Per-user agent usage alerts"}),(0,t.jsx)(C.Text,{color:"dimmer",variant:"small",children:"Set agent usage alerts for each user in your organization"})]}),(0,t.jsx)(U.View,{gap:4,children:(0,t.jsxs)(U.View,{clsx:V.default.currentValueText,children:[(0,t.jsx)(C.Text,{color:"dimmer",variant:"small",children:"Alert threshold"}),(0,t.jsx)(C.Text,{clsx:V.default.valueText,children:c?T(c):"Not set"})]})}),(0,t.jsx)(U.View,{clsx:V.default.buttonColumn,children:(0,t.jsx)(k.Tooltip,{tooltip:"You do not have permission to manage per-user budgets",isDisabled:i,children:(0,t.jsx)(w.Button,{colorway:"primary",disabled:!i,variant:"outlined",onClick:()=>o(!0),text:"Manage",size:"small"})})})]}),(0,t.jsx)(y.DividerH,{clsx:V.default.divider}),(0,t.jsx)(U.View,{clsx:V.default.tableRow,gap:16,children:(0,t.jsxs)(U.View,{row:!0,justify:"space-between",align:"start",gap:16,wrap:!0,children:[(0,t.jsxs)(U.View,{grow:!0,gap:4,children:[(0,t.jsx)(C.Text,{variant:"subheadDefault",children:"Group agent usage alerts"}),(0,t.jsx)(C.Text,{color:"dimmer",variant:"small",children:"Get notified when a group's cumulative agent usage reaches an alert threshold"})]}),(0,t.jsx)(U.View,{shrink:!0,children:h.length>0?(0,t.jsx)(U.View,{row:!0,gap:8,wrap:!0,children:h.map(e=>(0,t.jsxs)(U.View,{row:!0,gap:4,align:"center",p:6,px:12,br:"default",clsx:V.default.groupAlertPill,children:[(0,t.jsx)(C.Text,{variant:"small",children:e.group?.name}),(0,t.jsx)(C.Text,{variant:"small",color:"dimmer",children:"•"}),(0,t.jsx)(C.Text,{variant:"small",color:"dimmer",children:T(e.threshold)})]},e.groupId))}):(0,t.jsx)(U.View,{p:4,children:(0,t.jsx)(C.Text,{children:"No group alerts configured"})})}),(0,t.jsx)(U.View,{clsx:V.default.buttonColumnNoShrink,children:(0,t.jsx)(k.Tooltip,{tooltip:"You do not have permission to manage group budgets",isDisabled:i,children:(0,t.jsx)(w.Button,{colorway:"primary",disabled:!i,variant:"outlined",onClick:()=>u(!0),text:"Manage",size:"small"})})})]})})]}),(0,t.jsx)(A,{orgId:e,initialValue:c,isOpen:l,onClose:()=>o(!1)}),(0,t.jsx)(D,{orgId:e,groupAlerts:g,isOpen:d,onClose:()=>u(!1)})]})}function B(){return(0,t.jsxs)(U.View,{children:[(0,t.jsx)(U.View,{clsx:V.default.tableContainer,children:(0,t.jsxs)(U.View,{row:!0,clsx:V.default.tableRow,justify:"space-between",align:"center",gap:16,children:[(0,t.jsxs)(U.View,{grow:!0,gap:4,children:[(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineMedium]}),(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineMedium]})]}),(0,t.jsxs)(U.View,{row:!0,children:[(0,t.jsxs)(U.View,{clsx:V.default.currentValueText,gap:4,children:[(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineShort]}),(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineShort]})]}),(0,t.jsxs)(U.View,{clsx:V.default.currentValueText,gap:4,children:[(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineShort]}),(0,t.jsx)(U.View,{clsx:[V.default.skeletonLine,V.default.skeletonLineShort]})]})]}),(0,t.jsx)(U.View,{clsx:V.default.buttonColumn,children:(0,t.jsx)(U.View,{clsx:V.default.skeletonButton})})]})}),(0,t.jsx)(P,{})]})}function E({org:e,alertsConfig:s,canEdit:a,customerId:i,customerAlerts:n,loading:l}){let[o,d]=(0,r.useState)(!1),u=s?.softAlert?.threshold,c=s?.hardAlert?.threshold;return l?(0,t.jsx)(B,{}):(0,t.jsxs)(U.View,{children:[(0,t.jsx)(U.View,{clsx:V.default.tableContainer,children:(0,t.jsxs)(U.View,{row:!0,clsx:V.default.tableRow,justify:"space-between",align:"center",gap:16,children:[(0,t.jsxs)(U.View,{grow:!0,gap:4,children:[(0,t.jsx)(C.Text,{variant:"subheadDefault",children:"Organization spending alerts"}),(0,t.jsx)(C.Text,{color:"dimmer",variant:"small",children:"Get notified when organization-wide usage overages reach certain thresholds"})]}),(0,t.jsx)(U.View,{children:(0,t.jsxs)(U.View,{row:!0,children:[(0,t.jsxs)(U.View,{clsx:V.default.currentValueText,children:[(0,t.jsx)(C.Text,{color:"dimmer",variant:"small",children:"Alert threshold"}),(0,t.jsx)(C.Text,{clsx:V.default.valueText,children:u?T(u):"Not set"})]}),(0,t.jsxs)(U.View,{clsx:V.default.currentValueText,children:[(0,t.jsx)(C.Text,{color:"dimmer",variant:"small",children:"Budget limit"}),(0,t.jsx)(C.Text,{clsx:V.default.valueText,children:c?T(c):"Not set"})]})]})}),(0,t.jsx)(U.View,{clsx:V.default.buttonColumn,children:(0,t.jsx)(k.Tooltip,{tooltip:"You do not have permission to manage usage alerts",isDisabled:a,children:(0,t.jsx)(w.Button,{colorway:"primary",variant:"outlined",disabled:!a,onClick:()=>d(!0),text:"Manage",size:"small"})})})]})}),(0,t.jsx)(I,{orgId:e.id,alertsConfig:s,canEdit:a}),(0,t.jsx)(_.Modal,{isOpen:o,onRequestClose:()=>d(!1),children:void 0!==i?(0,t.jsx)(j.EditUsageBasedBillingAlertsForm,{org:e,customerId:i,initialSettings:n,onDone:()=>d(!1)}):null})]})}e.s(["OrgUsageAlerts",()=>E,"UserAndGroupUsageAlerts",()=>I],724306)},529170,e=>{e.v({bold:"WorkspaceUsage-module__j7YtuW__bold",emptyState:"WorkspaceUsage-module__j7YtuW__emptyState",table:"WorkspaceUsage-module__j7YtuW__table",tableSkeletonRow:"WorkspaceUsage-module__j7YtuW__tableSkeletonRow",usageLink:"WorkspaceUsage-module__j7YtuW__usageLink"})},265548,e=>{e.v({card:"BillingOverview-module__fkIRPa__card",cardContent:"BillingOverview-module__fkIRPa__cardContent",cardsContainer:"BillingOverview-module__fkIRPa__cardsContainer",fieldRow:"BillingOverview-module__fkIRPa__fieldRow",loadingSkeleton:"BillingOverview-module__fkIRPa__loadingSkeleton"})},344493,e=>{e.v({appCard:"CollaboratorsTable-module__OZNDrW__appCard",emptyStateContainer:"CollaboratorsTable-module__OZNDrW__emptyStateContainer",icon:"CollaboratorsTable-module__OZNDrW__icon"})},462875,e=>{e.v({sectionDivider:"WomenReferralsBody-module__PiLHRW__sectionDivider",sectionLabel:"WomenReferralsBody-module__PiLHRW__sectionLabel"})},614406,e=>{e.v({avatarContainer:"Profile-module__KV7Hqa__avatarContainer",avatarSkeleton:"Profile-module__KV7Hqa__avatarSkeleton",bioTextarea:"Profile-module__KV7Hqa__bioTextarea",draggingOver:"Profile-module__KV7Hqa__draggingOver",editBadge:"Profile-module__KV7Hqa__editBadge",formActions:"Profile-module__KV7Hqa__formActions",formContent:"Profile-module__KV7Hqa__formContent",formRow:"Profile-module__KV7Hqa__formRow",infoTooltip:"Profile-module__KV7Hqa__infoTooltip",inputContainer:"Profile-module__KV7Hqa__inputContainer",inputSkeleton:"Profile-module__KV7Hqa__inputSkeleton",label:"Profile-module__KV7Hqa__label",labelSkeleton:"Profile-module__KV7Hqa__labelSkeleton",loadingSelect:"Profile-module__KV7Hqa__loadingSelect",nameInput:"Profile-module__KV7Hqa__nameInput",overlayLabel:"Profile-module__KV7Hqa__overlayLabel",pulse:"Profile-module__KV7Hqa__pulse",sectionLabel:"Profile-module__KV7Hqa__sectionLabel",topSection:"Profile-module__KV7Hqa__topSection",uploadInput:"Profile-module__KV7Hqa__uploadInput"})},172948,e=>{e.v({permissionDeniedContent:"SettingsTabContent-module__vcVBhq__permissionDeniedContent",permissionDeniedDescription:"SettingsTabContent-module__vcVBhq__permissionDeniedDescription",permissionDeniedRoot:"SettingsTabContent-module__vcVBhq__permissionDeniedRoot",tabContent:"SettingsTabContent-module__vcVBhq__tabContent"})},745148,e=>{e.v({content:"UniversalSettingsContentArea-module__d1sQPW__content"})},688844,703573,e=>{"use strict";var t=e.i(276385),r=e.i(995691),s=e.i(569910),a=e.i(61524),i=e.i(477873),n=e.i(96770),l=e.i(353516),o=e.i(53705),d=e.i(671318),u=e.i(711858),c=e.i(88057),g=e.i(10844),p=e.i(389959),m=e.i(417751),x=e.i(672279),h=e.i(76112),f=e.i(724306),j=e.i(783509),w=e.i(6338),y=e.i(734582),b=e.i(272119),v=e.i(423828),_=e.i(960178),C=e.i(367861),S=e.i(625484),k=e.i(529170),U=e.i(265548);let V=w.loadingStyle.foregroundPulse(),T=[{id:"name",key:"name",label:"Name",isRowHeader:!0,allowSorting:!1,width:"3fr"},{id:"email",key:"email",label:"Email",allowSorting:!1,width:"3fr"},{id:"role",key:"role",label:"Role",allowSorting:!1,width:"2fr"},{id:"resourceUsage",key:"resourceUsage",label:"Resource usage",allowSorting:!1,width:"2fr"}];function A(e){return e.toLocaleString("en-US",{style:"currency",currency:"USD",maximumFractionDigits:2*!Number.isInteger(e)})}function O({agentUsageRows:e}){return 0===e.length?(0,t.jsxs)(S.View,{clsx:k.default.emptyState,gap:12,align:"center",p:16,children:[(0,t.jsx)(h.default,{size:32}),(0,t.jsx)(_.Text,{variant:"subheadBig",children:"No agent usage"}),(0,t.jsx)(_.Text,{color:"dimmer",children:"No agent usage data is available for this billing period."})]}):(0,t.jsx)(y.IndexTable,{className:k.default.table,autoLayout:!1,title:null,columns:T,items:e,selectionMode:"none",loading:!1,children:e=>(0,t.jsxs)(v.TableRow,{id:e.id,children:[(0,t.jsx)(b.TableCell,{children:(0,t.jsx)(C.User,{displayName:e.displayName,src:e.image,username:e.username})},"name"),(0,t.jsx)(b.TableCell,{children:(0,t.jsx)(_.Text,{multiline:!1,showTooltipOnTruncate:!0,children:e.email})},"email"),(0,t.jsx)(b.TableCell,{children:(0,t.jsx)(_.Text,{color:"dimmer",children:e.role})},"role"),(0,t.jsx)(b.TableCell,{children:(0,t.jsx)(_.Text,{children:A(e.amountUsd)})},"resourceUsage")]},e.id)})}function D({orgId:e,setSelectedTab:r}){var s,a;let i,n,l,o=null!=e,{data:d,loading:u}=(0,x.useWorkspaceUsageQuery)({variables:{orgId:e,hasOrgId:o}}),c=o&&d?.getOrg?.__typename==="Org"?d.getOrg:null,g=(()=>{if(o){let e=c?.customer.__typename==="Customer"?c.customer:null;return e?.usageInterval??null}let e=d?.currentUser?.__typename==="CurrentUser"?d.currentUser:null;return e?.customer?.usageInterval??null})(),h=c?.usageBasedBillingAlerts.__typename==="UsageBasedBillingAlertsConfig"&&c.usageBasedBillingAlerts?c.usageBasedBillingAlerts:void 0,w=c?.authorizations?.viewUsageAlerts.isAuthorized??!1,y=c?.authorizations?.editUsageAlerts.isAuthorized??!1,b=(0,p.useMemo)(()=>{let e=g?.orgUsage;return e&&"CustomerOrgUsage"===e.__typename?e.agentUsageByUser.items.map(e=>({id:e.userId,displayName:e.user?.displayName??"Unknown user",username:e.user?.username??"",image:e.user?.image??"",email:e.email??"",role:e.orgRole?(0,j.orgGroupToDisplayName)(e.orgRole):"-",amountUsd:e.amountUsd})):[]},[g?.orgUsage]);if(u)return(0,t.jsxs)(S.View,{gap:24,children:[(0,t.jsxs)(S.View,{clsx:U.default.cardsContainer,children:[(0,t.jsx)(S.View,{p:12,clsx:U.default.card,children:(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsx)(S.View,{clsx:U.default.loadingSkeleton,css:V}),(0,t.jsx)(S.View,{clsx:U.default.loadingSkeleton,css:V})]})}),(0,t.jsx)(S.View,{p:12,clsx:U.default.card,children:(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsx)(S.View,{clsx:U.default.loadingSkeleton,css:V}),(0,t.jsx)(S.View,{clsx:U.default.loadingSkeleton,css:V})]})})]}),(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsx)(_.Text,{variant:"subheadBig",children:"Agent usage"}),(0,t.jsx)(S.View,{clsx:k.default.tableSkeletonRow,css:V}),(0,t.jsx)(S.View,{clsx:k.default.tableSkeletonRow,css:V}),(0,t.jsx)(S.View,{clsx:k.default.tableSkeletonRow,css:V})]})]});if(o){if(!c)return(0,t.jsx)(S.View,{py:16,children:(0,t.jsx)(_.Text,{color:"dimmer",children:"Unable to load workspace usage."})});if("Customer"!==c.customer.__typename)return(0,t.jsx)(S.View,{py:16,children:(0,t.jsx)(_.Text,{color:"dimmer",children:c.customer.message})})}if(!g)return(0,t.jsx)(S.View,{py:16,children:(0,t.jsx)(_.Text,{color:"dimmer",children:"Unable to load workspace usage."})});let v=g.orgUsage;if("UnauthorizedError"===v.__typename)return(0,t.jsx)(S.View,{py:16,children:(0,t.jsx)(_.Text,{color:"dimmer",children:v.message})});let C=(s=g.startDate,a=g.endDate,i=new Date(s),l=(n=new Date(a)).getFullYear()!==i.getFullYear()?"MMM dd, yyyy":"MMM dd",`${(0,m.format)(i,l)} - ${(0,m.format)(n,l)}`);return(0,t.jsxs)(S.View,{gap:24,children:[(0,t.jsxs)(_.Text,{color:"dimmest",children:["Updates take up to 1 hour and may not reflect the latest usage data."," ",(0,t.jsx)("a",{href:"#",clsx:k.default.usageLink,onClick:e=>{e.preventDefault(),r("customerUsage")},children:"View all usage"})]}),(0,t.jsxs)(S.View,{clsx:U.default.cardsContainer,children:[(0,t.jsx)(S.View,{p:12,clsx:U.default.card,children:(0,t.jsxs)(S.View,{gap:12,children:[(0,t.jsxs)(S.View,{row:!0,gap:8,align:"end",children:[(0,t.jsx)(_.Text,{variant:"subheadDefault",children:"Total usage"}),(0,t.jsx)(_.Text,{variant:"small",color:"dimmer",children:C})]}),(0,t.jsx)(S.View,{clsx:U.default.cardContent,children:(0,t.jsx)(S.View,{row:!0,gap:4,align:"center",children:(0,t.jsx)(_.Text,{clsx:k.default.bold,children:A(v.totalAmountUsd)})})})]})}),(0,t.jsx)(S.View,{p:12,clsx:U.default.card,children:(0,t.jsxs)(S.View,{gap:12,children:[(0,t.jsx)(_.Text,{variant:"subheadDefault",children:"Agent users"}),(0,t.jsx)(S.View,{clsx:U.default.cardContent,children:(0,t.jsx)(_.Text,{clsx:k.default.bold,children:b.length})})]})})]}),(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsx)(_.Text,{variant:"subheadBig",children:"Agent usage"}),(0,t.jsx)(O,{agentUsageRows:b})]}),w&&e?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(_.Header,{variant:"subheadBig",level:2,children:"Alerts"}),(0,t.jsx)(f.UserAndGroupUsageAlerts,{orgId:e,alertsConfig:h,canEdit:y})]}):null]})}var R=e.i(185296),P=e.i(612866),I=e.i(973245),B=e.i(304277);e.i(566901);let E={},L=I.gql`
+    query InvitedUsersPersonalCollaborators {
+  currentUser {
+    __typename
+    ... on CurrentUser {
+      id
+      personalCollaborators {
+        ... on PersonalCollaboratorsInfo {
+          count
+          limit
+          collaborators {
+            user {
+              id
+              username
+              displayName
+              image
+            }
+            repl {
+              id
+              title
+              slug
+              url
+              iconUrl
+            }
+          }
+        }
+      }
+    }
+  }
+}
+    `;var q=e.i(220743),z=e.i(612343),N=e.i(173703),F=e.i(91720),M=e.i(794404),G=e.i(344493);let $=[{id:"name",key:"name",label:"Name",isRowHeader:!0},{id:"apps",key:"apps",label:"Apps"}];function H(){let e,{data:r,loading:s}=(e={...E,...void 0},B.useQuery(L,e)),a=r?.currentUser?.__typename==="CurrentUser"?r.currentUser:null,i=a?.personalCollaborators?.__typename==="PersonalCollaboratorsInfo"?a.personalCollaborators:null,n=(0,p.useMemo)(()=>Array.from((i?.collaborators??[]).reduce((e,t)=>{let r=e.get(t.user.id);return r?r.repls.push(t.repl):e.set(t.user.id,{user:t.user,repls:[t.repl]}),e},new Map).values()).sort((e,t)=>e.user.username.localeCompare(t.user.username)),[i?.collaborators]);return s?(0,t.jsx)(M.default,{}):(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsx)(_.Text,{variant:"subheadBig",children:"Guests"}),(0,t.jsx)(N.ShadesSurface,{elevate:!1,children:0===n.length?(0,t.jsxs)(S.View,{clsx:G.default.emptyStateContainer,gap:12,align:"center",p:16,children:[(0,t.jsx)(z.default,{size:32}),(0,t.jsx)(_.Text,{variant:"subheadBig",children:"No guests yet"}),(0,t.jsx)(S.View,{align:"center",children:(0,t.jsx)(_.Text,{color:"dimmer",children:"Guests are users you invite to collaborate on your apps. To add a guest, open one of your apps and invite them from the collaboration menu."})}),(0,t.jsx)(F.ButtonLink,{href:"/repls",text:"Go to apps",target:"_blank",rel:"noopener noreferrer"})]}):(0,t.jsx)(y.IndexTable,{autoLayout:!0,title:"Guests",columns:$,items:n,selectionMode:"none",loading:s,loadingPlaceholder:{numRows:3,height:36},children:e=>(0,t.jsxs)(v.TableRow,{id:e.user.id,children:[(0,t.jsx)(b.TableCell,{children:(0,t.jsx)(C.User,{displayName:e.user.displayName,src:e.user.image,username:e.user.username,small:!0})}),(0,t.jsx)(b.TableCell,{children:(0,t.jsx)(S.View,{gap:4,align:"start",row:!0,wrap:!0,children:e.repls.map(e=>(0,t.jsx)(P.default,{clsx:G.default.appCard,href:e.url,target:"_blank",rel:"noopener noreferrer",children:(0,t.jsxs)(S.View,{row:!0,align:"center",gap:8,children:[e.iconUrl?(0,t.jsx)(R.default,{clsx:G.default.icon,src:e.iconUrl,alt:"",width:16,height:16}):null,(0,t.jsx)(_.Text,{variant:"small",children:e.title||e.slug}),(0,t.jsx)(q.default,{})]})},e.id))})})]},e.user.id)})})]})}var W=e.i(556088),K=e.i(993796),Y=e.i(670413),Q=e.i(858248),X=e.i(709485),J=e.i(332441),Z=e.i(535316),ee=e.i(435952),et=e.i(641209),er=e.i(808229),es=e.i(704004),ea=e.i(810206),ei=e.i(476607),en=e.i(565238),el=e.i(988676),eo=e.i(112767);function ed(){return(0,t.jsx)(S.View,{py:12,children:(0,t.jsx)(el.DividerH,{})})}function eu(){let{preferences:e,update:r}=(0,a.usePreferences)("fontSize","minimapDisplay","wrapping","keyboardHandler","multiselectModifierKey","showFileTreeGitStatus","codeIntelligence","codeActionsOnSave","formatOnSave","semanticTokens","accessibleTerminal","shellBellAudio","webviewAutoOpenOnPortOpened","agentAudioNotification","agentPushNotification","agentPosition","forwardPortsAutomatically","acceptSuggestionOnCommitCharacter","enableCloseBracketMatching"),s=(0,J.useIsMac)(),i=(0,K.useFlag)({controlName:"flag-agent-teamwork"}),n=e=>{Object.keys(e).forEach(t=>{let r=e[t];(0,Q.track)(X.events.SETTINGS_TOGGLED,{settingChanged:t,updatedValue:r})}),r(e)};if(!e)return null;let l={...W.userPreferences.multiselectModifierKey,options:W.userPreferences.multiselectModifierKey.options.map(e=>({...e,title:(0,Y.getKeyCharTextForPlatform)("cmdOrCtrlKey"===e.id?Y.KeyChar.CMD_OR_CTRL_KEY:Y.KeyChar.ALT_KEY,s)}))};return(0,t.jsxs)(S.View,{gap:6,pb:32,children:[(0,t.jsxs)(ea.CollapsibleSection,{title:"Agent",defaultExpanded:!0,children:[i?null:(0,t.jsx)(Z.AgentPosition,{setting:W.userPreferences.agentPosition,update:n,currentValue:e.agentPosition}),(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.agentAudioNotification,update:n,currentValue:e.agentAudioNotification}),(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.agentPushNotification,update:n,currentValue:e.agentPushNotification})]}),(0,t.jsx)(ed,{}),(0,t.jsxs)(ea.CollapsibleSection,{title:"App Preview",defaultExpanded:!0,children:[(0,t.jsx)(ea.Section,{id:"webviewAutoOpenOnPortOpened",title:(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(_.Text,{children:"Automatic Preview"}),(0,t.jsx)(_.Text,{variant:"small",color:"dimmest",children:"Open a web preview automatically when a port is open"})]}),children:(0,t.jsx)(eo.Switch,{"aria-label":"Automatic Webview",isSelected:e.webviewAutoOpenOnPortOpened,onChange:e=>{n({webviewAutoOpenOnPortOpened:e})}})}),(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.forwardPortsAutomatically,update:n,currentValue:e.forwardPortsAutomatically})]}),(0,t.jsx)(ed,{}),(0,t.jsxs)(ea.CollapsibleSection,{title:"Appearance",defaultExpanded:!0,children:[(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.fontSize,update:n,currentValue:e.fontSize}),(0,t.jsx)(ea.Section,{id:"theme",title:"Theme",children:(0,t.jsx)(en.ThemesSwitcher,{})})]}),(0,t.jsx)(ed,{}),(0,t.jsxs)(ea.CollapsibleSection,{title:"Code Editing",defaultExpanded:!1,children:[(0,t.jsx)(ea.Section,{id:"acceptSuggestionOnCommitCharacter",title:(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(_.Text,{children:"Accept Suggestion on Commit Character"}),(0,t.jsxs)(_.Text,{variant:"small",color:"dimmest",children:["Controls whether suggestions should be accepted on commit characters. For example, in JavaScript, the semi-colon (",(0,t.jsx)("code",{children:";"}),") can be a commit character that accepts the suggestion and types the character."]})]}),children:(0,t.jsx)(eo.Switch,{"aria-label":"Accept suggestion on commit character",isSelected:e.acceptSuggestionOnCommitCharacter,onChange:e=>{n({acceptSuggestionOnCommitCharacter:e})}})}),(0,t.jsx)(ea.Section,{id:"enableCloseBracketMatching",title:(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(_.Text,{children:"Auto close brackets"}),(0,t.jsx)(_.Text,{variant:"small",color:"dimmest",children:"Controls whether the editor should automatically close brackets after the user adds an opening bracket."})]}),children:(0,t.jsx)(eo.Switch,{"aria-label":"Auto close brackets",isSelected:e.enableCloseBracketMatching,onChange:e=>{n({enableCloseBracketMatching:e})}})}),(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.wrapping,update:n,currentValue:e.wrapping}),(0,t.jsx)(er.default,{}),(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.minimap,update:n,currentValue:e.minimapDisplay}),(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.codeIntelligence,update:n,currentValue:e.codeIntelligence}),e.codeIntelligence?(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.semanticTokens,update:n,currentValue:e.semanticTokens}):null,(0,t.jsx)(ei.default,{})]}),(0,t.jsx)(ed,{}),(0,t.jsxs)(ea.CollapsibleSection,{title:"Advanced Developer Settings",defaultExpanded:!1,children:[(0,t.jsx)(es.default,{}),(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.keyboardHandler,update:n,currentValue:e.keyboardHandler}),(0,t.jsx)(et.EditorSettingBox,{setting:l,update:n,currentValue:e.multiselectModifierKey}),(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.showFileTreeGitStatus,update:n,currentValue:e.showFileTreeGitStatus}),(0,t.jsx)(ee.default,{}),(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.accessibleTerminal,update:n,currentValue:e.accessibleTerminal}),(0,t.jsx)(et.EditorSettingBox,{setting:W.userPreferences.shellBellAudio,update:n,currentValue:e.shellBellAudio})]})]})}var ec=e.i(830675),eg=e.i(442121),ep=e.i(303552),em=e.i(678640),ex=e.i(850390),eh=e.i(939528),ef=e.i(289999),ej=e.i(368964),ew=e.i(951262);let ey={},eb=I.gql`
+    fragment ProfileView_currentUser on CurrentUser {
+  ...AccountProfileCurrentUser
+  ...AccountAccountCurrentUser
+  ...AccountEmailSettingsCurrentUser
+  ...AccountConnectedServicesCurrentUser
+  ...AccountUserRolesCurrentUser
+  isSamlUser
+  canStartUserExport
+}
+    ${eh.AccountProfileCurrentUserFragmentDoc}
+${ep.AccountAccountCurrentUserFragmentDoc}
+${ex.AccountEmailSettingsCurrentUserFragmentDoc}
+${em.AccountConnectedServicesCurrentUserFragmentDoc}
+${ef.AccountUserRolesCurrentUserFragmentDoc}`,ev=I.gql`
+    query ProfileViewData {
+  currentUser {
+    ...ProfileView_currentUser
+  }
+}
+    ${eb}`,e_=I.gql`
+    mutation ProfileDeleteAccount($gdprCompliant: Boolean!) {
+  deleteAccount(gdprCompliant: $gdprCompliant)
+}
+    `;var eC=e.i(612054),eS=e.i(183035),ek=e.i(602686),eU=e.i(36654),eV=e.i(204977),eT=e.i(342008),eA=e.i(416746),eO=e.i(882848),eD=e.i(269848),eR=e.i(11029),eP=e.i(491194),eI=e.i(416298),eB=e.i(349597),eE=e.i(748869),eL=e.i(466640),eq=e.i(452412),ez=e.i(89078),eN=e.i(731127),eF=e.i(294426),eM=e.i(462212),eG=e.i(322823),e$=e.i(422025),eH=e.i(222342),eW=e.i(971072),eK=e.i(746788),eY=e.i(276573),eQ=e.i(809341),eX=e.i(674918),eJ=e.i(480028),eZ=e.i(714165),e0=e.i(140487),e1=e.i(127227),e2=e.i(887877),e4=e.i(607278),e8=e.i(85742),e6=e.i(739521),e7=e.i(12034),e3=e.i(396776),e5=e.i(751273),e9=e.i(557862),te=e.i(732237),tt=e.i(187932),tr=e.i(457948),ts=e.i(596139),ta=e.i(968783),ti=e.i(88619),tn=e.i(462875);function tl(){return(0,t.jsxs)(S.View,{row:!0,align:"center",gap:8,children:[(0,t.jsx)(eD.default,{size:20}),(0,t.jsx)(_.Text,{children:"Loading your referral codes..."})]})}function to({error:e}){return(0,t.jsxs)(S.View,{p:16,gap:8,style:{border:`1px solid ${eJ.tokens.outlineDimmer}`,borderRadius:4},children:[(0,t.jsx)(_.Text,{style:{color:eJ.tokens.accentNegativeDefault},children:"Failed to load referral codes. Please try again later."}),(0,t.jsx)(_.Text,{variant:"small",color:"dimmer",style:{fontFamily:"monospace",wordBreak:"break-word"},children:e.graphQLErrors?.[0]?.message??e.networkError?.message??(e instanceof Error?e.message:String(e))})]})}function td(){return(0,t.jsx)(S.View,{p:16,gap:8,style:{border:`1px solid ${eJ.tokens.outlineDimmest}`},children:(0,t.jsx)(_.Text,{color:"dimmer",children:"No referral codes available yet. Please try refreshing the page in a few moments."})})}function tu({referral:e,index:r,totalCodes:s}){let a=1===s?"Your referral code":`Referral ${r+1}`;return(0,t.jsxs)(S.View,{p:16,gap:12,br:"container",style:{border:`1px solid ${eJ.tokens.outlineDimmest}`,backgroundColor:eJ.tokens.backgroundDefault},children:[(0,t.jsxs)(S.View,{row:!0,align:"center",justify:"space-between",gap:8,children:[(0,t.jsx)(_.Text,{variant:"subheadDefault",children:a}),(0,t.jsxs)(_.Text,{variant:"small",color:"dimmer",children:[e.timesUsed," of ",e.timesUsed+e.timesRemaining," ","used"]})]}),(0,t.jsx)(S.View,{gap:8,children:(0,t.jsxs)(S.View,{children:[(0,t.jsx)(_.Text,{variant:"small",color:"dimmer",style:{marginBottom:4},children:"Referral link"}),(0,t.jsxs)(S.View,{row:!0,align:"center",gap:8,children:[(0,t.jsx)(S.View,{grow:!0,shrink:!0,p:8,style:{border:`1px solid ${eJ.tokens.outlineDimmest}`,borderRadius:4,minWidth:0,overflow:"hidden"},children:(0,t.jsx)(_.Text,{color:"dimmer",variant:"small",style:{whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"},children:e.referralLink})}),(0,t.jsx)(ti.CopyButton,{textToCopy:e.referralLink,tooltipText:"Copy link",text:"Copy link",colorway:"primary",showIcon:!0})]})]})})]},e.code)}function tc({showLoading:e,error:r,codes:s}){return e?(0,t.jsx)(tl,{}):r?(0,t.jsx)(to,{error:r}):0===s.length?(0,t.jsx)(td,{}):(0,t.jsx)(S.View,{gap:16,children:s.map((e,r)=>(0,t.jsx)(tu,{referral:e,index:r,totalCodes:s.length},e.code))})}function tg({forceShow:e=!1}={}){let r=(0,K.useFlag)({controlName:"flag-women"}),{orgId:s}=(0,ta.useCurrentUserStoredOrgContext)(),{data:a,loading:i}=(0,tt.useLayoutAppLayoutQuery)(),n=void 0===s,l=a?.currentUser?.orgs,o=l?.__typename==="CurrentUserOrganizationConnection"&&l.items.some(e=>(0,j.isEnterpriseOrg)(e.org.dealContext??void 0)),{data:d,loading:u,error:c}=(0,tr.useWomenReferralsQuery)({fetchPolicy:"network-only",ssr:!1,skip:!e&&(!n||!r||i||o)}),g=e||n&&r&&!o&&!i,p=d?.currentUser?.womenReferralCodes??[];return g?(0,t.jsxs)(S.View,{gap:24,style:{maxWidth:600},children:[!e&&(0,t.jsx)(el.DividerH,{clsx:tn.default.sectionDivider}),(0,t.jsx)(S.View,{pt:16,children:(0,t.jsx)(_.Text,{clsx:tn.default.sectionLabel,children:"International Women's Day Referral"})}),(0,t.jsxs)(_.Text,{color:"dimmer",children:["Share this link with friends to give them Replit ",ts.corePlanName," free for 1 month. You can share it with up to 3 people. You either get 1 month free or $20 credit on your next invoice if you are a paid user."]}),(0,t.jsx)(tc,{showLoading:u,error:c,codes:p})]}):null}var tp=e.i(614406);let tm=w.loadingStyle.foregroundPulse(),tx=()=>(0,t.jsx)(S.View,{children:(0,t.jsxs)(S.View,{clsx:tp.default.topSection,children:[(0,t.jsx)(S.View,{clsx:tp.default.avatarSkeleton,css:tm}),(0,t.jsxs)(S.View,{gap:24,grow:!0,clsx:tp.default.formContent,children:[(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsx)(S.View,{clsx:tp.default.labelSkeleton,css:tm}),(0,t.jsx)(S.View,{clsx:tp.default.inputSkeleton,css:tm})]}),(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsx)(S.View,{clsx:tp.default.labelSkeleton,css:tm}),(0,t.jsx)(S.View,{clsx:tp.default.inputSkeleton,css:tm})]})]})]})});function th({currentUser:e}){let[r,s]=(0,p.useState)(null),[a,i]=(0,p.useState)(!1),[n,l]=(0,p.useState)(null),[o,d]=(0,p.useState)(!1),[u,c]=(0,p.useState)(!1),g=(0,p.useRef)(e.bio),m=(0,p.useRef)(null),x=(0,p.useRef)(`${Date.now()}-${Math.random()}`),h=`profile-image-upload-${x.current}`,f=(0,p.useRef)(null);(0,p.useEffect)(()=>()=>{null!==f.current&&clearTimeout(f.current)},[]);let[j,{loading:w}]=(0,eh.useAccountProfileCurrentUserUpdateMutation)({onError:e=>{s(e.message||"Something went wrong. Please try again.")},onCompleted:()=>{s(null),i(!0),f.current=setTimeout(()=>{i(!1)},2e3)}}),y=(0,e$.default)({onUpload:({id:e})=>{l(null),j({variables:{input:{profileImageId:e}}})},onUploadPreview:()=>{l(null)},onError:e=>l(e.message)}),b=(0,eG.useFormField)(e.firstName||"",e=>{if(e.length>250)return{message:"First name must be less than 250 characters."}}),v=(0,eG.useFormField)(e.lastName||"",e=>{if(e.length>250)return{message:"Last name must be less than 250 characters."}}),C=(0,eG.useFormField)(e.bio||"",e=>{if(e.length>140)return{message:"Bio must be less than 140 characters."}}),k=async e=>{e.preventDefault();let t={firstName:b.value,lastName:v.value,bio:C.value};await j({variables:{input:t}}),g.current!==C.value&&((0,eY.trackProfileEdited)({source:"profile",surface:"bio"}),g.current=C.value)};return(0,t.jsxs)(S.View,{children:[(0,t.jsxs)(S.View,{clsx:tp.default.topSection,children:[(0,t.jsxs)(S.View,{clsx:[tp.default.avatarContainer,{[tp.default.draggingOver]:u}],onDrop:e=>{e.preventDefault(),c(!1);let t=e.dataTransfer?.files?.[0];t&&(eW.ACCEPTABLE_IMAGE_UPLOAD_TYPES.includes(t.type)?y.uploadImage(t,eB.ImageUploadContexts.ProfileImage):l("Please upload a supported image format (PNG, JPEG, GIF, or WebP)"))},onDragOver:e=>e.preventDefault(),onDragEnter:e=>{e.preventDefault();let t=e.dataTransfer.items;if(t)for(let e=0;e<t.length;e++){let r=t[e];if("file"===r.kind&&eW.ACCEPTABLE_IMAGE_UPLOAD_TYPES.includes(r.type))return void c(!0)}},onDragLeave:e=>{e.preventDefault();let t=e.currentTarget.getBoundingClientRect(),r=e.clientX,s=e.clientY;(r<t.left||r>=t.right||s<t.top||s>=t.bottom)&&c(!1)},children:[(0,t.jsx)(eZ.Avatar,{src:e.hasProfileImage?e.image:null,username:e.username,fullName:e.fullName,size:128}),(0,t.jsx)(S.View,{clsx:tp.default.overlayLabel,tag:"label",htmlFor:h,children:(0,t.jsx)(_.Text,{variant:"small",multiline:!1,children:"Upload or drop image"})}),(0,t.jsx)(S.View,{clsx:tp.default.editBadge,tag:"button",type:"button",onClick:()=>{m.current?.click()},"aria-label":"Change profile image",children:(0,t.jsx)(eV.default,{size:16,color:eJ.tokens.foregroundDefault})}),(0,t.jsx)("input",{id:h,ref:m,type:"file",accept:eW.ACCEPTABLE_IMAGE_UPLOAD_TYPES.join(","),onChange:e=>{let t=e.target.files;t?.length&&e.target.validity.valid&&(y.uploadImage(t[0],eB.ImageUploadContexts.ProfileImage),e.target.value="")},clsx:tp.default.uploadInput,"aria-hidden":"true"}),e.hasProfileImage?(0,t.jsx)(S.View,{p:12,children:(0,t.jsx)(e0.Button,{iconLeft:(0,t.jsx)(eP.default,{}),text:"Remove",size:"small",variant:"outlined",onClick:()=>d(!0)})}):null]}),(0,t.jsxs)(S.View,{gap:24,grow:!0,clsx:tp.default.formContent,children:[n?(0,t.jsx)(e3.StatusBanner,{text:n,colorway:"negative",icon:(0,t.jsx)(eI.default,{})}):null,(0,t.jsx)(e2.Form,{onSubmit:k,children:(0,t.jsxs)(S.View,{gap:24,children:[(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsx)(S.View,{tag:"label",gap:4,clsx:tp.default.label,children:"Username"}),(0,t.jsx)(S.View,{clsx:tp.default.inputContainer,children:(0,t.jsx)(e4.Input,{disabled:!0,value:e.username,clsx:tp.default.nameInput})}),(0,t.jsx)(_.Text,{variant:"small",color:"dimmer",children:e.canChangeUsername?(0,t.jsxs)(t.Fragment,{children:["You can change your username"," ",(0,t.jsx)(P.default,{href:"/~/cli/account/change-username",children:"through the CLI"})," ","once"]}):"You cannot change your username"})]}),(0,t.jsxs)(S.View,{clsx:tp.default.formRow,children:[(0,t.jsxs)(S.View,{gap:8,grow:1,shrink:1,children:[(0,t.jsx)(S.View,{tag:"label",gap:4,clsx:tp.default.label,children:"First name"}),(0,t.jsx)(e4.Input,{onChange:e=>b.setValue(e.target.value),value:b.value,clsx:tp.default.nameInput}),b.error?(0,t.jsx)(e3.StatusBanner,{text:b.error.message,colorway:"negative",icon:(0,t.jsx)(eI.default,{})}):null]}),(0,t.jsxs)(S.View,{gap:8,grow:1,shrink:1,children:[(0,t.jsx)(S.View,{tag:"label",gap:4,clsx:tp.default.label,children:"Last name"}),(0,t.jsx)(e4.Input,{onChange:e=>v.setValue(e.target.value),value:v.value,clsx:tp.default.nameInput}),v.error?(0,t.jsx)(e3.StatusBanner,{text:v.error.message,colorway:"negative",icon:(0,t.jsx)(eI.default,{})}):null]})]}),(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsxs)(S.View,{tag:"label",gap:4,clsx:tp.default.label,children:["Bio (",140-C.value.length," characters remaining)"]}),(0,t.jsx)(S.View,{clsx:tp.default.inputContainer,children:(0,t.jsx)("textarea",{clsx:tp.default.bioTextarea,maxLength:140,value:C.value,onChange:e=>C.setValue(e.target.value),placeholder:"Add a bio"})}),C.error?(0,t.jsx)(e3.StatusBanner,{text:C.error.message,colorway:"negative",icon:(0,t.jsx)(eI.default,{})}):null]}),r?(0,t.jsx)(e3.StatusBanner,{text:r,colorway:"negative",icon:(0,t.jsx)(eI.default,{})}):null,(0,t.jsxs)(S.View,{clsx:tp.default.formActions,children:[(0,t.jsx)(F.ButtonLink,{...(0,eX.userLinkProps)({username:e.username,id:e.id,url:e.url}),text:"View my public profile"}),(0,t.jsx)(e0.Button,{disabled:w,colorway:a?"positive":"primary",type:"submit",loading:w,iconLeft:a?(0,t.jsx)(eS.default,{}):void 0,text:a?"Saved":"Save changes"})]})]})})]})]}),(0,t.jsx)(e6.Modal,{isOpen:o,onRequestClose:()=>d(!1),children:(0,t.jsx)(e9.default,{name:"profile photo",entityType:"photo",delete:()=>{j({variables:{input:{profileImageId:null}}})},hideModal:()=>d(!1)})})]})}function tf({currentUser:e}){let[r,s]=(0,p.useState)(!1),[a,i]=(0,p.useState)(!1),[n,l]=(0,p.useState)(null),o=(0,eG.useFormField)("",eK.default.email),d=(0,eG.useFormField)("",eK.default.password),[u,{loading:c}]=(0,ep.useAccountUpdateEmailMutation)({onError:()=>l("Something went wrong, try reloading the page and try again"),onCompleted:e=>{e.updateEmail?.__typename==="UserError"?l(e.updateEmail.message):(s(!1),i(!0),d.setValue(""))}}),g=async e=>{if(e.preventDefault(),!o.value||!d.value)return void l("Please fill in all fields");let t=await o.validate();if(t?.message)return void l(t?.message);let r=await d.validate();r?.message?l(r?.message):u({variables:{email:o.value,password:d.value}})};return r?(0,t.jsx)("form",{onSubmit:g,children:(0,t.jsxs)(S.View,{gap:16,children:[(0,t.jsx)(_.Header,{level:3,variant:"subheadBig",children:"Update your email"}),(0,t.jsxs)(S.View,{clsx:tp.default.formRow,children:[(0,t.jsxs)(S.View,{gap:8,grow:!0,children:[(0,t.jsx)(S.View,{tag:"label",gap:4,clsx:tp.default.label,children:"New email"}),(0,t.jsx)(S.View,{clsx:tp.default.inputContainer,children:(0,t.jsx)(e4.Input,{placeholder:"your@email.com",onChange:e=>o.setValue(e.target.value),value:o.value,clsx:tp.default.nameInput})})]}),(0,t.jsxs)(S.View,{gap:8,grow:!0,children:[(0,t.jsx)(S.View,{tag:"label",gap:4,clsx:tp.default.label,children:"Password confirmation"}),(0,t.jsx)(S.View,{clsx:tp.default.inputContainer,children:(0,t.jsx)(e4.Input,{type:"password",placeholder:"••••••••••••",onChange:e=>d.setValue(e.target.value),value:d.value,clsx:tp.default.nameInput})})]})]}),n?(0,t.jsx)(e3.StatusBanner,{text:n,colorway:"negative",icon:(0,t.jsx)(eI.default,{})}):null,(0,t.jsxs)(S.View,{clsx:tp.default.formActions,children:[(0,t.jsx)(e0.Button,{onClick:()=>s(!1),text:"Cancel"}),(0,t.jsx)(e0.Button,{disabled:c,colorway:"primary",type:"submit",text:c?"Updating...":"Update",iconLeft:(0,t.jsx)(eS.default,{})})]})]})}):(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsxs)(S.View,{row:!0,gap:16,justify:"space-between",align:"center",children:[(0,t.jsxs)(S.View,{shrink:!0,gap:4,children:[(0,t.jsx)(S.View,{tag:"label",clsx:tp.default.label,children:"Your email"}),(0,t.jsx)(_.Text,{children:e.email})]}),(0,t.jsx)(S.View,{shrink:!0,children:e.isSamlUser?(0,t.jsx)(e3.StatusBanner,{text:(0,t.jsx)(_.Text,{multiline:!0,variant:"small",children:"Your email cannot be changed because it is managed by your organization's Identity Provider. Contact your organization administrator for assistance."})}):(0,t.jsx)(e0.Button,{variant:"outlined",onClick:()=>s(!0),text:"Edit",iconLeft:(0,t.jsx)(eV.default,{})})})]}),a?(0,t.jsx)(e3.StatusBanner,{colorway:"positive",icon:(0,t.jsx)(eS.default,{}),text:`Visit the verification link sent to ${o.value} to complete your email change.`}):null,a||e.isVerified?null:(0,t.jsx)(e3.StatusBanner,{colorway:"negative",icon:(0,t.jsx)(eR.default,{}),text:"Your email is unverified! Click on the link we sent you to fix this."})]})}function tj({currentUser:e}){let[r,s]=(0,p.useState)(!1),[a,i]=(0,p.useState)(!1),[n,l]=(0,p.useState)(null),o=(0,eG.useFormField)("",eK.default.password),d=(0,eG.useFormField)("",eK.default.password),[u,{loading:c}]=(0,ep.useAccountUpdatePasswordMutation)({onError:()=>l("Something went wrong"),onCompleted:e=>{e.updatePassword?.__typename==="UserError"?l(e.updatePassword.message):(l(null),s(!1),i(!0),d.setValue(""),o.setValue(""))}}),g=async e=>{if(e.preventDefault(),!o.value||!d.value)return void l("Please fill in all fields");let t=await o.validate();if(t?.message)return void l(t?.message);let r=await d.validate();r?.message?l(r?.message):u({variables:{newPassword:o.value,currentPassword:d.value}})};return e.isSamlUser?null:r?(0,t.jsx)("form",{onSubmit:g,children:(0,t.jsxs)(S.View,{gap:16,children:[(0,t.jsx)(_.Header,{level:3,variant:"subheadBig",children:"Update your password"}),(0,t.jsxs)(S.View,{clsx:tp.default.formRow,children:[(0,t.jsxs)(S.View,{gap:8,grow:!0,children:[(0,t.jsx)(S.View,{tag:"label",gap:4,clsx:tp.default.label,children:"Current password"}),(0,t.jsx)(S.View,{clsx:tp.default.inputContainer,children:(0,t.jsx)(e4.Input,{type:"password",placeholder:"••••••••••••",onChange:e=>d.setValue(e.target.value),value:d.value,clsx:tp.default.nameInput})})]}),(0,t.jsxs)(S.View,{gap:8,grow:!0,children:[(0,t.jsx)(S.View,{tag:"label",gap:4,clsx:tp.default.label,children:"New password"}),(0,t.jsx)(S.View,{clsx:tp.default.inputContainer,children:(0,t.jsx)(e4.Input,{type:"password",placeholder:"••••••••••••",onChange:e=>o.setValue(e.target.value),value:o.value,clsx:tp.default.nameInput})})]})]}),n?(0,t.jsx)(e3.StatusBanner,{text:n,colorway:"negative",icon:(0,t.jsx)(eI.default,{})}):null,(0,t.jsxs)(S.View,{clsx:tp.default.formActions,children:[(0,t.jsx)(e0.Button,{onClick:()=>s(!1),text:"Cancel"}),(0,t.jsx)(e0.Button,{disabled:c,colorway:"primary",type:"submit",text:c?"Updating...":"Update",iconLeft:(0,t.jsx)(eS.default,{})})]})]})}):(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsxs)(S.View,{row:!0,justify:"space-between",align:"center",children:[(0,t.jsxs)(S.View,{gap:4,children:[(0,t.jsx)(S.View,{tag:"label",clsx:tp.default.label,children:"Your password"}),(0,t.jsx)(_.Text,{children:"••••••••••••"})]}),(0,t.jsx)(e0.Button,{variant:"outlined",onClick:()=>s(!0),text:"Edit",iconLeft:(0,t.jsx)(eV.default,{})})]}),a?(0,t.jsx)(e3.StatusBanner,{colorway:"positive",icon:(0,t.jsx)(eS.default,{}),text:"Password updated"}):null]})}function tw({currentUser:e}){let r={[ej.ReplContinentId.Na]:"North America",[ej.ReplContinentId.Asia]:"Asia"},s={[ej.ReplContinentId.Na]:"Continental United States",[ej.ReplContinentId.Asia]:"Mumbai, India"},[a,i]=(0,p.useState)(!1),[n,l]=(0,p.useState)(null),o=(0,p.useRef)(null),{data:d,loading:u}=(0,ep.useAccountGetAvailableReplContinentsQuery)({}),c=d?.replContinents.__typename==="ReplContinentsOutput"?d.replContinents.continents:[],g=c.map(e=>({value:e.id,title:r[e.id],subtitle:s[e.id],name:e.name,taller:!0})),m=e.replContinent,x=g.find(e=>e.value===m.id),h=(e,t)=>{null!==o.current&&clearTimeout(o.current),o.current=setTimeout(e,t)};(0,p.useEffect)(()=>()=>{null!==o.current&&clearTimeout(o.current)},[]);let[f,{loading:j}]=(0,ep.useAccountSelectReplContinentMutation)({onError(){l("Something went wrong"),h(()=>{l(null)},4e3)},onCompleted:e=>{e.selectReplContinent?.__typename==="CurrentUser"?(l(null),i(!0),h(()=>{i(!1)},4e3)):(l(e.selectReplContinent.message),h(()=>{l(null)},4e3))}});return(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsxs)(S.View,{row:!0,justify:"space-between",align:"start",children:[(0,t.jsxs)(S.View,{row:!0,gap:4,align:"center",children:[(0,t.jsx)(S.View,{tag:"label",clsx:tp.default.label,children:"Your server location"}),(0,t.jsx)("span",{clsx:tp.default.infoTooltip,children:(0,t.jsx)(e5.Tooltip,{tooltip:"Select a server location closest to you for the best possible experience.",children:(0,t.jsx)(eA.default,{color:eJ.tokens.foregroundDimmer})})})]}),u||j?(0,t.jsx)(S.View,{clsx:tp.default.loadingSelect}):(0,t.jsx)(S.View,{shrink:!0,children:(0,t.jsx)(e7.Select,{"aria-label":"Select server location",placeholder:"Select your server location",items:g,defaultSelectedKey:x?.value,onSelectionChange:e=>{let t;(t=c.find(t=>t.id===e)?.id)!==m.id&&f({variables:{input:{continent:t}}})},children:e=>(0,t.jsx)(e8.ListBoxItem,{id:e.value,label:e.title,description:e.subtitle},e.value)})})]}),n?(0,t.jsx)(e3.StatusBanner,{colorway:"negative",icon:(0,t.jsx)(eT.default,{}),text:n}):null,a?(0,t.jsx)(e3.StatusBanner,{colorway:"positive",icon:(0,t.jsx)(eS.default,{}),text:"Server location updated"}):null]})}function ty({currentUser:e}){let[r,s]=(0,p.useState)(null),[a,{loading:i}]=(0,ex.useAccountEmailSettingsUpdateMutation)({onError:()=>s("Something went wrong"),onCompleted:()=>s(null)});return(0,t.jsxs)(S.View,{gap:16,children:[(0,t.jsxs)(S.View,{shrink:!0,row:!0,justify:"space-between",align:"center",children:[(0,t.jsxs)(S.View,{row:!0,gap:4,align:"center",shrink:!0,tag:"label",clsx:tp.default.label,children:["Receive transactional notifications via email"," ",(0,t.jsx)("span",{clsx:tp.default.infoTooltip,children:(0,t.jsx)(e5.Tooltip,{tooltip:"Transactional emails can be important notifications about your app publishing status, balance-related reminders, and other product-related communication that can improve the product experience.",children:(0,t.jsx)(eA.default,{color:eJ.tokens.foregroundDimmer})})})]}),(0,t.jsx)(eo.Switch,{isSelected:e.emailNotifications,onChange:()=>{i||a({variables:{input:{emailNotifications:!e.emailNotifications}}})},"aria-label":"Receive transactional notifications via email"})]}),(0,t.jsxs)(S.View,{shrink:!0,row:!0,justify:"space-between",align:"center",children:[(0,t.jsxs)(S.View,{row:!0,gap:4,align:"center",shrink:!0,tag:"label",clsx:tp.default.label,children:["Receive marketing notifications",(0,t.jsx)("span",{clsx:tp.default.infoTooltip,children:(0,t.jsx)(e5.Tooltip,{tooltip:"Marketing emails can be about new features, products, and other updates we think can be interesting for you to know. This preference can take up to 24 hours to update.",children:(0,t.jsx)(eA.default,{color:eJ.tokens.foregroundDimmer})})})]}),(0,t.jsx)(eo.Switch,{isSelected:e.marketingNotifications,onChange:()=>{i||a({variables:{input:{marketingNotifications:!e.marketingNotifications}}})},"aria-label":"Receive marketing notifications"})]}),r?(0,t.jsx)(e3.StatusBanner,{text:r,colorway:"negative",icon:(0,t.jsx)(eI.default,{})}):null]})}function tb(){let[e,r]=(0,p.useState)(!1),{data:s,loading:a,refetch:i}=(0,ep.useAccountGetExportsQuery)({pollInterval:2e3}),[n,{loading:l}]=(0,ep.useAccountExportUserDataMutation)({onCompleted:async e=>{e.userDataExport?.__typename==="UserError"?o({content:e.userDataExport.message,type:"error"}):e.userDataExport?.__typename==="UserDataExportWorkerResult"?(r(!1),o({content:"Export started. You will receive an email when it's ready.",type:"confirm",time:1e4}),await i()):o({content:"Something went wrong. Please try again or contact support.",type:"error"})},onError:()=>{o({content:"Something went wrong. Please try again or contact support.",type:"error"})}}),{showMessage:o}=(0,eH.default)(),d=s?.currentUser?.canStartUserExport===!1,u=a&&!s;return(0,t.jsxs)(S.View,{row:!0,align:"center",justify:"space-between",gap:24,children:[(0,t.jsxs)(S.View,{shrink:!0,gap:8,children:[(0,t.jsx)(S.View,{tag:"label",clsx:tp.default.label,children:"Export Apps"}),(0,t.jsx)(_.Text,{color:"dimmer",children:"Bulk export personal Apps. We'll send you a download link when ready."})]}),(0,t.jsx)(S.View,{children:u?(0,t.jsx)(S.View,{clsx:tp.default.loadingSelect}):d?(0,t.jsx)(e3.StatusBanner,{colorway:"warning",text:"An export is currently in progress. You will receive a notification when it completes."}):(0,t.jsx)(e0.Button,{onClick:async()=>{await i(),r(!0)},variant:"outlined",text:"Start export",disabled:d,iconLeft:(0,t.jsx)(eU.default,{})})}),(0,t.jsx)(e6.Modal,{isOpen:e,onRequestClose:()=>r(!1),children:(0,t.jsxs)(S.View,{justify:"space-between",gap:24,children:[(0,t.jsx)(_.Header,{variant:"headerDefault",level:2,children:"Export Apps"}),(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsx)(_.Text,{children:"We will prepare a folder with your Apps and send it to your email address and notification center."}),(0,t.jsx)(_.Text,{children:"Your export link will be available for 7 days."})]}),(0,t.jsxs)(S.View,{row:!0,gap:12,justify:"end",children:[(0,t.jsx)(e0.Button,{text:"Cancel",loading:l||a,onClick:()=>r(!1)}),(0,t.jsx)(e5.Tooltip,{tooltip:"You already have an app export in progress",isDisabled:!d,children:(0,t.jsx)(e0.Button,{iconLeft:l?(0,t.jsx)(eD.default,{}):(0,t.jsx)(eU.default,{}),loading:l||a,disabled:d,onClick:async()=>await n(),text:"Start export",colorway:"primary"})})]})]})})]})}function tv({currentUser:e}){let[r,s]=(0,p.useState)(null),a=e.roles.some(e=>e.key===ej.UserRoles.Explorer),[i,{loading:n}]=(0,ef.useAccountUserRolesUpdateRoleMutation)({onError:()=>s("Something went wrong"),onCompleted:e=>{e.updateRole?.__typename==="UserError"?s(e.updateRole.message):s(null)},optimisticResponse:t=>({__typename:"RootMutationType",updateRole:{__typename:"CurrentUser",id:e.id,roles:t.flag?[...e.roles,{__typename:"UserRole",id:"explorer",key:t.role}]:e.roles.filter(e=>e.key!==t.role)}})});return(0,t.jsxs)(S.View,{gap:16,children:[(0,t.jsxs)(S.View,{row:!0,justify:"space-between",gap:8,align:"center",children:[(0,t.jsx)(S.View,{tag:"label",clsx:tp.default.label,htmlFor:"explorer-role",children:"Explorer"}),(0,t.jsx)(e1.Checkbox,{id:"explorer-role",checked:a,disabled:n,onChange:e=>{i({variables:{role:ej.UserRoles.Explorer,flag:e}})}})]}),(0,t.jsx)(e3.StatusBanner,{icon:(0,t.jsx)(eC.default,{}),colorway:"warning",text:"Help test new features. If something isn't working right, please let us know. You can remove this role to hang up your explorer's hat until we get things fixed."}),r?(0,t.jsx)(ez.default,{children:r}):null]})}let t_=e=>{switch(e){case ej.UserAuthProviders.Apple:return"apple.com";case ej.UserAuthProviders.Facebook:return"facebook.com";case ej.UserAuthProviders.Github:return"github.com";case ej.UserAuthProviders.Google:return"google.com";case ej.UserAuthProviders.X:return"x.com";case ej.UserAuthProviders.Figma:throw Error("Figma does not use Firebase OAuth");default:(0,s.default)(e)}};function tC({currentUser:e}){let{user:r}=(0,eM.useTokenContext)(),a=r?.providerData??[],[i,n]=(0,p.useState)(null),[l,o]=(0,p.useState)(null),[d,u]=(0,em.useAccountConnectedServicesDisconnectAuthProviderMutation)({onError:()=>n("Something went wrong"),onCompleted:async()=>n(null)}),c=[{name:"Google",provider:ej.UserAuthProviders.Google,isConnected:e.googleAuth},{name:"Apple",provider:ej.UserAuthProviders.Apple,isConnected:e.appleAuth}],g=async e=>{if(r){let t=t_(e);(0,eN.setPendingConnectedAccountLink)();let s=await (0,eF.linkProvider)(r,t);"error"===s.type&&("provider-exists"===s.treatment?n("This provider is already linked to your account."):n("Something unexpected happened. Please try again."))}else{ec.captureException(Error("Tried to connect OAuth provider without SDK user")),n("Please log out and log back in to connect external services. We're sorry for the inconvenience.");return}},m=async({provider:e})=>{if(e!==ej.UserAuthProviders.Figma)if(r){let t=t_(e),a=await (0,eF.unlinkProvider)(r,t);if("error"===a.type)switch(a.treatment){case"provider-not-linked":break;case"unhandled":case"unknown":n("Something unexpected happened when attempting to remove this provider. Please try again.");break;default:(0,s.default)(a)}}else ec.captureException(Error("Received OAuth disconnect request without SDK user"));d({variables:{provider:e.toUpperCase()}}),o(null)};return(0,t.jsxs)(S.View,{gap:16,children:[(0,t.jsx)(_.Text,{color:"dimmer",variant:"small",children:"Services you use to sign in to Replit"}),c.map(({name:e,provider:r,isConnected:s,connectionSettings:i=null})=>{if(r===ej.UserAuthProviders.Figma){let a=null!=s;return(0,t.jsxs)(S.View,{row:!0,justify:"space-between",align:"center",children:[(0,t.jsx)(_.Text,{color:a?"default":"dimmest",translate:"no",children:e}),(0,t.jsx)("div",{children:a?(0,t.jsxs)(S.View,{row:!0,justify:"space-between",gap:4,children:[i,(0,t.jsx)(e0.Button,{onClick:()=>o({name:e,provider:r}),text:"Disconnect",variant:"outlined",disabled:u.loading,iconLeft:(0,t.jsx)(ek.default,{})})]}):(0,t.jsx)(e0.Button,{onClick:()=>g(r),text:"Connect",iconLeft:(0,t.jsx)(eO.default,{})})})]},r)}let n=t_(r),l=a.find(e=>e.providerId===n),d=s??void 0!==l;return(0,t.jsxs)(S.View,{row:!0,justify:"space-between",align:"center",children:[(0,t.jsx)(_.Text,{color:d?"default":"dimmest",children:e}),(0,t.jsx)("div",{children:d?(0,t.jsxs)(S.View,{row:!0,justify:"space-between",gap:4,children:[i,(0,t.jsx)(e0.Button,{onClick:()=>o({name:e,provider:r}),text:"Disconnect",variant:"outlined",disabled:u.loading,iconLeft:(0,t.jsx)(ek.default,{})})]}):(0,t.jsx)(e0.Button,{onClick:()=>g(r),text:"Connect",iconLeft:(0,t.jsx)(eO.default,{})})})]},r)}),i?(0,t.jsx)(ez.default,{children:i}):null,(0,t.jsx)(e6.Modal,{isOpen:null!==l,onRequestClose:()=>o(null),children:l?(0,t.jsx)(eq.default,{confirmLabel:"Yes, disconnect this service",isDestructive:!0,title:`Disconnect ${l.name}`,onCancel:()=>o(null),onConfirm:()=>m(l),children:"Are you sure you want to disconnect this service? You can reconnect it at any time."}):null})]})}function tS(){var e;let r,s=(0,eg.useApolloClient)(),[a,i]=(0,p.useState)(!1),[n,l]=(0,p.useState)(null),[o,{data:d,loading:u}]=(e={onError:e=>l(e.message),onCompleted:async()=>{await (0,eF.signOut)(s),window.location.href="/logout"}},r={...ey,...e},ew.useMutation(e_,r)),c=d?.deleteAccount===!0;return(0,t.jsxs)(S.View,{row:!0,justify:"space-between",align:"center",gap:8,children:[(0,t.jsxs)(S.View,{shrink:!0,children:[(0,t.jsx)(_.Text,{clsx:tp.default.sectionLabel,children:"Delete account"}),(0,t.jsx)(_.Text,{color:"dimmer",children:"PERMANENT & IRREVERSIBLE: Deleting your account will immediately and permanently destroy all your Apps, files, databases, and content. All deployments will be taken offline within 24 hours. Your username will become available for others to claim. This action cannot be undone under any circumstances."})]}),(0,t.jsx)(S.View,{children:(0,t.jsx)(e0.Button,{iconLeft:(0,t.jsx)(eP.default,{}),onClick:()=>{l(null),i(!0)},text:"Request account deletion",colorway:"negative",variant:"outlined"})}),(0,t.jsx)(e6.Modal,{isOpen:a,onRequestClose:()=>i(!1),children:(0,t.jsxs)(S.View,{gap:16,p:16,children:[(0,t.jsx)(_.Header,{level:2,variant:"headerDefault",children:"Delete Account"}),(0,t.jsx)(_.Text,{children:"All your hosted Apps and content will be taken down within 24 hours. This cannot be undone."}),(0,t.jsxs)(S.View,{row:!0,gap:12,justify:"end",children:[(0,t.jsx)(e0.Button,{text:"Cancel",disabled:u||c,onClick:()=>i(!1)}),(0,t.jsx)(e0.Button,{iconLeft:(0,t.jsx)(eP.default,{}),disabled:u||c,onClick:()=>{o({variables:{gdprCompliant:!1}})},text:"Yes, Delete my Account",colorway:"negative",loading:u})]}),n?(0,t.jsx)(ez.default,{children:n}):null]})})]})}function tk(){let e,{data:r,loading:s,error:a}=(e={...ey,...void 0},B.useQuery(ev,e));if(s)return(0,t.jsx)(tx,{});if(a||!r?.currentUser)return(0,t.jsx)(e3.StatusBanner,{colorway:"negative",icon:(0,t.jsx)(eI.default,{}),text:"Failed to load profile data. Please try again."});let i=r.currentUser;return(0,t.jsxs)(S.View,{children:[(0,t.jsx)(th,{currentUser:i}),(0,t.jsx)(S.View,{py:24,children:(0,t.jsx)(el.DividerH,{})}),(0,t.jsxs)(S.View,{gap:16,children:[(0,t.jsx)(tf,{currentUser:i}),(0,t.jsx)(tj,{currentUser:i})]}),(0,t.jsx)(S.View,{py:24,children:(0,t.jsx)(el.DividerH,{})}),(0,t.jsx)(tw,{currentUser:i}),(0,t.jsx)(S.View,{py:24,children:(0,t.jsx)(el.DividerH,{})}),(0,t.jsx)(ty,{currentUser:i}),(0,t.jsx)(S.View,{py:24,children:(0,t.jsx)(el.DividerH,{})}),(0,t.jsx)(tb,{}),(0,t.jsx)(S.View,{py:24,children:(0,t.jsx)(el.DividerH,{})}),(0,t.jsx)(S.View,{row:!0,align:"center",justify:"space-between",gap:24,children:(0,t.jsxs)(S.View,{gap:8,children:[(0,t.jsx)(_.Text,{clsx:tp.default.sectionLabel,children:"Referrals"}),(0,t.jsx)(S.View,{row:!0,align:"center",justify:"space-between",gap:24,children:(0,t.jsx)(te.default,{trackingContext:"universal-settings-modal",isModalReferral:!1,referralStats:!0})}),(0,t.jsx)(tg,{})]})}),(0,t.jsx)(S.View,{py:24,children:(0,t.jsx)(el.DividerH,{})}),(0,t.jsx)(_.Text,{clsx:tp.default.sectionLabel,children:"Account secrets"}),(0,t.jsx)(eL.default,{hideHeader:!0}),(0,t.jsx)(S.View,{py:24,children:(0,t.jsx)(el.DividerH,{})}),(0,t.jsx)(_.Text,{clsx:tp.default.sectionLabel,children:"Domains"}),(0,t.jsx)(eE.default,{}),i.isSubscribed?(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(S.View,{py:24,children:(0,t.jsx)(el.DividerH,{})}),(0,t.jsx)(_.Text,{clsx:tp.default.sectionLabel,children:"SSH Keys"}),(0,t.jsx)(eQ.UserSshKeysPreferences,{hideHeader:!0})]}):null,!i.isSamlUser&&(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(S.View,{py:24,children:(0,t.jsx)(el.DividerH,{})}),(0,t.jsx)(_.Text,{clsx:tp.default.sectionLabel,children:"Connected accounts"}),(0,t.jsx)(eM.default,{children:(0,t.jsx)(tC,{currentUser:i})})]}),(0,t.jsx)(S.View,{py:24,children:(0,t.jsx)(el.DividerH,{})}),(0,t.jsx)(tv,{currentUser:i}),(0,t.jsx)(S.View,{py:24,children:(0,t.jsx)(el.DividerH,{})}),(0,t.jsx)(tS,{})]})}let tU={},tV=I.gql`
+    query OrgSecurityWrapper($orgId: String!) {
+  getOrg(orgId: $orgId) {
+    __typename
+    ... on Org {
+      id
+      slug
+      name
+      image
+      authorizations {
+        viewOrgSecurity {
+          isAuthorized
+          message
+        }
+        triggerSecurityScan {
+          isAuthorized
+        }
+        downloadSBOM {
+          isAuthorized
+        }
+      }
+    }
+  }
+}
+    `,tT=I.gql`
+    query PersonalSecurityWrapper {
+  currentUser {
+    __typename
+    id
+    personalOrgAuthorizations {
+      ... on OrgAuthorizations {
+        viewOrgSecurity {
+          isAuthorized
+          message
+        }
+        triggerSecurityScan {
+          isAuthorized
+        }
+        downloadSBOM {
+          isAuthorized
+        }
+      }
+    }
+  }
+}
+    `;var tA=e.i(357253),tO=e.i(113755),tD=e.i(418725);let tR=w.loadingStyle.foregroundPulse(),tP=()=>(0,t.jsxs)(S.View,{gap:24,children:[(0,t.jsxs)(S.View,{gap:16,children:[(0,t.jsx)(S.View,{style:{width:"200px",height:"24px"},css:tR}),(0,t.jsxs)(S.View,{row:!0,gap:16,children:[(0,t.jsx)(S.View,{style:{width:"150px",height:"100px"},css:tR}),(0,t.jsx)(S.View,{style:{width:"150px",height:"100px"},css:tR}),(0,t.jsx)(S.View,{style:{width:"150px",height:"100px"},css:tR})]})]}),(0,t.jsxs)(S.View,{gap:16,children:[(0,t.jsx)(S.View,{style:{width:"300px",height:"40px"},css:tR}),(0,t.jsx)(S.View,{style:{width:"100%",height:"200px"},css:tR})]})]}),tI=({message:e})=>(0,t.jsxs)(S.View,{gap:24,children:[e?(0,t.jsx)(e3.StatusBanner,{text:e,colorway:"warning",icon:(0,t.jsx)(eA.default,{})}):null,(0,t.jsx)(S.View,{p:24,children:(0,t.jsxs)(S.View,{gap:20,align:"center",children:[(0,t.jsx)(S.View,{style:{width:"64px",height:"64px",display:"flex",alignItems:"center",justifyContent:"center"},children:(0,t.jsx)(tA.default,{size:32,color:eJ.tokens.accentPrimaryDefault})}),(0,t.jsxs)(S.View,{gap:8,align:"center",children:[(0,t.jsx)(_.Header,{level:3,variant:"headerDefault",children:"Security Scanning"}),(0,t.jsx)(S.View,{align:"center",children:(0,t.jsx)(_.Text,{color:"dimmer",children:"Identify and remediate vulnerabilities in your workspace dependencies"})})]}),(0,t.jsx)(S.View,{gap:12,width:"100%",style:{maxWidth:"500px"},children:["Scan workspace Apps for security vulnerabilities","View detailed CVE information and severity levels","Track security scan history across your workspace","Download Software Bill of Materials (SBOM) reports"].map((e,r)=>(0,t.jsxs)(S.View,{row:!0,gap:12,align:"start",children:[(0,t.jsx)(S.View,{style:{minWidth:"20px",height:"20px",display:"flex",alignItems:"center",justifyContent:"center"},children:(0,t.jsx)(eS.default,{size:16,color:eJ.tokens.accentPositiveDefault})}),(0,t.jsx)(_.Text,{color:"dimmer",children:e})]},r))}),(0,t.jsxs)(S.View,{gap:8,align:"center",children:[(0,t.jsxs)(_.Text,{color:"dimmer",children:["Upgrade to ",ts.corePlanName," to access security scanning."]}),(0,t.jsx)(tD.default,{context:"security_settings_upsell",surface:"security_settings",text:"Upgrade to unlock"})]})]})})]}),tB=({orgId:e})=>{var r;let s,a,{data:i,loading:n}=(r={variables:{orgId:e??""},skip:!e},s={...tU,...r},B.useQuery(tV,s)),{data:l,loading:o}=(a={...tU,...void 0},B.useQuery(tT,a));if(e?n:o)return(0,t.jsx)(tP,{});let d=i?.getOrg?.__typename==="Org"?i.getOrg:void 0,u=l?.currentUser?.__typename==="CurrentUser"?l.currentUser:void 0;if(e&&!d)return(0,t.jsx)(tI,{message:"Unable to load security information. You may not have access to this workspace."});if(!u)return(0,t.jsx)(tI,{});let c=e?d?.authorizations:u?.personalOrgAuthorizations;if(c?.__typename==="OrgAuthorizations"&&!c.viewOrgSecurity.isAuthorized)return(0,t.jsx)(tI,{});let g=e&&d?{type:"org",orgId:d.id,orgSlug:d.slug}:{type:"personal"},p=c?.__typename==="OrgAuthorizations"&&c.triggerSecurityScan.isAuthorized,m=c?.__typename==="OrgAuthorizations"&&c.downloadSBOM.isAuthorized;return(0,t.jsx)(tO.SecurityCenter,{scope:g,allowTriggerSecurityScan:p,allowDownloadSbom:m})};var tE=e.i(172948);let tL=({icon:e,label:r,hideHeader:s,children:a})=>(0,t.jsxs)(S.View,{grow:!0,clsx:tE.default.tabContent,children:[!s&&(0,t.jsxs)(S.View,{row:!0,gap:8,align:"center",children:[(0,t.jsx)(e,{size:24}),(0,t.jsx)(_.Header,{level:3,variant:"headerDefault",children:r})]}),(0,t.jsx)(S.View,{py:16,children:a})]}),tq=e=>(0,t.jsx)(tL,{...e.tabConfig,hideHeader:e.hideHeader,children:(0,t.jsx)(tz,{...e})}),tz=e=>{if(e.disabled)return(0,t.jsx)(S.View,{clsx:tE.default.permissionDeniedRoot,children:(0,t.jsxs)(S.View,{clsx:tE.default.permissionDeniedContent,children:[(0,t.jsx)(r.default,{size:48}),(0,t.jsx)(_.Header,{level:2,variant:"headerDefault",children:"Permission required"}),(0,t.jsx)(_.Text,{clsx:tE.default.permissionDeniedDescription,color:"dimmer",children:e.disabledMessage||"You do not have permission to view this page."})]})});switch(e.tab){case"workspaceOverview":return(0,t.jsx)(g.default,{orgId:e.orgId,orgSlug:e.orgSlug});case"invitedUsers":return e.orgSlug?(0,t.jsx)(c.default,{orgSlug:e.orgSlug}):(0,t.jsx)(H,{});case"workspaceUsage":return(0,t.jsx)(D,{orgId:e.orgId,setSelectedTab:e.setSelectedTab});case"integrations":return e.orgSlug?(0,t.jsx)(n.OrgConnectors,{orgSlug:e.orgSlug,showHeader:!1}):(0,t.jsx)(i.UserConnectors,{showHeader:!1,handleClose:e.handleClose});case"security":return(0,t.jsx)(tB,{orgId:e.orgId});case"billing":return(0,t.jsx)(o.default,{customerContext:e.customerContext});case"seats":return(0,t.jsx)(u.default,{customerContext:e.customerContext});case"customerUsage":return(0,t.jsx)(d.default,{customerContext:e.customerContext});case"advanced":return(0,t.jsx)(l.default,{customerContext:e.customerContext});case"profile":return(0,t.jsx)(tk,{});case"personalization":return(0,t.jsx)(a.PreferencesProvider,{children:(0,t.jsx)(eu,{})});default:return(0,s.default)(e)}};var tN=e.i(745148);function tF({loading:e,tabContentProps:r}){return e?(0,t.jsx)(M.default,{}):(0,t.jsx)(N.ShadesSurface,{clsx:tN.default.content,elevate:"1x",children:r?(0,t.jsx)(tq,{...r}):null})}e.s(["UniversalSettingsContentArea",()=>tF],688844);let tM=I.gql`
+    fragment UniversalSettingsTabsCustomerAuthorizations on Customer {
+  id
+  authorizations {
+    viewSubscription {
+      isAuthorized
+      message
+    }
+    viewSeats {
+      isAuthorized
+      message
+    }
+    viewUsage {
+      isAuthorized
+      message
+    }
+    editUsageLimit {
+      isAuthorized
+      message
+    }
+    editSettings {
+      isAuthorized
+      message
+    }
+  }
+}
+    `,tG=I.gql`
+    fragment UniversalSettingsTabsOrgAuthorizations on OrgAuthorizations {
+  viewUsage {
+    isAuthorized
+    message
+  }
+  viewOrgMetadata {
+    isAuthorized
+    message
+  }
+  viewOrgSecurity {
+    isAuthorized
+    message
+  }
+}
+    `;var t$=e.i(42330),tH=e.i(432888),tW=e.i(626581),tK=e.i(960025);let tY={},tQ=I.gql`
+    fragment LegacySettingsPageOrgSettings on Org {
+  ...BillingPanelOrg
+  ...DangerPanelOrg
+  ...SponsorshipsPanelOrg
+}
+    ${tH.BillingPanelOrgFragmentDoc}
+${tW.DangerPanelOrgFragmentDoc}
+${tK.SponsorshipsPanelOrgFragmentDoc}`,tX=I.gql`
+    fragment UniversalSettingsOrgSections on Org {
+  authorizations {
+    createSponsoredSeatInvitation {
+      isAuthorized
+    }
+  }
+  dealContext {
+    dealType
+  }
+}
+    `,tJ=I.gql`
+    query UniversalSettingsModalCurrentUser {
+  currentUser {
+    __typename
+    ... on CurrentUser {
+      id
+      username
+      image
+      personalOrgAuthorizations {
+        ...UniversalSettingsTabsOrgAuthorizations
+      }
+      customer {
+        id
+        ...UniversalSettingsTabsCustomerAuthorizations
+      }
+      ...IsUnifiedPlanEnabledPersonalWorkspaceCurrentUser
+    }
+  }
+}
+    ${tG}
+${tM}
+${t$.IsUnifiedPlanEnabledPersonalWorkspaceCurrentUserFragmentDoc}`,tZ=I.gql`
+    query UniversalSettingsModalOrg($orgSlug: String!) {
+  getOrg(orgSlug: $orgSlug) {
+    __typename
+    ... on Org {
+      id
+      image
+      name
+      authorizations {
+        ...UniversalSettingsTabsOrgAuthorizations
+      }
+      customer {
+        ... on Customer {
+          id
+          ...UniversalSettingsTabsCustomerAuthorizations
+        }
+      }
+      ...IsUnifiedPlanEnabledOrg
+      ...LegacySettingsPageOrgSettings
+      ...UniversalSettingsOrgSections
+    }
+    ... on NotFoundError {
+      message
+    }
+  }
+}
+    ${tG}
+${tM}
+${t$.IsUnifiedPlanEnabledOrgFragmentDoc}
+${tQ}
+${tX}`;var t0=e.i(919282);function t1(e){var t;let r,s,{orgSlug:a}=(0,ta.useCurrentUserStoredOrgContext)(),i=e??a,{data:n,loading:l}=(r={...tY,...void 0},B.useQuery(tJ,r)),{data:o,loading:d,previousData:u}=(t={variables:{orgSlug:i??""},skip:!i},s={...tY,...t},B.useQuery(tZ,s)),c=i?o??u:void 0,g=c?.getOrg?.__typename==="Org"?c.getOrg:null,m=n?.currentUser?.__typename==="CurrentUser"?n.currentUser:null,x=(0,p.useMemo)(()=>{if(g)return{type:"shared",orgId:g.id,orgAuthorizations:g.authorizations};let e=m?.personalOrgAuthorizations;if(e&&"OrgAuthorizations"===e.__typename)return{type:"personal",orgAuthorizations:e}},[g,m]),h=(0,p.useMemo)(()=>{if(g){if("Customer"!==g.customer.__typename)return;return{type:"shared",orgId:g.id,orgName:g.name,orgDealContext:g.dealContext??void 0,customerAuthorizations:g.customer.authorizations}}if(m){if("Customer"!==m.customer.__typename)return;return{type:"personal",customerAuthorizations:m.customer.authorizations}}},[g,m]),f=(0,p.useMemo)(()=>x?(0,t0.getAvailableOrgTabs)(x):[],[x]),j=(0,p.useMemo)(()=>h?(0,t0.getAvailableCustomerTabs)(h):[],[h]),w=(0,p.useMemo)(()=>(0,t0.getAvailableUserTabs)(),[]),y=(0,p.useMemo)(()=>new Map([...f,...j,...w].map(e=>[e.tabConfig.id,e])),[f,j,w]),b=(0,p.useCallback)((e,t,r)=>{let s=y.get(e);if(!s)return null;let a=e=>({...e,tabConfig:s.tabConfig,setSelectedTab:t,disabled:!s.isAuthorized,disabledMessage:s.isAuthorized?void 0:s.message,handleClose:r});switch(e){case"workspaceOverview":return a({tab:"workspaceOverview",orgId:g?.id,orgSlug:i});case"invitedUsers":return a({tab:"invitedUsers",orgSlug:i});case"workspaceUsage":return a({tab:"workspaceUsage",orgId:g?.id??null});case"integrations":return a({tab:"integrations",orgSlug:i});case"security":return a({tab:"security",orgId:g?.id});case"billing":if(!h)return null;return a({tab:"billing",customerContext:h});case"seats":if(!h)return null;return a({tab:"seats",customerContext:h});case"customerUsage":if(!h)return null;return a({tab:"customerUsage",customerContext:h});case"advanced":return a({tab:"advanced",customerContext:h});case"profile":return a({tab:"profile"});case"personalization":return a({tab:"personalization"});default:return null}},[y,g,i,h]);return{loading:l||d&&null==u,userLoading:l,orgLoading:d,orgSlug:i,org:g,currentUser:m,orgTabs:f,customerTabs:j,userTabs:w,availableTabs:y,buildTabContentProps:b}}e.s(["useUniversalSettingsData",()=>t1],703573)}]);
+
+//# debugId=700e645d-677f-fb2d-76fa-0e070c21a140
+//# sourceMappingURL=a13fcc9e85d09ceb.js.map

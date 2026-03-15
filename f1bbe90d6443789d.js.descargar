@@ -1,0 +1,239 @@
+;!function(){try { var e="undefined"!=typeof globalThis?globalThis:"undefined"!=typeof global?global:"undefined"!=typeof window?window:"undefined"!=typeof self?self:{},n=(new e.Error).stack;n&&((e._debugIds|| (e._debugIds={}))[n]="8d898265-0edb-6edb-937e-bbcfd3da9a2e")}catch(e){}}();
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,464092,e=>{"use strict";var i=e.i(276385),t=e.i(750854),r=e.i(389959),a=e.i(441788),n=e.i(830675),o=e.i(973245),s=e.i(23293),l=e.i(304277);e.i(566901);let c={},d=o.gql`
+    fragment ForkModalCurrentUser on CurrentUser {
+  id
+  url
+  image
+  username
+  fullName
+  ...ReplOwnerCurrentUser
+  teams {
+    id
+    ...ReplOwnerTeam
+  }
+}
+    ${s.ReplOwnerCurrentUserFragmentDoc}
+${s.ReplOwnerTeamFragmentDoc}`,u=o.gql`
+    query ForkModal($originReplId: String!) {
+  currentUser {
+    id
+    ...ForkModalCurrentUser
+  }
+  getRepl(id: $originReplId) {
+    ... on Repl {
+      id
+      authorizations {
+        viewDatabase {
+          isAuthorized
+          message
+        }
+      }
+      connectors {
+        __typename
+        ... on ReplConnectors {
+          connectorNames
+        }
+        ... on Error {
+          message
+        }
+      }
+    }
+  }
+}
+    ${d}`;var p=e.i(269848),m=e.i(898039),g=e.i(507491),h=e.i(778549),x=e.i(486898),f=e.i(90319),v=e.i(427368),y=e.i(917063),R=e.i(882793),j=e.i(58261),w=e.i(480028),C=e.i(446530),b=e.i(140487),A=e.i(739521),_=e.i(396776),k=e.i(960178),T=e.i(625484),P=e.i(211397);let I=(0,C.cssRecord)({connectorRow:{border:"1px solid",borderColor:w.tokens.outlineDefault,borderRadius:"8px"}});function z({connectorNames:e,onRemix:t,onCancel:a,isForking:n=!1,orgId:o}){let s=!!o,{connections:l,connectorConfigs:c,token:d,loading:u,refetch:w}=(0,j.useConnectorContext)(),[C,z]=(0,r.useState)(!1),[O,S]=(0,r.useState)(""),[E,D]=(0,r.useState)(null),[V,L]=(0,r.useState)(!1),[M,F]=(0,r.useState)(!1),[N]=(0,g.useCreateConnectionMutation)(),[U]=(0,h.useCreateOrgConnectionMutation)(),$=(0,r.useMemo)(()=>{let i=e=>c.find(i=>i.connectorName===e)||null,t=[];return[...new Set(e)].forEach(e=>{if((0,R.isAppScopedConnector)(e)){let r=i(e);t.push({connectorName:e,displayName:r?.displayName??e.replace(/_/g," ").toLowerCase().replace(/\b\w/g,e=>e.toUpperCase()),iconPath:r?.iconPath,isConfigured:!1,isAppScoped:!0,connectorType:"connectorConfig",connectorConfig:r??void 0});return}let r=l.find(i=>i.connectorName===e);if(r)t.push({connectorName:e,displayName:r.displayName,iconPath:r.iconPath,isConfigured:!0,isAppScoped:!1,connectorType:"connection",connectionId:r.connectionId});else{let r=i(e);t.push({connectorName:e,displayName:r?.displayName??e.replace(/_/g," ").toLowerCase().replace(/\b\w/g,e=>e.toUpperCase()),iconPath:r?.iconPath,isConfigured:!1,isAppScoped:!1,connectorType:"connectorConfig",connectorConfig:r??void 0})}}),t},[e,l,c]),G=(0,r.useMemo)(()=>$.every(e=>e.isConfigured||e.isAppScoped),[$]),W=(0,r.useMemo)(()=>$.filter(e=>e.isConfigured&&e.connectionId).map(e=>e.connectionId).filter(e=>void 0!==e),[$]),B=(0,r.useMemo)(()=>$.filter(e=>e.isAppScoped).map(e=>e.displayName),[$]),q=B.length>0,Y=(0,r.useCallback)(async e=>{if("connect.connection-connected"===e.name){if(!s){await N({variables:{input:{connectionId:e.data.connection_id,orgId:null}}}),await w();return}o&&(await U({variables:{input:{connectionId:e.data.connection_id,orgId:o}}}),await w())}},[U,N,s,o,w]),H=(0,r.useCallback)((e,i)=>{z(e)},[]);return u?(0,i.jsx)(T.View,{gap:16,children:(0,i.jsx)(k.Text,{children:"Loading connector information..."})}):M?(0,i.jsxs)(T.View,{gap:16,children:[(0,i.jsx)(k.Text,{variant:"subheadDefault",children:"Some connectors are not set up"}),(0,i.jsx)(k.Text,{color:"dimmer",children:"You have not configured all required connectors. Your app may not work as expected. Do you want to continue without setting up all connectors?"}),(0,i.jsxs)(T.View,{row:!0,gap:12,justify:"end",children:[(0,i.jsx)(b.Button,{variant:"nofill",text:"Go back",type:"button",onClick:()=>F(!1)}),(0,i.jsx)(b.Button,{colorway:"primary",text:"Continue without connectors",type:"button",onClick:()=>{F(!1),t(W)}})]})]}):(0,i.jsxs)(T.View,{gap:16,children:[(0,i.jsx)(k.Text,{children:"This template uses connectors to integrate with external services. To ensure your remixed app works properly, please make sure you have all required connectors configured."}),(0,i.jsx)(T.View,{gap:12,children:$.map(e=>(0,i.jsxs)(T.View,{row:!0,align:"center",justify:"space-between",gap:16,p:12,css:I.connectorRow,children:[(0,i.jsxs)(T.View,{row:!0,align:"start",gap:12,shrink:!0,children:[e.iconPath?(0,i.jsx)(P.default,{width:24,height:24,src:e.iconPath,alt:e.displayName}):null,(0,i.jsxs)(T.View,{gap:4,shrink:!0,children:[(0,i.jsx)(k.Text,{variant:"subheadDefault",children:e.displayName}),R.CONNECTOR_DESCRIPTIONS[e.connectorName]?(0,i.jsx)(k.Text,{variant:"small",color:"dimmer",children:R.CONNECTOR_DESCRIPTIONS[e.connectorName]}):null]})]}),e.isConfigured?(0,i.jsxs)(T.View,{row:!0,align:"center",gap:8,shrink:0,children:[(0,i.jsx)(x.default,{size:8,color:"green"}),(0,i.jsx)(k.Text,{variant:"small",color:"dimmer",multiline:!1,children:"Active"})]}):e.isAppScoped?(0,i.jsxs)(T.View,{row:!0,align:"center",gap:8,shrink:0,children:[(0,i.jsx)(x.default,{size:8,color:"grey"}),(0,i.jsx)(k.Text,{variant:"small",color:"dimmer",multiline:!1,children:"Pending setup"})]}):(0,i.jsx)(b.Button,{iconLeft:(0,i.jsx)(f.default,{}),variant:"outlined",colorway:"primary",size:"small",text:"Sign in",onClick:()=>{var i;(i=e).connectorConfig&&!s&&"api_key"===i.connectorConfig.type?(D(i.connectorConfig),L(!0)):(S(i.connectorName),z(!0))}})]},e.connectorName))}),q?(0,i.jsx)(_.StatusBanner,{colorway:"primary",text:`${B.join(", ")} ${1===B.length?"requires":"require"} app-specific setup. After remixing, type "/" in Agent chat to add ${1===B.length?"this integration":"these integrations"}.`}):null,G?null:(0,i.jsx)(T.View,{}),(0,i.jsxs)(T.View,{row:!0,gap:12,justify:"end",children:[(0,i.jsx)(b.Button,{onClick:a,text:"Cancel",type:"button"}),(0,i.jsx)(b.Button,{dataCy:"fork-btn",colorway:"primary",type:"button",onClick:()=>{G?t(W):F(!0)},disabled:n,text:"Remix App",loading:n,iconLeft:n?(0,i.jsx)(p.default,{}):(0,i.jsx)(m.default,{})})]}),d?(0,i.jsx)(y.AddIntegrationModal,{isOpen:C,setIsOpen:H,token:d,selectedConnector:O,onEvent:Y}):null,E&&V?(0,i.jsx)(A.Modal,{isOpen:!0,onRequestClose:()=>{L(!1),D(null)},children:(0,i.jsx)(v.ConnectorSetupForm,{connector:E,onComplete:async()=>{L(!1),D(null),await w()}})}):null]})}var O=e.i(809414),S=e.i(505549),E=e.i(186558),D=e.i(262522),V=e.i(298435),L=e.i(173532),M=e.i(712903),F=e.i(596139),N=e.i(263481),U=e.i(613355);let $=({isIndividualOwner:e,showUpgradeForm:t,replLimitCtx:r})=>{let{showUpgradeModal:a}=(0,N.useUpgradeModal)();if(!e||"loading"===r.type||"error"===r.type)return null;let{replCount:n,shouldEnforceUsersOverLimit:o,isStarterUser:s,starterPlanReplLimit:l}=r;if(!s||!o)return null;let c=n>=l?`(${n}/${l}) You've hit the limit for Apps in the Starter Plan. Upgrade to Replit ${F.corePlanName} for unlimited Apps!`:`You have created ${n}/${l} Apps. Click here to upgrade to Replit ${F.corePlanName} for unlimited Apps!`;return(0,i.jsx)(T.View,{tag:"button",css:G.bannerWrapper,onClick:async e=>{e.preventDefault(),t?t():await a({onUpgradeConfirm:r.refetch})},children:(0,i.jsx)(_.StatusBanner,{icon:(0,i.jsx)(M.default,{}),colorway:"yellow",text:c})})},G=(0,C.cssRecord)({bannerWrapper:[U.rcss.cursor.pointer,U.rcss.borderRadius(),U.rcss.textAlign.left]});var W=e.i(968783),B=e.i(322823),q=e.i(420802),Y=e.i(428596),H=e.i(714165),Q=e.i(127227),X=e.i(607278),K=e.i(836224);let J=(0,C.cssRecord)({loadingAndErrorWrapper:[U.rcss.display.flex,U.rcss.flex.growAndShrink(1),U.rcss.center,U.rcss.gap(8),U.rcss.py(16)],fieldLabel:[U.rcss.flex.row,U.rcss.justify.spaceBetween,U.rcss.align.end],fieldError:[U.rcss.color.accentNegativeStronger],descriptionTextArea:[U.rcss.minHeight(96),U.rcss.maxHeight(128),{resize:"vertical"}]}),Z=e=>{let{onFork:t,hideModal:a,initialTitle:n,initialDescription:o="",currentUser:s,template:l,keepOpenOnFork:c=!1,isForking:d,orgId:u,originReplId:g,replLimitCtx:h,onReachedReplLimit:x,hasConnectors:f,connectorNames:v,canCopyDatabase:y}=e,[R,j]=(0,r.useState)("form"),w=(0,r.useRef)(null),C=(0,Y.useIdSeed)(),A=(0,W.useCurrentUserStoredOrgContext)().orgId,[P]=(0,D.useOwner)(s,u??A),{isPrivate:I,setIsPrivate:L,privacyAuthz:M,isValidPrivacy:F}=(0,V.usePrivate)(P,g),N="CurrentUser"===P.__typename&&P.id===s.id,U=N&&"data"===h.type&&!h.canCreateRepl;(0,r.useEffect)(()=>{U&&x()},[U,x]);let G=(0,B.useFormField)(n,e=>{if(e&&e.length>60)return{message:"Must be no longer than 60 characters"}}),Z=(0,B.useFormField)(o,e=>{if(e&&e.length>q.REPL_DESCRIPTION_MAX_LENGTH)return{message:`Must be no longer than ${q.REPL_DESCRIPTION_MAX_LENGTH} characters`}}),ee=(0,B.useFormField)(!0,()=>void 0);(0,r.useEffect)(()=>{w.current&&w.current.focus()},[w]);let ei="Team"===P.__typename?P.id:null,et="Org"===P.__typename?P.name:P.username,er=P.image??null,ea=!!(G.error||Z.error)||d||!F,en=(0,r.useMemo)(()=>f?{text:"Continue",icon:void 0}:l?{text:"Use Framework",icon:(0,i.jsx)(m.default,{})}:{text:"Remix App",icon:(0,i.jsx)(m.default,{})},[f,l]);return U?null:f&&"connectors"===R?(0,i.jsxs)(T.View,{gap:16,children:[(0,i.jsx)(k.Header,{variant:"headerDefault",level:2,children:l?`Create with ${n}`:"Remix App"}),(0,i.jsx)(z,{connectorNames:v,onRemix:e=>{!(G.validate()||Z.validate())&&(t({teamId:ei,title:G.value.trim(),description:Z.value,isPrivate:I,orgId:"Org"===P.__typename?P.id:void 0,connectionIds:e,copyDatabase:y?ee.value:void 0}),c||a())},isForking:d,onCancel:a,orgId:A})]}):(0,i.jsx)("form",{onSubmit:e=>{if(e.preventDefault(),!(G.validate()||Z.validate())){if(f&&"form"===R)return void j("connectors");t({teamId:ei,title:G.value.trim(),description:Z.value,isPrivate:I,orgId:"Org"===P.__typename?P.id:void 0,connectionIds:[],copyDatabase:y?ee.value:void 0}),c||a()}},children:(0,i.jsxs)(T.View,{gap:16,children:[(0,i.jsx)(k.Header,{variant:"headerDefault",level:2,children:l?`Create with ${n}`:"Remix App"}),l?(0,i.jsx)(_.StatusBanner,{colorway:"yellow",text:(0,i.jsx)(T.View,{children:(0,i.jsxs)(k.Text,{variant:"small",children:["When starting from a template, Agent provides fewer guardrails and automated workflows. You may encounter unexpected issues that require manual troubleshooting or code editing."," ",(0,i.jsx)("a",{href:"https://docs.replit.com/replitai/general-agent",target:"_blank",children:"Learn more"})]})})}):null,(0,i.jsxs)(T.View,{gap:16,children:[(0,i.jsxs)(T.View,{gap:4,children:[(0,i.jsxs)(T.View,{css:J.fieldLabel,children:[(0,i.jsx)(O.Label,{for:C("name"),children:"Name"}),(0,i.jsx)(K.default,{maxLength:60,value:G.value,hideLabel:!0})]}),(0,i.jsx)(X.Input,{ref:w,className:"repl-title-input",placeholder:"Name your App",onChange:e=>G.setValue(e.target.value),onFocus:e=>e.target.select(),value:G.value,onBlur:G.handleBlur,id:C("name")}),G.error?(0,i.jsx)(k.Text,{css:J.fieldError,multiline:!1,children:G.error.message}):null]}),(0,i.jsxs)(T.View,{gap:4,children:[(0,i.jsxs)(T.View,{css:J.fieldLabel,children:[(0,i.jsx)(O.Label,{for:C("description"),children:"Description"}),(0,i.jsx)(K.default,{hideLabel:!0})]}),(0,i.jsx)(X.MultiLineInput,{maxLength:q.REPL_DESCRIPTION_MAX_LENGTH,value:Z.value,onChange:e=>Z.setValue(e.target.value),placeholder:"What does this App do?",css:J.descriptionTextArea,id:C("description")})]}),y?(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(T.View,{css:J.fieldLabel,children:(0,i.jsx)(O.Label,{for:C("copyDatabase"),children:"Database"})}),(0,i.jsxs)(T.View,{row:!0,gap:8,align:"start",children:[(0,i.jsx)(Q.Checkbox,{id:C("copyDatabase"),checked:ee.value,onChange:e=>ee.setValue(e),"aria-label":"Copy database data to new App"}),(0,i.jsxs)(T.View,{shrink:!0,children:[(0,i.jsx)("label",{htmlFor:C("copyDatabase"),children:(0,i.jsx)(k.Text,{variant:"small",multiline:!1,children:"Copy data from original App"})}),(0,i.jsx)(k.Text,{variant:"small",color:"dimmest",children:"The remixed App's database will be initialized with your current data and schema. Note that this is a copy and any changes you make to the remixed App's database will not affect your original database."})]})]})]}):null]}),"Org"===P.__typename?(0,i.jsx)(S.default,{isPrivate:I,setIsPrivate:L,privacyAuthz:M,org:P}):(0,i.jsx)(E.Privacy,{isPrivate:I,setIsPrivate:L,privacyAuthz:M,isTeam:!!ei}),(0,i.jsxs)(T.View,{gap:8,children:[(0,i.jsx)(k.Text,{children:"Owner"}),(0,i.jsxs)(T.View,{row:!0,align:"center",gap:8,children:[(0,i.jsx)(H.Avatar,{src:er,size:16,username:et}),(0,i.jsx)(k.Text,{children:et})]})]}),(0,i.jsx)($,{replLimitCtx:h,isIndividualOwner:N}),(0,i.jsxs)(T.View,{row:!0,gap:12,justify:"end",children:[(0,i.jsx)(b.Button,{onClick:a,text:"Cancel",type:"button"}),(0,i.jsx)(b.Button,{dataCy:"fork-btn",colorway:"primary",type:"submit",disabled:"loading"===h.type||U||ea,text:en.text,iconLeft:d||"loading"===h.type?(0,i.jsx)(p.default,{}):en.icon})]})]})})};function ee({onReachedReplLimit:e,...t}){var r;let a,{data:o,loading:s,error:d}=(r={variables:{originReplId:t.originReplId},fetchPolicy:"cache-and-network",ssr:!1,onError:e=>{n.withScope(i=>{i.setTag("fork-modal",!0),n.captureException(e)})}},a={...c,...r},l.useQuery(u,a)),m=(0,L.useReplLimit)();if(s&&!o||"loading"===m.type)return(0,i.jsxs)(T.View,{css:J.loadingAndErrorWrapper,children:[(0,i.jsx)(p.default,{}),(0,i.jsx)(k.Text,{color:"dimmer",multiline:!1,children:"Loading template data..."})]});if(d)return(0,i.jsx)(k.Text,{multiline:!1,children:"Something went wrong."});if(!o)return null;let{currentUser:g}=o;if(!g)return n.captureException(Error("ForkModal was presented to an unauthed user")),(0,i.jsx)(_.StatusBanner,{colorway:"negative",text:"You must be logged in to fork this App"});let h=o.getRepl,x=h?.__typename==="Repl"&&h.connectors?.__typename==="ReplConnectors"&&h.connectors.connectorNames.length>0,f=h?.__typename==="Repl"&&h.connectors?.__typename==="ReplConnectors"?h.connectors.connectorNames:[],v=h?.__typename==="Repl"&&h.authorizations?.viewDatabase?.isAuthorized;return(0,i.jsx)(Z,{...t,canCopyDatabase:v,replLimitCtx:m,currentUser:g,onReachedReplLimit:e,hasConnectors:x,connectorNames:f})}var ei=e.i(501033),et=e.i(47503),er=e.i(711153),ea=e.i(222342),en=e.i(956111);let eo=(0,r.createContext)({isForking:!1,fork:()=>{}});e.s(["ForkContextProvider",0,({children:e,forkParams:n,navigateAfterFork:o=!0,onFork:s,repl:l,template:c,autorun:d=!1})=>{let u=(0,t.useRouter)(),{showError:p}=(0,ea.default)(),m=(0,et.useCurrentUserId)(),g=(0,en.useQueryParam)("forkRepl","string"),h=(0,en.useQueryParam)("forkContext","string"),[x,f]=(0,r.useState)(),v=(0,r.useMemo)(()=>null===m,[m]),y=n.trackingData.forkSource,[R,{loading:j}]=(0,er.default)({replLinkOptions:{autorun:d},navigateAfterFork:o,onFork:s,onError:()=>{p("Error forking App")}}),w=(0,r.useCallback)(async()=>{v?(await (0,en.updatePathWithQueryParams)({router:u,params:[{mode:"add",key:"forkRepl",value:l.id},{mode:"add",key:"forkContext",value:y}]}),f("auth")):f("fork")},[v,l.id,u,y]),C=(0,r.useCallback)(async()=>{await (0,en.updatePathWithQueryParams)({router:u,params:[{mode:"delete",key:"forkRepl"},{mode:"delete",key:"forkContext"}]}),f(void 0)},[u]);(0,r.useEffect)(()=>{g===l.id&&h===y&&(v?f("auth"):f("fork"))},[g,h,v,l.id,y]);let b=(0,r.useCallback)(()=>f("limited"),[]);return(0,i.jsxs)(eo.Provider,{value:{isForking:j,fork:w},children:[e,(0,i.jsxs)(A.Modal,{isOpen:void 0!==x,onRequestClose:()=>C(),maxWidth:"limited"===x?1e3:A.DEFAULT_MODAL_MAX_WIDTH,noPadding:"limited"===x,children:["limited"===x?(0,i.jsx)(ei.default,{shouldBlockReplForm:!0,onClose:()=>C(),context:"fork_modal_limit_reached"}):null,"auth"===x?(0,i.jsx)(a.AuthDialogContent,{loginTitle:"Log in to Remix this App",signupTitle:"Sign up to Remix this App",onSuccess:()=>f("fork"),tracking:{from:y,location:n.trackingData.location??"fork"}}):null,"fork"===x?(0,i.jsx)(ee,{onReachedReplLimit:b,hideModal:()=>C(),onFork:({teamId:e,title:i,description:t,isPrivate:r,orgId:a,connectionIds:o,copyDatabase:s})=>R({originId:l.id,teamId:e,title:i,description:t,isPrivate:r,forkToPersonal:null===e&&null==a,orgId:a,connectionIds:o,copyDatabase:s,...n}),initialTitle:l.title,initialDescription:l.description??void 0,orgId:l.org?.id,template:c,originReplId:l.id}):null]})]})},"useForkContext",0,()=>(0,r.useContext)(eo)],464092)},420802,e=>{"use strict";e.s(["REPL_DESCRIPTION_MAX_LENGTH",0,1e3])},441788,e=>{"use strict";var i=e.i(276385);e.i(750854);var t=e.i(389959),r=e.i(192479);e.i(956111);var a=e.i(453644),n=e.i(446530),o=e.i(613355);e.i(739521);var s=e.i(960178),l=e.i(625484);let c=(0,n.cssRecord)({authModal:[o.rcss.maxWidth("100%")],modalDescription:[o.rcss.color.foregroundDimmer,o.rcss.maxWidth("60%"),o.rcss.textAlign.center]});e.s(["AuthDialogContent",0,({loginTitle:e,signupTitle:n,description:o,tracking:d,onSuccess:u=()=>{}})=>{let[p,m]=(0,t.useState)("signup");(0,t.useEffect)(()=>{(0,a.loadStytchDfpScript)()},[]);let g=(0,t.useMemo)(()=>"login"===p?e:n,[p,e,n]);return(0,i.jsxs)(l.View,{align:"center",justify:"center",gap:24,px:16,py:32,css:c.authModal,"data-cy":"auth-modal",children:[g?(0,i.jsx)(s.Header,{variant:"headerDefault",level:1,children:g}):null,o?(0,i.jsx)(s.Text,{variant:"subheadDefault",css:c.modalDescription,children:o}):null,(0,i.jsx)(r.default,{customHeader:void 0!==g,isModal:!0,mode:p,onModeChange:e=>m(e),onSuccess:u,seededEmail:void 0,initialTenantId:void 0,tracking:d})]})},"authModalParam",0,"authModal"])},871203,e=>{"use strict";var i,t=((i={}).Initializing="initialize",i.Connecting="connect",i.GettingInitialConfig="get init config",i.ImportingMigrationTemplate="import migration template",i.MergeDotReplit="merge dot replit",i.ExecingPostMigration="exec post migration",i.UpdatingLanguage="set language",i.Finished="finished",i.Failed="error",i);function r(e){return"nix"!==e.language}e.s(["Progress",()=>t,"shouldMigrateReplToNix",()=>r])},999669,e=>{"use strict";var i=e.i(973245),t=e.i(951262);let r={},a=i.gql`
+    mutation ForkReplCreateRepl($input: CreateReplInput!) {
+  createRepl(input: $input) {
+    ... on Repl {
+      id
+      org {
+        id
+      }
+      url
+      isPrivate
+      language
+      nextPagePathname
+      config {
+        isAgentRepl
+      }
+      origin {
+        id
+        isOwner
+      }
+      source {
+        release {
+          id
+          repl {
+            id
+            title
+            owner {
+              ... on User {
+                id
+                username
+              }
+              ... on Team {
+                id
+                username
+              }
+            }
+          }
+        }
+      }
+    }
+    ... on UserError {
+      message
+    }
+  }
+}
+    `;function n(e){let i={...r,...e};return t.useMutation(a,i)}e.s(["useForkReplCreateReplMutation",()=>n])},882976,e=>{"use strict";var i=e.i(761201);function t(e){return e.owner?.username===i.OFFICIAL_TEMPLATE_USERNAME?"official":"community"}e.s(["getTemplateTrackingType",()=>t])},711153,e=>{"use strict";var i=e.i(750854),t=e.i(389959),r=e.i(999669),a=e.i(871203),n=e.i(968783),o=e.i(993796),s=e.i(222342),l=e.i(882976),c=e.i(858248),d=e.i(709485),u=e.i(1324),p=e.i(185591);function m({onFork:e,onError:g,replLinkOptions:h}={}){let x=(0,i.useRouter)(),f=(0,o.useFlag)({controlName:"flag-agent-everywhere"}),{showError:v}=(0,s.default)(),y=(0,u.default)(),[R,j]=(0,r.useForkReplCreateReplMutation)({onCompleted:i=>{let t=i?.createRepl.__typename==="Repl"?i.createRepl:null;if(!t)return;e&&e(i);let r=(0,a.shouldMigrateReplToNix)(t),n=t.config?.isAgentRepl!==!0&&f?{...h,enterInExpertMode:!0}:h;if("/replEnvironmentDesktop"===x.pathname||"/replEnvironmentMobile"===x.pathname||"/replView"===x.pathname&&r){window.location.href=(0,p.replLinkFullUrl)(t,n);return}let o=(0,p.replLinkProps)(t,n);x.push({...o.href,pathname:y},o.as)}}),w=j.data?.createRepl.__typename==="UserError"?j.data?.createRepl.message:j.error?.message;return(0,t.useEffect)(()=>{w&&(v(w),g&&g())},[w,v,g]),[(0,t.useCallback)(({originId:e,replReleaseId:i,teamId:t,title:r,description:a,isPrivate:o,folderId:s,trackingData:u,forkToPersonal:p,orgId:m,connectionIds:g,copyDatabase:h})=>{(0,c.track)(d.events.FORK_REQUESTED,u),R({variables:{input:{originId:e,replReleaseId:i,teamId:t,title:r,isPrivate:o,description:a,folderId:s,forkToPersonal:p,gitRemoteUrl:"",orgId:m,connectionIds:g,copyDatabase:h}}}).then(t=>{let r=t.data?.createRepl.__typename==="Repl"?t.data.createRepl:null;r&&(0,c.track)(d.events.REPL_CREATED,{isSignup:!1,isOnboarding:!1,...u,isForked:!0,isPrivate:r.isPrivate,replId:r.id,isRenamed:!1,language:r.language,isSelfForked:!!r.origin?.isOwner,isTemplateFork:!!i,originId:e,templateReplId:r.source?.release?.repl?.id||void 0,templateTitle:r.source?.release?.repl?.title,templateOwner:r.source?.release?.repl?.owner?.username,templateType:r.source?.release?.repl?(0,l.getTemplateTrackingType)(r.source.release.repl):void 0,orgContext:(0,n.getOrgTrackingContext)(r.org?{id:r.org.id}:void 0)})})},[R]),{loading:!!j.loading||!!j.data&&"Repl"===j.data.createRepl.__typename}]}e.s(["default",()=>m])},190362,e=>{e.v({blueText:"PlanToggle-module__N-TNpG__blueText"})},328745,e=>{"use strict";var i=e.i(276385),t=e.i(600894),r=e.i(480028),a=e.i(721321),n=e.i(960178),o=e.i(625484),s=e.i(190362);e.s(["default",0,({planPeriod:e,onChange:l,primary:c,highestYearlyDiscountPercent:d})=>{let u=(0,i.jsxs)(o.View,{row:!0,gap:8,align:"center",children:[(0,i.jsx)(n.Text,{children:"Yearly"}),(0,i.jsxs)(o.View,{row:!0,gap:4,align:"center",children:[(0,i.jsx)(o.View,{children:(0,i.jsx)(t.default,{color:r.tokens.accentPrimaryStronger})}),(0,i.jsxs)(n.Text,{variant:"small",clsx:s.default.blueText,children:["Up to ",d,"% off"]})]})]});return(0,i.jsxs)(a.ButtonGroup,{onChange:l,row:!0,value:e,name:"periodToggle",primary:c,children:[(0,i.jsx)(a.ButtonGroupItem,{id:"monthly",text:"Monthly",value:"monthly"}),(0,i.jsx)(a.ButtonGroupItem,{id:"yearly",text:d?u:"Yearly",value:"yearly"})]})}])},40192,e=>{e.v({container:"Checkout-module__LWYusG__container",fullscreen:"Checkout-module__LWYusG__fullscreen",header:"Checkout-module__LWYusG__header",taxContainer:"Checkout-module__LWYusG__taxContainer",taxText:"Checkout-module__LWYusG__taxText"})},534842,e=>{"use strict";var i=e.i(276385),t=e.i(389959),r=e.i(973245),a=e.i(304277);e.i(566901);let n={},o=r.gql`
+    query CheckoutCurrentUser {
+  currentUser {
+    id
+    billingInfo {
+      planInfo {
+        interval
+      }
+    }
+  }
+}
+    `;var s=e.i(138716),l=e.i(596139),c=e.i(858248),d=e.i(709485),u=e.i(140487),p=e.i(960178),m=e.i(625484),g=e.i(328111),h=e.i(61965),x=e.i(328745),f=e.i(40192);e.s(["default",0,({defaultSelectedPlanPeriod:e,highlightedPlan:r,defaultSelectedTier:v,analyticsContext:y,headingText:R="Compare Replit plans",subHeadingText:j="Autonomy for all. Choose the best plan for you.",isFullscreen:w=!0,onBack:C,onFreeClick:b,onProClick:A,onTeamsClick:_,redirectPath:k,onBeforeRegionalCheckout:T,onRegionalCheckoutDismiss:P,hideHeader:I})=>{let z,{data:O}=(z={...n,...void 0},a.useQuery(o,z)),S=(0,l.toPlanPeriod)(O?.currentUser?.billingInfo?.planInfo?.interval),[E,D]=(0,t.useState)(e??S??"monthly");(0,t.useEffect)(()=>{null!=e?D(e):S&&D(S)},[e,S]);let V=(0,g.usePlanCTAs)();return(0,t.useEffect)(()=>{(0,c.track)(d.events.CORE_MEMBERSHIP_MODAL_USED,{action:"modal_viewed",source:y.upgrade.context,surface:y.upgrade.surface,planType:E}),(0,c.track)(d.events.SEEN_YEARLY_PRICE,{surface:y.upgrade.surface??"membership-modal",context:y.upgrade.context})},[y.upgrade.context,y.upgrade.surface,E]),(0,i.jsxs)(i.Fragment,{children:[C?(0,i.jsx)(m.View,{row:!0,children:(0,i.jsx)(u.Button,{onClick:C,text:"Back",iconLeft:(0,i.jsx)(s.default,{})})}):null,(0,i.jsxs)(m.View,{dataCy:"core-modal",clsx:[f.default.container,w&&f.default.fullscreen],align:"center",gap:w?36:24,children:[!I&&(0,i.jsxs)(m.View,{clsx:f.default.header,children:[(0,i.jsx)(p.Header,{variant:"headerDefault",level:1,children:R}),(0,i.jsx)(p.Text,{color:"dimmer",children:j})]}),(0,i.jsx)(m.View,{row:!0,gap:8,children:(0,i.jsx)(x.default,{planPeriod:E,onChange:D,highestYearlyDiscountPercent:V.Core.highestYearlyDiscountPercent})}),(0,i.jsxs)(m.View,{px:12,children:[(0,i.jsx)(h.default,{planPeriod:E,highlightedPlan:r,defaultSelectedTier:v,analyticsContext:y,onFreeClick:b,onProClick:A,onTeamsClick:_,redirectPath:k,onBeforeRegionalCheckout:T,onRegionalCheckoutDismiss:P}),(0,i.jsx)(m.View,{align:"center",justify:"center",clsx:f.default.taxContainer,children:(0,i.jsx)(p.Text,{color:"dimmer",clsx:f.default.taxText,variant:"small",children:"*Prices are subject to tax depending on your location. Replit Agent is powered by large language models. While it can produce powerful results, its behavior is probabilistic - meaning it may occasionally make mistakes."})})]})]})]})}],534842)},501033,e=>{"use strict";var i=e.i(276385),t=e.i(596139),r=e.i(173703),a=e.i(534842);e.s(["default",0,({shouldBlockReplForm:e,onClose:n,context:o})=>(0,i.jsx)(r.ShadesSurface,{py:10,elevate:!1,children:(0,i.jsx)(a.default,{analyticsContext:{upgrade:{context:o??"create_repl_modal"}},headingText:"Need to create more Apps?",subHeadingText:`Upgrade to Replit ${t.corePlanName} for unlimited Apps`,isFullscreen:!1,onBack:e?void 0:n})})])},716338,e=>{e.v({checked:"Radio-module__cO_glW__checked",container:"Radio-module__cO_glW__container",input:"Radio-module__cO_glW__input"})},734882,e=>{"use strict";var i=e.i(276385),t=e.i(389959),r=e.i(480028),a=e.i(907371),n=e.i(625484),o=e.i(716338);let s=(0,t.createContext)(null),l=(0,r.cvarsFrom)("Radio.module.css",["--bg"]);function c({name:e,value:t,disabled:r,onChange:a,children:o,tag:l,className:c}){return(0,i.jsx)(n.View,{tag:l,className:c,children:(0,i.jsx)(s.Provider,{value:{value:t,name:e,onChange:a,disabled:r},children:o})})}let d=n.SpecializedView.input;function u({onChange:e,id:c,checked:u,disabled:p,name:m,value:g,...h}){let x=(0,t.useContext)(s);x&&(m=m??x.name,u=u??x.value===g,e=e??x.onChange,p=p??x.disabled);let f=(0,a.useCreateInteractive)({variant:"filledAndOutlined"}),v=p?r.tokens.outlineDefault:r.tokens.accentPrimaryDefault;return(0,i.jsxs)(n.View,{clsx:o.default.container,style:{[l.bg]:v},children:[(0,i.jsx)(d,{id:c,name:m,value:g,type:"radio",checked:u,disabled:p,onChange:i=>e?.(i),clsx:[o.default.input,f.clsx],style:f.style,...h}),u?(0,i.jsx)(n.View,{clsx:o.default.checked}):null]})}e.s(["Radio",()=>u,"RadioGroup",()=>c])},23293,e=>{"use strict";var i=e.i(973245);let t=i.gql`
+    fragment CreateReplAuthorizations on OrgAuthorizations {
+  __typename
+  createPrivateRepl: createRepl(private: true) {
+    __typename
+    isAuthorized
+    message
+    code
+  }
+  createPublicRepl: createRepl(private: false) {
+    __typename
+    isAuthorized
+    message
+    code
+  }
+  paidAgent: useAiAgent(tier: paid) {
+    __typename
+    isAuthorized
+    message
+    code
+  }
+  freeAgent: useAiAgent(tier: free) {
+    __typename
+    isAuthorized
+    message
+    code
+  }
+  turboAgentModel: useTurbo {
+    __typename
+    isAuthorized
+    message
+    code
+  }
+  defaultAdvancedAgentModel: defaultAdvancedAgentModel {
+    __typename
+    isAuthorized
+    message
+    code
+  }
+}
+    `,r=i.gql`
+    fragment OrgReplOwnerOrg on Org {
+  id
+  name
+  type
+  slug
+  image
+  authorizations {
+    ...CreateReplAuthorizations
+    ... on OrgAuthorizations {
+      editPaymentMethod {
+        isAuthorized
+      }
+      deleteOrg {
+        isAuthorized
+      }
+    }
+  }
+  groups(input: {types: [system_viewers]}) {
+    ... on OrgGroupConnection {
+      items {
+        id
+        type
+        isMember
+      }
+    }
+  }
+}
+    ${t}`,a=i.gql`
+    fragment ReplOwnerTeam on Team {
+  id
+  username
+  image
+  archived
+  capabilities {
+    isEducationPlan
+  }
+  authorizations {
+    ...CreateReplAuthorizations
+  }
+}
+    ${t}`,n=i.gql`
+    fragment ReplOwnerCurrentUser on CurrentUser {
+  id
+  username
+  image
+  isSubscribed
+  timeCreated
+  personalOrgAuthorizations {
+    ...CreateReplAuthorizations
+  }
+  orgs(count: 50) {
+    __typename
+    ... on CurrentUserOrganizationConnection {
+      items {
+        org {
+          ...OrgReplOwnerOrg
+        }
+        type
+      }
+    }
+    ... on Error {
+      message
+    }
+  }
+  teams {
+    id
+    ...ReplOwnerTeam
+  }
+}
+    ${t}
+${r}
+${a}`;e.s(["CreateReplAuthorizationsFragmentDoc",0,t,"ReplOwnerCurrentUserFragmentDoc",0,n,"ReplOwnerTeamFragmentDoc",0,a])},836224,e=>{"use strict";var i=e.i(276385),t=e.i(446530),r=e.i(613355),a=e.i(960178);let n=(0,t.cssRecord)({self:[r.rcss.textAlign.right,r.rcss.fontSize("0.75em")]});e.s(["default",0,({maxLength:e=140,value:t="",hideLabel:r=!1})=>(0,i.jsxs)(a.Text,{css:n.self,multiline:!1,color:"dimmer",children:[t.length," / ",e," ",r?"":"characters"]})])},262522,298435,e=>{"use strict";var i=e.i(389959);e.s(["useOwner",0,(e,t,r={includeLegacyTeams:!0})=>{var a,n;let o,s,l=(a=e,n=r,o="CurrentUserOrganizationConnection"===a.orgs.__typename?a.orgs.items.map(e=>e.org):[],s=a.teams,[a,...o,...n.includeLegacyTeams?s:[]]),[c,d]=(0,i.useState)(t??e.id);return(0,i.useEffect)(()=>{void 0!==t&&d(t)},[t]),[l.find(e=>e.id===c)??e,e=>{d(e.id)},l]}],262522);var t=e.i(973245);e.i(304277);var r=e.i(566901);let a={},n=t.gql`
+    fragment ForkReplReplAuthorization on ReplAuthorization {
+  isAuthorized
+  code
+  message
+}
+    `,o=t.gql`
+    query ForkReplAuthorizations($originReplId: String!, $destinationOrgId: String, $destinationIsPersonal: Boolean, $destinationTeamId: Int) {
+  getRepl(id: $originReplId) {
+    ... on Repl {
+      id
+      authorizations {
+        createPrivateRepl: fork(
+          input: {destinationOrgId: $destinationOrgId, destinationIsPersonal: $destinationIsPersonal, destinationTeamId: $destinationTeamId, isPrivate: true}
+        ) {
+          ...ForkReplReplAuthorization
+        }
+        createPublicRepl: fork(
+          input: {destinationOrgId: $destinationOrgId, destinationIsPersonal: $destinationIsPersonal, destinationTeamId: $destinationTeamId, isPrivate: false}
+        ) {
+          ...ForkReplReplAuthorization
+        }
+      }
+    }
+  }
+}
+    ${n}`;var s=e.i(368964),l=e.i(569910);function c(e,t){let n=function({owner:e,originReplId:t}){let n,[s,{data:c,loading:d}]=(n={...a,...void 0},r.useLazyQuery(o,n));if((0,i.useEffect)(()=>{t&&s({variables:{originReplId:t,destinationOrgId:"Org"===e.__typename?e.id:void 0,destinationIsPersonal:"CurrentUser"===e.__typename||void 0,destinationTeamId:"Team"===e.__typename?e.id:void 0},fetchPolicy:"cache-and-network",nextFetchPolicy:"cache-first"})},[e,t,s]),c?.getRepl.__typename==="Repl"&&!d)return{privateRepl:c.getRepl.authorizations.createPrivateRepl,publicRepl:c.getRepl.authorizations.createPublicRepl};switch(e.__typename){case"CurrentUser":return"OrgAuthorizations"===e.personalOrgAuthorizations.__typename?{privateRepl:e.personalOrgAuthorizations.createPrivateRepl,publicRepl:e.personalOrgAuthorizations.createPublicRepl}:u;case"Org":return{privateRepl:e.authorizations.createPrivateRepl,publicRepl:e.authorizations.createPublicRepl};case"Team":return"OrgAuthorizations"===e.authorizations.__typename?{privateRepl:e.authorizations.createPrivateRepl,publicRepl:e.authorizations.createPublicRepl}:u;default:(0,l.default)(e)}}({owner:e,originReplId:t}),[s,c]=(0,i.useState)(n.privateRepl.isAuthorized);return(0,i.useEffect)(()=>{c(n.privateRepl.isAuthorized)},[n.privateRepl.isAuthorized]),{isPrivate:s,setIsPrivate:c,privacyAuthz:n,isValidPrivacy:s?n.privateRepl.isAuthorized:n.publicRepl.isAuthorized}}let d={__typename:"OrgAuthorization",isAuthorized:!1,message:"Not authorized",code:s.OrgAuthorizationCode.InsufficientPermissions},u={privateRepl:d,publicRepl:d};e.s(["usePrivate",()=>c],298435)},263481,e=>{"use strict";var i=e.i(596139),t=e.i(135173),r=e.i(173532),a=e.i(973519);function n(){let{show:e}=(0,a.useGlobalModal)(),n=(0,r.useReplLimit)(),o="data"===n.type?n.starterPlanReplLimit:t.STARTER_PLAN_REPL_LIMIT;return{showUpgradeModal:async({onUpgradeConfirm:t,centered:r})=>{await e("MembershipPurchaseModal",{headingText:"Upgrade for more Projects",subHeadingText:`Upgrade to Replit ${i.corePlanName} to create more than ${o} Projects`,analyticsContext:{upgrade:{context:"repl_limit_upsell"}},onPurchaseComplete:t,centered:r})}}}e.s(["useUpgradeModal",()=>n])},809414,e=>{"use strict";var i=e.i(276385),t=e.i(967629),r=e.i(480028),a=e.i(754873),n=e.i(613355),o=e.i(960178),s=e.i(625484);function l(e){return(0,i.jsx)(s.View,{tag:"label",htmlFor:e.for,children:(0,i.jsx)(o.Text,{multiline:!1,children:e.children})})}let c=(0,t.css)([a.interactive.filled,n.rcss.p(8),{color:r.tokens.foregroundDefault,borderColor:r.tokens.outlineDimmest,border:"1 solid",outline:"0 none",fontSize:r.tokens.fontSizeDefault,lineHeight:"16px",display:"block",width:"100%","::placeholder":{color:r.tokens.foregroundDimmer},":not([disabled])":{cursor:"text"}}]);e.s(["Label",()=>l,"inputCss",0,c])},505549,e=>{"use strict";var i,t=e.i(276385),r=e.i(785240),a=e.i(368964),n=e.i(399245),o=e.i(480028),s=e.i(446530),l=e.i(613355),c=e.i(428596),d=e.i(714165),u=e.i(734882),p=e.i(960178),m=e.i(625484);let g=(0,s.cssRecord)({radioGroup:[{[l.media.max("tabletMax")]:[l.rcss.colWithGap(8)],[l.media.min("tabletMax")]:[l.rcss.display.grid,{gridTemplateColumns:"1fr 1fr",gap:o.tokens.space8,gridAutoFlow:"column"}]}],radioContainer:[l.rcss.rowWithGap(8),l.rcss.align.start,l.rcss.p(8),l.rcss.border({style:"solid",color:o.tokens.outlineDimmest,width:1}),l.rcss.borderRadius(8)],radio:[l.rcss.pt(2)],labelAndIconRow:[l.rcss.rowWithGap(4),l.rcss.align.center],label:[l.rcss.flex.shrink(1)],unauthorizedText:[l.rcss.color.redDefault]});var h=((i=h||{}).Public="public",i.Private="private",i);e.s(["default",0,function({isPrivate:e,setIsPrivate:i,privacyAuthz:{privateRepl:s,publicRepl:l},org:h}){let x=(0,c.useIdSeed)(),f=x("private"),v=x("public"),y=h.type===a.OrgstypeEnumType.Personal?"Only you":`Only ${h.name} workspace members`,R=`${y} can see this Repl. You choose who can edit.`;return(0,t.jsxs)(m.View,{gap:8,children:[(0,t.jsx)(r.Label,{htmlFor:"privacy",children:(0,t.jsx)(p.Text,{children:"Privacy"})}),(0,t.jsxs)(u.RadioGroup,{tag:"fieldset",css:g.radioGroup,name:"privacy",value:e?"private":"public",onChange:e=>{i("private"===e.target.value)},children:[(0,t.jsxs)(m.View,{css:g.radioContainer,children:[(0,t.jsx)(m.View,{css:g.radio,children:(0,t.jsx)(u.Radio,{id:f,value:"private",disabled:!s.isAuthorized})}),(0,t.jsxs)(m.View,{grow:!0,shrink:!0,gap:4,children:[(0,t.jsx)(r.Label,{htmlFor:f,children:(0,t.jsxs)(m.View,{css:g.labelAndIconRow,children:[(0,t.jsxs)(p.Text,{multiline:!1,css:g.label,color:s.isAuthorized?"default":"dimmer",children:["Internal to ",h.name]}),(0,t.jsx)(d.Avatar,{src:h.image??null,username:h.name,size:16})]})}),(0,t.jsx)(p.Text,{multiline:!0,variant:"small",color:"dimmer",css:!s.isAuthorized&&g.unauthorizedText,children:s.isAuthorized?R:s.message})]})]}),(0,t.jsxs)(m.View,{css:g.radioContainer,children:[(0,t.jsx)(m.View,{css:g.radio,children:(0,t.jsx)(u.Radio,{id:v,value:"public",disabled:!l.isAuthorized})}),(0,t.jsxs)(m.View,{grow:!0,shrink:!0,gap:4,children:[(0,t.jsx)(r.Label,{htmlFor:v,children:(0,t.jsxs)(m.View,{css:g.labelAndIconRow,children:[(0,t.jsx)(p.Text,{color:l.isAuthorized?"default":"dimmer",children:"Public to Replit"}),(0,t.jsx)(n.default,{size:16,color:l.isAuthorized?o.tokens.foregroundDefault:o.tokens.foregroundDimmer})]})}),(0,t.jsx)(p.Text,{multiline:!0,variant:"small",color:"dimmer",css:!l.isAuthorized&&g.unauthorizedText,children:l.isAuthorized?"Anyone can see this Repl. You choose who can edit.":l.message})]})]})]})]})}])},200527,e=>{"use strict";function i(e,i){return e?i?"Only you and your team can see and edit this App.":"Only you can see and edit this App.":"Anyone can view and fork this App."}e.s(["default",()=>i])},186558,e=>{"use strict";var i=e.i(276385),t=e.i(399245),r=e.i(995691),a=e.i(416298),n=e.i(809414),o=e.i(200527),s=e.i(480028),l=e.i(446530),c=e.i(613355),d=e.i(428596),u=e.i(734882),p=e.i(960178),m=e.i(625484);let g=({isPrivate:e,isTeam:t})=>(0,i.jsx)(p.Text,{variant:"small",color:"dimmest",children:(0,o.default)(e,t)}),h=(0,l.cssRecord)({radioGroup:[{[c.media.max("tabletMin")]:[c.rcss.colWithGap(8)],[c.media.min("tabletMin")]:[c.rcss.display.grid,{gridTemplateColumns:"1fr 1fr",gap:s.tokens.space8,gridAutoFlow:"column"}]}],radioContainer:[c.rcss.rowWithGap(8),c.rcss.align.start,c.rcss.p(8),c.rcss.border({style:"solid",color:s.tokens.outlineDimmest,width:1}),c.rcss.borderRadius(8)],radio:[c.rcss.pt(2)],labelAndIconRow:[c.rcss.rowWithGap(4),c.rcss.align.center],label:[c.rcss.flex.shrink(1)]}),x=({isPrivate:e,setIsPrivate:a,privacyAuthz:o})=>{let l=(0,d.useIdSeed)();return(0,i.jsxs)(i.Fragment,{children:[(0,i.jsx)(n.Label,{for:l("privacy"),children:"Privacy"}),(0,i.jsxs)(u.RadioGroup,{tag:"fieldset",css:h.radioGroup,name:l("privacy"),value:e?"Private":"Public",onChange:e=>{a("Private"===e.target.value)},dataCy:"create-repl-privacy-toggle",children:[(0,i.jsxs)(m.View,{css:h.radioContainer,children:[(0,i.jsx)(m.View,{css:h.radio,children:(0,i.jsx)(u.Radio,{id:l("public"),value:"Public",disabled:!o.publicRepl.isAuthorized,dataCy:"privacy-toggle-public"})}),(0,i.jsxs)(m.View,{grow:!0,shrink:!0,gap:4,children:[(0,i.jsx)(n.Label,{for:l("public"),children:(0,i.jsxs)(m.View,{css:h.labelAndIconRow,children:[(0,i.jsx)(t.default,{size:16,color:o.publicRepl.isAuthorized?s.tokens.foregroundDefault:s.tokens.foregroundDimmer}),(0,i.jsx)(p.Text,{color:o.publicRepl.isAuthorized?"default":"dimmer",children:"Public"})]})}),(0,i.jsx)(p.Text,{multiline:!0,variant:"small",color:"dimmer",children:o.publicRepl.isAuthorized?"Anyone can view and fork this App.":o.publicRepl.message})]})]}),(0,i.jsxs)(m.View,{css:h.radioContainer,children:[(0,i.jsx)(m.View,{css:h.radio,children:(0,i.jsx)(u.Radio,{id:l("private"),value:"Private",dataCy:"privacy-toggle-private",onChange:e=>{e.preventDefault(),a(!0)}})}),(0,i.jsxs)(m.View,{grow:!0,shrink:!0,gap:4,children:[(0,i.jsx)(n.Label,{for:l("private"),children:(0,i.jsxs)(m.View,{css:h.labelAndIconRow,children:[(0,i.jsx)(r.default,{}),(0,i.jsx)(p.Text,{multiline:!1,css:h.label,color:o.privateRepl.isAuthorized?"default":"dimmer",children:"Private"})]})}),(0,i.jsx)(p.Text,{multiline:!0,variant:"small",color:"dimmer",children:"Only you can see and edit this App."})]})]})]})]})};function f({isPrivate:e,setIsPrivate:t,privacyAuthz:r,isTeam:n}){return r.privateRepl.isAuthorized||r.publicRepl.isAuthorized?(0,i.jsxs)(m.View,{gap:8,children:[(0,i.jsx)(x,{isPrivate:e,setIsPrivate:t,privacyAuthz:r}),(0,i.jsx)(g,{isPrivate:e,isTeam:n})]}):(0,i.jsx)(m.View,{gap:8,children:(0,i.jsxs)(p.Text,{variant:"small",color:"dimmest",children:[(0,i.jsx)(a.default,{size:12})," ",r.publicRepl.message]})})}e.s(["Privacy",()=>f])}]);
+
+//# debugId=8d898265-0edb-6edb-937e-bbcfd3da9a2e
+//# sourceMappingURL=c4fcd88db0120c43.js.map
